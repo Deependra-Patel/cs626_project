@@ -1,0 +1,10 @@
+create table student(
+	id integer primary key,
+	name varchar(50),
+	department varchar(20),
+	hostel integer,
+	credits integer,
+	cpi numeric(4,2)
+)
+
+departments: computer, electrical, mechanical, metallurgy, chemical

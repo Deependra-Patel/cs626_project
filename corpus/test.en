@@ -1,0 +1,4 @@
+get all instructors whose salary is greater than 200
+get all student whose cpi is greater than 10 and name is 'shyam'
+print all instructors whose salary is greater than 200
+print all student whose cpi is greater than 10 and name is 'shyam'

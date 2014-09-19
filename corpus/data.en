@@ -85,3 +85,246 @@ fetch student's cpi whose roll number = 120050042.
 give student's cpi with roll number 120050042.
 give student's cpi whose roll number is 120050042.
 give student's cpi whose roll number = 120050042.
+select * from instructor
+select * from instructor
+select * from instructor
+select * from instructor
+select * from instructor
+select * from instructor
+select * from instructor
+select * from instructor
+select * from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select name from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select salary from instructor
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select * from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select name from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select salary from instructor where salary > 20000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select * from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select name from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select salary from instructor where salary > 50000
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select * from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select name from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select salary from instructor where department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select name from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select salary from instructor where salary > 20000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select * from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select name from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select salary from instructor where salary > 50000 and department = 'computer'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select * from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select name from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select salary from instructor where department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select name from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select salary from instructor where salary > 20000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select * from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select name from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'
+select salary from instructor where salary > 50000 and department = 'mechanical'

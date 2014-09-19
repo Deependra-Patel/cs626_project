@@ -6,5 +6,10 @@ create table student(
 	credits integer,
 	cpi numeric(4,2)
 )
-
+create table instructor(
+	id integer primary key,
+	name varchar(50),
+	department varchar(20),
+	salary integer
+)
 departments: computer, electrical, mechanical, metallurgy, chemical

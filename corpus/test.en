@@ -2,3 +2,7 @@ get all instructors whose salary is greater than 200
 get all student whose cpi is greater than 10 and name is 'shyam'
 print all instructors whose salary is greater than 200
 print all student whose cpi is greater than 10 and name is 'shyam'
+show me all instructors from department computer and having salary > 100
+display all instructors from department computer and having salary > 100
+fetch all students from hostel 9 with cpi greater than 11
+print all students having department = 'computer' and cpi less than 8

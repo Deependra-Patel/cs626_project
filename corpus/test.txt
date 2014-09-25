@@ -1,0 +1,19 @@
+get all instructors whose salary is greater than 200
+get all student whose cpi is greater than 10 and name is 'shyam'
+print all instructors whose salary is greater than 200
+print all student whose cpi is greater than 10 and name is 'shyam'
+show me all instructors from department computer and having salary > 100
+display all instructors from department computer and having salary > 100
+fetch all students from hostel 9 with cpi greater than 11
+print all students having department = 'computer' and cpi less than 8
+Show me the student table.
+Show me student table containing students only from department computer.
+Get the total number of students in the college.
+Show me roll number of all the students.
+Show me roll no. of all the students.
+Give me names of all the students who are from computer department.
+Find the student whose name is deependra.
+show me cpi of all the students.
+show me students whose cpi is greater than 8.
+show me students whose cpi>8.
+fetch me the student table.

@@ -1,0 +1,65 @@
+give name of all the students from hostel 9.
+get roll number from student where department is computer
+find me students whose cpi is greater than 8.
+get me all instructors whose salary is greater than 20000 and whose department is computer.
+show roll number from student such that cpi is less than 10.00
+show roll number from student such that cpi is less than 10.00
+select all instructors whose salary is greater than 50000 and whose department is computer.
+give student's cpi whose roll number is 120050042.
+get me name of all instructors whose salary is greater than 50000 and whose department is computer.
+show me salary of all instructors whose department is mechanical.
+show all instructors whose department is mechanical.
+fetch me roll no. of all the students.
+return me salary of all instructors whose salary is greater than 20000.
+Show me the student table.
+get salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+return all instructors whose salary is greater than 20000 and whose department is mechanical.
+select salary of all instructors.
+get roll number from student such that cpi is less than 10.00
+select name from student where hostel is 5
+return all instructors.
+Return all the students such that their cpi > 8.
+Return all the students whose cpi > 8.
+select name of all instructors whose department is computer.
+print name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get salary of all instructors whose salary is greater than 50000.
+select name of all instructors whose salary is greater than 50000.
+print all instructors whose salary is greater than 20000 and whose department is computer.
+get salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch student's name with roll number 120050032.
+select salary of all instructors whose salary is greater than 50000 and whose department is computer.
+show me name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get roll number from student where cpi is equal to 9
+display me cpi of all the students.
+show me cpi of all the students.
+show all instructors whose department is mechanical.
+get me student table containing students only from department computer.
+Show me roll number of all the students.
+get all instructors whose salary is greater than 50000 and whose department is computer.
+print all instructors whose salary is greater than 20000 and whose department is mechanical.
+select salary of all instructors.
+find hostel from student such that cpi is more than 4.00
+select roll number from student such that cpi is more than 4.00
+print all instructors.
+fetch all instructors whose salary is greater than 20000.
+get me salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch me salary of all instructors whose salary is greater than 50000 and whose department is mechanical.show name of all instructors whose salary is greater than 20000.
+get all instructors whose department is mechanical.
+select name from student such that department is metallurgy
+show me all instructors whose salary is greater than 50000 and whose department is mechanical.
+show the student whose name is deependra.
+find name of all the students from department mechanical.
+fetch department from student such that cpi is less than 10.00
+find me students whose cpi is greater than 8.
+fetch student's cpi whose roll number = 120050042.
+return me name of all instructors whose salary is greater than 50000.
+fetch all instructors whose salary is greater than 50000 and whose department is mechanical.
+get me name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get name of all instructors whose salary is greater than 50000.
+display me cpi of all the students.
+get all instructors whose salary is greater than 20000.
+print name of all instructors whose salary is greater than 50000.
+fetch me salary of all instructors whose salary is greater than 50000 and whose department is computer.
+select salary of all instructors whose salary is greater than 50000.
+fetch me salary of all instructors whose department is mechanical.

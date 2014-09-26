@@ -1,0 +1,300 @@
+get roll number from student where department is computer
+fetch roll number from student where department is mechanical
+select name from student where department is metallurgy
+find hostel from student where department is chemical
+get roll number from student such that department is computer
+select name from student such that department is metallurgy
+find hostel from student such that department is chemical
+show cpi from student such that department is computer
+show credits from student where department is chemical
+get roll number from student where hostel is 10
+fetch roll number from student where hostel is 4
+select name from student where hostel is 5
+find hostel from student where hostel is 5
+get roll number from student such that hostel is 10
+fetch roll number from student such that hostel is 6
+select name from student such that hostel is 6
+find hostel from student such that hostel is 10
+show cpi from student such that hostel is 4
+show credits from student where hostel is 5
+fetch department from student where cpi is equal to 9
+find hostel from student where cpi is equal to 9
+show roll number from student where cpi is equal to 9
+get roll number from student where cpi is greater than 8
+fetch department from student where cpi is greater than 8
+find hostel from student where cpi is greater than 8
+select roll number from student where cpi is greater than 8
+show roll number from student where cpi is greater than 8
+get roll number from student such that cpi is higher than 7
+fetch department from student such that cpi is higher than 7
+find hostel from student such that cpi is higher than 7
+select roll number from student such that cpi is higher than 7
+show roll number from student such that cpi is higher than 7
+get roll number from student such that cpi is more than 4.00
+fetch department from student such that cpi is more than 4.00
+find hostel from student such that cpi is more than 4.00
+select roll number from student such that cpi is more than 4.00
+show roll number from student such that cpi is more than 4.00
+get roll number from student such that cpi is less than 10.00
+fetch department from student such that cpi is less than 10.00
+find hostel from student such that cpi is less than 10.00
+select roll number from student such that cpi is less than 10.00
+show roll number from student such that cpi is less than 10.00
+Show me the student table.
+Show me student table containing students only from department computer.
+Get the total number of students in the college.
+Show me roll number of all the students.
+Show me roll no. of all the students.
+Give me names of all the students who are from computer department.
+Find the student whose name is deependra.
+show me cpi of all the students.
+show me students whose cpi is greater than 8.
+show me students whose cpi>8.
+fetch me the student table.
+get me student table containing students only from department computer.
+fetch the total number of students in the college.
+fetch me roll no. of all the students.
+get me names of all the students who are from computer department.
+display me cpi of all the students.
+find me students whose cpi is greater than 8.
+get me students whose cpi>8.
+give name of all the students.
+give name of all the students from hostel 9.
+give name of all the students from hostel 5
+give name of all the students from department electrical.
+give name of all the students from department mechanical.
+find name of all the students.
+find name of all the students from hostel 5
+find name of all the students from department electrical.
+find name of all the students from department mechanical.
+Return all the students such that their cpi > 8.
+Return all the students whose cpi > 8.
+Return all the students whose cpi greater than 8.
+Return all the students whose cpi higher than 8.
+fetch student's name with roll number 120050032.
+fetch student's cpi whose roll number is 120050042.
+fetch student's cpi whose roll number = 120050042.
+give student's cpi with roll number 120050042.
+give student's cpi whose roll number is 120050042.
+give student's cpi whose roll number = 120050042.
+select all instructors.
+show all instructors.
+print all instructors.
+fetch all instructors.
+get me all instructors.
+show me all instructors.
+return all instructors.
+select name of all instructors.
+get name of all instructors.
+show name of all instructors.
+print name of all instructors.
+fetch name of all instructors.
+get me name of all instructors.
+show me name of all instructors.
+return me name of all instructors.
+fetch me salary of all instructors.
+select salary of all instructors.
+get salary of all instructors.
+show salary of all instructors.
+fetch salary of all instructors.
+get me salary of all instructors.
+show me salary of all instructors.
+return me salary of all instructors.
+fetch me salary of all instructors.
+select all instructors whose salary is greater than 20000.
+get all instructors whose salary is greater than 20000.
+print all instructors whose salary is greater than 20000.
+fetch all instructors whose salary is greater than 20000.
+get me all instructors whose salary is greater than 20000.
+show me all instructors whose salary is greater than 20000.
+return all instructors whose salary is greater than 20000.
+fetch me all instructors whose salary is greater than 20000.
+select name of all instructors whose salary is greater than 20000.
+get name of all instructors whose salary is greater than 20000.
+show name of all instructors whose salary is greater than 20000.
+print name of all instructors whose salary is greater than 20000.
+fetch name of all instructors whose salary is greater than 20000.
+get me name of all instructors whose salary is greater than 20000.
+return me name of all instructors whose salary is greater than 20000.
+fetch me salary of all instructors whose salary is greater than 20000.
+select salary of all instructors whose salary is greater than 20000.
+get salary of all instructors whose salary is greater than 20000.
+show salary of all instructors whose salary is greater than 20000.
+print salary of all instructors whose salary is greater than 20000.
+fetch salary of all instructors whose salary is greater than 20000.
+get me salary of all instructors whose salary is greater than 20000.
+show me salary of all instructors whose salary is greater than 20000.
+return me salary of all instructors whose salary is greater than 20000.
+fetch me salary of all instructors whose salary is greater than 20000.
+select all instructors whose salary is greater than 50000.
+get all instructors whose salary is greater than 50000.
+show all instructors whose salary is greater than 50000.
+print all instructors whose salary is greater than 50000.
+fetch all instructors whose salary is greater than 50000.
+get me all instructors whose salary is greater than 50000.
+show me all instructors whose salary is greater than 50000.
+return all instructors whose salary is greater than 50000.
+fetch me all instructors whose salary is greater than 50000.
+select name of all instructors whose salary is greater than 50000.
+get name of all instructors whose salary is greater than 50000.
+show name of all instructors whose salary is greater than 50000.
+print name of all instructors whose salary is greater than 50000.
+fetch name of all instructors whose salary is greater than 50000.
+get me name of all instructors whose salary is greater than 50000.
+return me name of all instructors whose salary is greater than 50000.
+fetch me salary of all instructors whose salary is greater than 50000.
+select salary of all instructors whose salary is greater than 50000.
+show salary of all instructors whose salary is greater than 50000.
+print salary of all instructors whose salary is greater than 50000.
+fetch salary of all instructors whose salary is greater than 50000.
+get me salary of all instructors whose salary is greater than 50000.
+show me salary of all instructors whose salary is greater than 50000.
+return me salary of all instructors whose salary is greater than 50000.
+fetch me salary of all instructors whose salary is greater than 50000.
+select all instructors whose department is computer.
+get all instructors whose department is computer.
+show all instructors whose department is computer.
+print all instructors whose department is computer.
+fetch all instructors whose department is computer.
+get me all instructors whose department is computer.
+show me all instructors whose department is computer.
+return all instructors whose department is computer.
+fetch me all instructors whose department is computer.
+select name of all instructors whose department is computer.
+get name of all instructors whose department is computer.
+show name of all instructors whose department is computer.
+print name of all instructors whose department is computer.
+fetch name of all instructors whose department is computer.
+get me name of all instructors whose department is computer.
+show me name of all instructors whose department is computer.
+return me name of all instructors whose department is computer.
+fetch me salary of all instructors whose department is computer.
+select salary of all instructors whose department is computer.
+get salary of all instructors whose department is computer.
+print salary of all instructors whose department is computer.
+fetch salary of all instructors whose department is computer.
+get me salary of all instructors whose department is computer.
+fetch me salary of all instructors whose department is computer.
+select all instructors whose salary is greater than 20000 and whose department is computer.
+get all instructors whose salary is greater than 20000 and whose department is computer.
+print all instructors whose salary is greater than 20000 and whose department is computer.
+fetch all instructors whose salary is greater than 20000 and whose department is computer.
+get me all instructors whose salary is greater than 20000 and whose department is computer.
+return all instructors whose salary is greater than 20000 and whose department is computer.
+fetch me all instructors whose salary is greater than 20000 and whose department is computer.
+select name of all instructors whose salary is greater than 20000 and whose department is computer.
+get name of all instructors whose salary is greater than 20000 and whose department is computer.
+show name of all instructors whose salary is greater than 20000 and whose department is computer.
+print name of all instructors whose salary is greater than 20000 and whose department is computer.
+fetch name of all instructors whose salary is greater than 20000 and whose department is computer.
+get me name of all instructors whose salary is greater than 20000 and whose department is computer.
+show me name of all instructors whose salary is greater than 20000 and whose department is computer.
+return me name of all instructors whose salary is greater than 20000 and whose department is computer.
+fetch me salary of all instructors whose salary is greater than 20000 and whose department is computer.
+select salary of all instructors whose salary is greater than 20000 and whose department is computer.
+get salary of all instructors whose salary is greater than 20000 and whose department is computer.
+show salary of all instructors whose salary is greater than 20000 and whose department is computer.
+print salary of all instructors whose salary is greater than 20000 and whose department is computer.
+fetch salary of all instructors whose salary is greater than 20000 and whose department is computer.
+get me salary of all instructors whose salary is greater than 20000 and whose department is computer.
+show me salary of all instructors whose salary is greater than 20000 and whose department is computer.
+return me salary of all instructors whose salary is greater than 20000 and whose department is computer.
+fetch me salary of all instructors whose salary is greater than 20000 and whose department is computer.
+select all instructors whose salary is greater than 50000 and whose department is computer.
+get all instructors whose salary is greater than 50000 and whose department is computer.
+print all instructors whose salary is greater than 50000 and whose department is computer.
+fetch all instructors whose salary is greater than 50000 and whose department is computer.
+get me all instructors whose salary is greater than 50000 and whose department is computer.
+show me all instructors whose salary is greater than 50000 and whose department is computer.
+return all instructors whose salary is greater than 50000 and whose department is computer.
+fetch me all instructors whose salary is greater than 50000 and whose department is computer.
+select name of all instructors whose salary is greater than 50000 and whose department is computer.
+get name of all instructors whose salary is greater than 50000 and whose department is computer.
+print name of all instructors whose salary is greater than 50000 and whose department is computer.
+fetch name of all instructors whose salary is greater than 50000 and whose department is computer.
+show me name of all instructors whose salary is greater than 50000 and whose department is computer.
+return me name of all instructors whose salary is greater than 50000 and whose department is computer.
+fetch me salary of all instructors whose salary is greater than 50000 and whose department is computer.
+select salary of all instructors whose salary is greater than 50000 and whose department is computer.
+get salary of all instructors whose salary is greater than 50000 and whose department is computer.
+show salary of all instructors whose salary is greater than 50000 and whose department is computer.
+print salary of all instructors whose salary is greater than 50000 and whose department is computer.
+fetch salary of all instructors whose salary is greater than 50000 and whose department is computer.
+get me salary of all instructors whose salary is greater than 50000 and whose department is computer.
+show me salary of all instructors whose salary is greater than 50000 and whose department is computer.
+return me salary of all instructors whose salary is greater than 50000 and whose department is computer.
+fetch me salary of all instructors whose salary is greater than 50000 and whose department is computer.
+select all instructors whose department is mechanical.
+get all instructors whose department is mechanical.
+show all instructors whose department is mechanical.
+print all instructors whose department is mechanical.
+fetch all instructors whose department is mechanical.
+get me all instructors whose department is mechanical.
+show me all instructors whose department is mechanical.
+return all instructors whose department is mechanical.
+fetch me all instructors whose department is mechanical.
+get name of all instructors whose department is mechanical.
+show name of all instructors whose department is mechanical.
+print name of all instructors whose department is mechanical.
+fetch name of all instructors whose department is mechanical.
+get me name of all instructors whose department is mechanical.
+show me name of all instructors whose department is mechanical.
+return me name of all instructors whose department is mechanical.
+fetch me salary of all instructors whose department is mechanical.
+select salary of all instructors whose department is mechanical.
+get salary of all instructors whose department is mechanical.
+show salary of all instructors whose department is mechanical.
+print salary of all instructors whose department is mechanical.
+fetch salary of all instructors whose department is mechanical.
+get me salary of all instructors whose department is mechanical.
+show me salary of all instructors whose department is mechanical.
+return me salary of all instructors whose department is mechanical.
+fetch me salary of all instructors whose department is mechanical.
+select all instructors whose salary is greater than 20000 and whose department is mechanical.
+show all instructors whose salary is greater than 20000 and whose department is mechanical.
+print all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch all instructors whose salary is greater than 20000 and whose department is mechanical.
+get me all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch me all instructors whose salary is greater than 20000 and whose department is mechanical.
+select name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+show name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+print name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get me name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+show me name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+return me name of all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch me salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+select salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+show salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+print salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+get me salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+show me salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+return me salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+fetch me salary of all instructors whose salary is greater than 20000 and whose department is mechanical.
+select all instructors whose salary is greater than 50000 and whose department is mechanical.
+get all instructors whose salary is greater than 50000 and whose department is mechanical.
+show all instructors whose salary is greater than 50000 and whose department is mechanical.
+print all instructors whose salary is greater than 50000 and whose department is mechanical.
+fetch all instructors whose salary is greater than 50000 and whose department is mechanical.
+return all instructors whose salary is greater than 50000 and whose department is mechanical.
+fetch me all instructors whose salary is greater than 50000 and whose department is mechanical.
+select name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+show name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+print name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+fetch name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+get me name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+show me name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+return me name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+fetch me salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+select salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+get salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+show salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+print salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+fetch salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+get me salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+show me salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+return me salary of all instructors whose salary is greater than 50000 and whose department is mechanical.
+fetch me salary of all instructors whose salary is greater than 50000 and whose department is mechanical.

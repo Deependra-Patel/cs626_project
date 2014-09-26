@@ -1,0 +1,30 @@
+fetch roll number from student such that department is mechanical
+get roll number from student where cpi is equal to 9
+select roll number from student where cpi is equal to 9
+display me roll number of all the students.
+show the student whose name is deependra.
+find name of all the students from hostel 9.
+fetch student's name with roll number 120050042.
+fetch student's cpi with roll number 120050042.
+get all instructors.
+fetch me all instructors.
+print salary of all instructors.
+show all instructors whose salary is greater than 20000.
+show me name of all instructors whose salary is greater than 20000.
+show me name of all instructors whose salary is greater than 50000.
+get salary of all instructors whose salary is greater than 50000.
+show salary of all instructors whose department is computer.
+show me salary of all instructors whose department is computer.
+return me salary of all instructors whose department is computer.
+show all instructors whose salary is greater than 20000 and whose department is computer.
+show me all instructors whose salary is greater than 20000 and whose department is computer.
+show all instructors whose salary is greater than 50000 and whose department is computer.
+show name of all instructors whose salary is greater than 50000 and whose department is computer.
+get me name of all instructors whose salary is greater than 50000 and whose department is computer.
+select name of all instructors whose department is mechanical.
+get all instructors whose salary is greater than 20000 and whose department is mechanical.
+show me all instructors whose salary is greater than 20000 and whose department is mechanical.
+return all instructors whose salary is greater than 20000 and whose department is mechanical.
+get me all instructors whose salary is greater than 50000 and whose department is mechanical.
+show me all instructors whose salary is greater than 50000 and whose department is mechanical.
+get name of all instructors whose salary is greater than 50000 and whose department is mechanical.

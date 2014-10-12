@@ -1,22 +1,57 @@
 from chunker_v2 import *
+from schema import *
 
-f_en = open('../corpus/data.en')
-f_sql = open('../corpus/data.sql')
-f_out_en = open('output/data.en', 'w')
-f_out_sql = open('output/data.sql', 'w')
-f_out = open('output/data.out', 'w')
+tablenames = set([])
+attribs = set([])
+for t in tables:
+    tablenames.add(t.table_name)
+    for col in t.columns:
+        attribs.add(col.column_name)
 
-data_en = f_en.readlines()
-data_sql = f_sql.readlines()
-for i in range(len(data_en)):
-    try:
-        try:
-            tokens = nltk.word_tokenize(data_en[i])
-            query = give_sql(tokens)
-            f_out_en.write(data_en[i])
-            f_out_sql.write(data_sql[i])
-            f_out.write(query+'\n')
-        except TypeError:
-            print 'type error occured for', i
-    except ValueError:
-        print 'error occured for',i
+
+a = '''
+Edit the config.py file and put the mysql_username, mysql_password and database name
+Enter a query of the form 'get me ATTRIB and ATTRIB from TABLE such that ATTRIB = _CONST'
+e.g. 'get me name and department from student such that cpi is greater than _9 and hostel is _8'
+
+Enter your query : '''
+
+
+sent = raw_input(a)
+sent = nltk.word_tokenize(sent)
+
+table_list = []
+attrib_list = []
+const_list = []
+
+for i in range(len(sent)):
+    word = sent[i]
+    if word[0] == '_':
+        l = len(const_list)
+        const_list.append(word[1:])
+        sent[i] = 'CONST_'+str(l)
+    elif word in tablenames:
+        l = len(table_list)
+        table_list.append(word)
+        sent[i] = 'TABLE_'+str(l)
+    elif word in attribs:
+        l = len(attrib_list)
+        attrib_list.append(word)
+        sent[i] = 'ATTRIB_'+str(l)
+    
+query = give_sql(sent)
+query = query.split()
+
+for i in range(len(query)) :
+    word = query[i]
+    if word[:5] == 'TABLE':
+        query[i] = table_list[int(word[6:])]
+    elif word[:6] == 'ATTRIB':
+        query[i] = attrib_list[int(word[7:])]
+    elif word[:5] == 'CONST' :
+        query[i] = '\''+const_list[int(word[6:])]+'\''
+
+print 'Answer:'," ".join(query)
+
+
+

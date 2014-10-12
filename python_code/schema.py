@@ -45,8 +45,6 @@ for t in tablenames:
         tb.columns.append(col)
     tables.append(tb)
 
-for t in tables:
-    t.print_table()
 
 
 

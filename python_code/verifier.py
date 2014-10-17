@@ -1,39 +1,18 @@
-#!/usr/bin/python3
-def check(query):
-	query = query.strip().lower()
-	start = ["select", "update", "insert into", "delete from"]
-	comparators = ["<", "=", ">", "<=", ">="]
-	middle = ["or", "and"]
-	cond = False
-	li = query.split()
-	size = len(li)
-	for word in li:
-		if word == "where":
-			cond = True
-	#print(li)
-	if cond:
-		i = li.index("where")+1
-		#print(i)
-		while i<size:
-			if size-i<3:
-				return False
-			first = li[i]
-			second = li[i+1]
-			third = li[i+2]
-			if not second in comparators:
-				return False
-			i = i + 3
-			if i<size:
-				if not li[i] in middle:
-					return False
-				elif size-i < 4:
-					return False
-			i = i + 1
-	return True
-	
-while(True):
-	query = input()
-	if check(query):
-		print("True")
-	else :
-		print(query)
+#!/usr/bin/python2.7
+import nltk
+from nltk.tree import *
+
+try:    
+	line = raw_input()
+	tokens = nltk.word_tokenize(line)
+
+	print(tokens)
+	grammar1 = nltk.data.load('file:mygrammar_sql.cfg')
+	rd_parser = nltk.RecursiveDescentParser(grammar1)
+
+	query_tree = rd_parser.parse(tokens)[0]
+	print 'correct'
+	query_tree.draw()
+
+except ValueError:
+	print 'incorrect syntax'

@@ -1,0 +1,22 @@
+select name from student where department is metallurgy
+find hostel from student where department is chemical
+select name from student such that department is metallurgy
+find hostel from student such that department is chemical
+show cpi from student such that department is computer
+show credits from student where department is chemical
+select name from student where hostel is 5
+find hostel from student where hostel is 5
+select name from student such that hostel is 6
+find hostel from student such that hostel is 10
+show cpi from student such that hostel is 4
+show credits from student where hostel is 5
+fetch department from student where cpi is equal to 9
+find hostel from student where cpi is equal to 9
+fetch department from student where cpi is greater than 8
+find hostel from student where cpi is greater than 8
+fetch department from student such that cpi is higher than 7
+find hostel from student such that cpi is higher than 7
+fetch department from student such that cpi is more than 4.00
+find hostel from student such that cpi is more than 4.00
+fetch department from student such that cpi is less than 10.00
+find hostel from student such that cpi is less than 10.00

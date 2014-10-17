@@ -3,7 +3,7 @@ import nltk
 from nltk.tree import *
         
 
-grammar1 = nltk.data.load('file:newgrammar.cfg')
+grammar1 = nltk.data.load('file:grammar/mygrammar_v1.cfg')
 rd_parser = nltk.RecursiveDescentParser(grammar1)
 
 def give_sql(tokens) :

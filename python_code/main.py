@@ -1,6 +1,15 @@
 from chunker_v2 import *
 from schema import *
 
+#### Helper functions ####
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
+#### Setting up the database metadata initially in sets ####
 tablenames = set([])
 attribs = set([])
 for t in tables:
@@ -16,42 +25,71 @@ e.g. 'get me name and department from student such that cpi is greater than _9 a
 
 Enter your query : '''
 
+#### Query input and then polished into generic form ####
 
 sent = raw_input(a)
 sent = nltk.word_tokenize(sent)
+print sent 
 
 table_list = []
 attrib_list = []
 const_list = []
 
+l_table = 0
+l_attrib = 0
+l_const = 0
+
+collecting = False
+symbol = '~'
+temp = ""
+
 for i in range(len(sent)):
     word = sent[i]
-    if word[0] == '_':
-        l = len(const_list)
-        const_list.append(word[1:])
-        sent[i] = 'CONST_'+str(l)
+    if collecting:
+        if word[-1] == symbol:
+            const_list.append(temp+word)
+            sent[i] = 'CONST_'+str(l_const)
+            l_const += 1
+            collecting = False
+            temp = ""
+        else:
+            temp = temp + word
+    elif word[0] == "'" or word[0] == '"':
+        if word[0] == word[-1]:
+            const_list.append(word)
+            sent[i] = 'CONST_'+str(l_const)
+            l_const += 1
+        else:
+            collecting = True
+            symbol = word[0]
+            temp = word
+    elif is_number(word):
+        const_list.append(word)
+        sent[i] = 'CONST_'+str(l_const)
+        l_const += 1
     elif word in tablenames:
-        l = len(table_list)
         table_list.append(word)
-        sent[i] = 'TABLE_'+str(l)
+        sent[i] = 'TABLE_'+str(l_table)
+        l_table += 1
     elif word in attribs:
-        l = len(attrib_list)
         attrib_list.append(word)
-        sent[i] = 'ATTRIB_'+str(l)
-    
+        sent[i] = 'ATTRIB_'+str(l_attrib)
+        l_attrib += 1
+
+print sent    
 query = give_sql(sent)
 query = query.split()
 
 for i in range(len(query)) :
     word = query[i]
-    if word[:5] == 'TABLE':
+    if word[:6] == 'TABLE_':
         query[i] = table_list[int(word[6:])]
-    elif word[:6] == 'ATTRIB':
+    elif word[:7] == 'ATTRIB_':
         query[i] = attrib_list[int(word[7:])]
-    elif word[:5] == 'CONST' :
-        query[i] = '\''+const_list[int(word[6:])]+'\''
+    elif word[:8] == 'CONST_' :
+        query[i] = const_list[int(word[6:])]
 
-print 'Answer:'," ".join(query)
+print 'Answer: '," ".join(query)
 
 
 

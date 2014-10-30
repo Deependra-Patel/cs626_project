@@ -1,30 +1,14 @@
-fetch roll number from student such that department is mechanical
-get roll number from student where cpi is equal to 9
-select roll number from student where cpi is equal to 9
-display me roll number of all the students.
-show the student whose name is deependra.
-find name of all the students from hostel 9.
-fetch student's name with roll number 120050042.
-fetch student's cpi with roll number 120050042.
-get all instructors.
-fetch me all instructors.
-print salary of all instructors.
-show all instructors whose salary is greater than 20000.
-show me name of all instructors whose salary is greater than 20000.
-show me name of all instructors whose salary is greater than 50000.
-get salary of all instructors whose salary is greater than 50000.
-show salary of all instructors whose department is computer.
-show me salary of all instructors whose department is computer.
-return me salary of all instructors whose department is computer.
-show all instructors whose salary is greater than 20000 and whose department is computer.
-show me all instructors whose salary is greater than 20000 and whose department is computer.
-show all instructors whose salary is greater than 50000 and whose department is computer.
-show name of all instructors whose salary is greater than 50000 and whose department is computer.
-get me name of all instructors whose salary is greater than 50000 and whose department is computer.
-select name of all instructors whose department is mechanical.
-get all instructors whose salary is greater than 20000 and whose department is mechanical.
-show me all instructors whose salary is greater than 20000 and whose department is mechanical.
-return all instructors whose salary is greater than 20000 and whose department is mechanical.
-get me all instructors whose salary is greater than 50000 and whose department is mechanical.
-show me all instructors whose salary is greater than 50000 and whose department is mechanical.
-get name of all instructors whose salary is greater than 50000 and whose department is mechanical.
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than CONST_0 or ATTRIB_1 is greater than CONST_1
+give me ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0 or ATTRIB_0 is not equal to CONST_1
+give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
+give me ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is greater than CONST_0
+give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0 and ATTRIB_1 is greater than CONST_0
+fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than CONST_0
+show me ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than CONST_0 and ATTRIB_1 is greater than CONST_0
+show me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
+display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0 and ATTRIB_1 is greater than CONST_0
+find ATTRIB_0 from TABLE_0 where ATTRIB_1 is equal to CONST_0 and ATTRIB_2 is equal to CONST_1
+find ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0 or ATTRIB_0 is not equal to CONST_1
+bring ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is greater than CONST_0
+bring ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0

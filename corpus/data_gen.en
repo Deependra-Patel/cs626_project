@@ -4,6 +4,7 @@ select ATTRIB_0 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_1 is not equal to CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than CONST_0
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than CONST_0
@@ -14,23 +15,28 @@ select ATTRIB_0 from TABLE_0 where ATTRIB_1 is equal to CONST_0 and ATTRIB_2 is 
 select ATTRIB_0 from TABLE_0 where ATTRIB_0 is not equal to CONST_0 and ATTRIB_1 is greater than CONST_0
 select ATTRIB_0 from TABLE_0 where ATTRIB_1 is not equal to CONST_0 and ATTRIB_2 is greater than or equal to CONST_1
 select ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than CONST_0 and ATTRIB_0 is less than or equal to CONST_1
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than CONST_0 or ATTRIB_1 is greater than CONST_1
 select ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0 or ATTRIB_1 is not equal to CONST_0
+give me ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0 or ATTRIB_0 is not equal to CONST_1
 give me ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than CONST_0 or ATTRIB_2 is equal to CONST_1
 give me ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than CONST_0 and ATTRIB_1 is greater than CONST_0
 give me ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than or equal to CONST_0 or ATTRIB_2 is greater than or equal to CONST_1
 give me ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than or equal to CONST_0 or ATTRIB_0 is less than or equal to CONST_1
 give me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is equal to CONST_0
 give me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_1 is equal to CONST_0
+give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
 give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_1 is not equal to CONST_0
 give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is greater than CONST_0
 give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is less than CONST_0
 give me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0
 give me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0
+give me ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is greater than CONST_0
 give me ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is less than CONST_0
 give me ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is greater than or equal to CONST_0
 give me ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is less than or equal to CONST_0
 give me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is equal to CONST_0 and ATTRIB_0 is not equal to CONST_1
 give me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_1 is equal to CONST_0 and ATTRIB_2 is equal to CONST_1
+give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0 and ATTRIB_1 is greater than CONST_0
 give me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_1 is not equal to CONST_0 and ATTRIB_2 is greater than or equal to CONST_1
 fetch me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is greater than CONST_0 and ATTRIB_0 is less than or equal to CONST_1
 fetch me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is less than CONST_0 or ATTRIB_1 is greater than CONST_1
@@ -44,6 +50,7 @@ fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is equal to CONST_0
 fetch me ATTRIB_0 from TABLE_0 where ATTRIB_1 is equal to CONST_0
 fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
 fetch me ATTRIB_0 from TABLE_0 where ATTRIB_1 is not equal to CONST_0
+fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than CONST_0
 fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than CONST_0
 fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0
 fetch me ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0
@@ -60,10 +67,12 @@ show me ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than CONST_0 or ATTRIB_1 is
 show me ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0 or ATTRIB_1 is not equal to CONST_0
 show me ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0 or ATTRIB_0 is not equal to CONST_1
 show me ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than CONST_0 or ATTRIB_2 is equal to CONST_1
+show me ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than CONST_0 and ATTRIB_1 is greater than CONST_0
 show me ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than or equal to CONST_0 or ATTRIB_2 is greater than or equal to CONST_1
 show me ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than or equal to CONST_0 or ATTRIB_0 is less than or equal to CONST_1
 show me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is equal to CONST_0
 show me ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_1 is equal to CONST_0
+show me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
 show me ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_1 is not equal to CONST_0
 display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is greater than CONST_0
 display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is less than CONST_0
@@ -75,6 +84,7 @@ display ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is greater than or equal 
 display ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is less than or equal to CONST_0
 display ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is equal to CONST_0 and ATTRIB_0 is not equal to CONST_1
 display ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_1 is equal to CONST_0 and ATTRIB_2 is equal to CONST_1
+display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0 and ATTRIB_1 is greater than CONST_0
 display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_1 is not equal to CONST_0 and ATTRIB_2 is greater than or equal to CONST_1
 display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is greater than CONST_0 and ATTRIB_0 is less than or equal to CONST_1
 display ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is less than CONST_0 or ATTRIB_1 is greater than CONST_1
@@ -97,11 +107,13 @@ find ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than CONST_0
 find ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than or equal to CONST_0
 find ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than or equal to CONST_0
 find ATTRIB_0 from TABLE_0 where ATTRIB_0 is equal to CONST_0 and ATTRIB_0 is not equal to CONST_1
+find ATTRIB_0 from TABLE_0 where ATTRIB_1 is equal to CONST_0 and ATTRIB_2 is equal to CONST_1
 find ATTRIB_0 from TABLE_0 where ATTRIB_0 is not equal to CONST_0 and ATTRIB_1 is greater than CONST_0
 find ATTRIB_0 from TABLE_0 where ATTRIB_1 is not equal to CONST_0 and ATTRIB_2 is greater than or equal to CONST_1
 find ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than CONST_0 and ATTRIB_0 is less than or equal to CONST_1
 find ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than CONST_0 or ATTRIB_1 is greater than CONST_1
 find ATTRIB_0 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0 or ATTRIB_1 is not equal to CONST_0
+find ATTRIB_0 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0 or ATTRIB_0 is not equal to CONST_1
 bring ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than CONST_0 or ATTRIB_2 is equal to CONST_1
 bring ATTRIB_0 from TABLE_0 where ATTRIB_1 is less than CONST_0 and ATTRIB_1 is greater than CONST_0
 bring ATTRIB_0 from TABLE_0 where ATTRIB_1 is greater than or equal to CONST_0 or ATTRIB_2 is greater than or equal to CONST_1
@@ -110,7 +122,9 @@ bring ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is equal to CONST_0
 bring ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_1 is equal to CONST_0
 bring ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is not equal to CONST_0
 bring ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_1 is not equal to CONST_0
+bring ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is greater than CONST_0
 bring ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 is less than CONST_0
+bring ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is greater than or equal to CONST_0
 bring ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 is less than or equal to CONST_0
 bring ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is greater than CONST_0
 bring ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 is less than CONST_0

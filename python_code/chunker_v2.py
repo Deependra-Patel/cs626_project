@@ -10,12 +10,6 @@ def give_sql(tokens) :
 
     query_tree = rd_parser.parse(tokens)[0]
 
-#for tree in rd_parser.parse(tokens):
-        #tree.draw()
-        #print tree['select']
-#    print(tree)
-#    print(tree[1][0])
-
     wordmap = {'get':'select', 'fetch':'select', 'select':'select', 'find':'select', 'show':'select'}
 
     select_part = query_tree[0]
@@ -32,7 +26,6 @@ def give_sql(tokens) :
     nltk.Tree.get_child = get_child
 
     action = wordmap[select_part.get_child('VB').get_child('VERB')[0]]
-#print action
 
     fields = []
     temp = select_part
@@ -41,8 +34,6 @@ def give_sql(tokens) :
         if temp == False:
             break
         fields.append(temp.get_child('FIELD').get_child('ATTRIB')[0])
-
-#print ', '.join(fields)
 
     look = from_part.get_child('LOOK')[0]
     tables = []
@@ -56,9 +47,6 @@ def give_sql(tokens) :
             if temp == False:
                 break
             tables.append(temp.get_child('TABLE_').get_child('TABLE')[0])
-
-#print ', '.join(tables)
-
 
     condmap = {'equal':'=', 'unequal':'!=', 'more':'>', 'less':'<', 'higher':'>', 'lower':'<', 'high':'>', 'low':'<', 'greater':'>', 'lesser':'<'}
     condmap_neg = {'equal':'!=', 'unequal':'=', 'more':'<=', 'less':'>=', 'higher':'<=', 'lower':'>=', 'high':'<=', 'low':'>=', 'greater':'<=', 'lesser':'>='}
@@ -90,12 +78,5 @@ def give_sql(tokens) :
                 cond = val1 + ' ' + condmap_neg[comp2] + ' ' + val2
         conds.append(cond)
 
-#print ' '.join(conds)
-
     return action + ' ' + ' , '.join(fields) + ' from ' + ' , '.join(tables) + ' where ' + ' '.join(conds)
 
-
-#line = raw_input()
-#tokens = nltk.word_tokenize(line)
-
-#print give_sql(tokens)

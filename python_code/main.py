@@ -1,3 +1,4 @@
+import sys
 from chunker_v2 import *
 from schema import *
 
@@ -8,6 +9,50 @@ def is_number(s):
         return True
     except ValueError:
         return False
+
+def stuff(s):
+
+    stuff_string = ''
+    within_quote = False
+    quote_char = '~'
+    prev_space = True
+
+    for i in range(0,len(s)):
+        if within_quote:
+            if s[i]==quote_char:
+                stuff_string = stuff_string + s[i]
+                within_quote = False
+            elif s[i]==' ':
+                stuff_string = stuff_string + "*$*$"
+            elif s[i]=='\t':
+                stuff_string = stuff_string + "*%*%"
+            elif s[i]=='\n':
+                stuff_string = stuff_string + "*&*&"
+            else:
+                stuff_string = stuff_string + s[i]
+        else:
+            if s[i]=="'" or s[i]=='"':
+                if prev_space:
+                    stuff_string = stuff_string + s[i]
+                    within_quote = True
+                    quote_char = s[i]
+                elif s[i]=="'":
+                    stuff_string = stuff_string + '_single_quote_'
+                else:
+                    stuff_string = stuff_string + '_double_quote_'
+            else:
+                stuff_string = stuff_string + s[i]
+
+        if s[i]==' ' or s[i]=='\t' or s[i]=='\n':
+            prev_space = True
+        else:
+            prev_space = False
+
+    if within_quote == True:
+        print "\nUnmatched quotation marks in the query! Check the query.\n"
+        sys.exit()
+    else:
+        return stuff_string
 
 #### Setting up the database metadata initially in sets ####
 tablenames = set([])
@@ -20,16 +65,17 @@ for t in tables:
 
 a = '''
 Edit the config.py file and put the mysql_username, mysql_password and database name
-Enter a query of the form 'get me ATTRIB and ATTRIB from TABLE such that ATTRIB = _CONST'
-e.g. 'get me name and department from student such that cpi is greater than _9 and hostel is _8'
+Enter a query in english, with constants (proper nouns) put within either single or double quotes.
+e.g. 'get me name and department from student such that cpi is greater than 9 and hostel is 'hostel-2''
 
 Enter your query : '''
 
 #### Query input and then polished into generic form ####
 
 sent = raw_input(a)
+sent = stuff(sent)
+print "Stuffed query: "+sent 
 sent = nltk.word_tokenize(sent)
-print sent 
 
 table_list = []
 attrib_list = []
@@ -44,7 +90,11 @@ symbol = '~'
 temp = ""
 
 for i in range(len(sent)):
+
     word = sent[i]
+    if word == "''" or word == "``":
+        word = '"'
+
     if collecting:
         if word[-1] == symbol:
             const_list.append(temp+word)
@@ -54,8 +104,9 @@ for i in range(len(sent)):
             temp = ""
         else:
             temp = temp + word
+            sent[i] = ''
     elif word[0] == "'" or word[0] == '"':
-        if word[0] == word[-1]:
+        if word[0] == word[-1] and len(word) != 1:
             const_list.append(word)
             sent[i] = 'CONST_'+str(l_const)
             l_const += 1
@@ -63,6 +114,7 @@ for i in range(len(sent)):
             collecting = True
             symbol = word[0]
             temp = word
+            sent[i] = ''
     elif is_number(word):
         const_list.append(word)
         sent[i] = 'CONST_'+str(l_const)
@@ -76,8 +128,15 @@ for i in range(len(sent)):
         sent[i] = 'ATTRIB_'+str(l_attrib)
         l_attrib += 1
 
-print sent    
-query = give_sql(sent)
+sent_final = []
+for i in range(0,len(sent)):
+    if sent[i]!='':
+        sent[i] = sent[i].replace('_single_quote_',"'")
+        sent[i] = sent[i].replace('_double_quote_','"')
+        sent_final += [sent[i]]
+
+print "Final query sent for processing: "+" ".join(sent_final)
+query = give_sql(sent_final)
 query = query.split()
 
 for i in range(len(query)) :
@@ -86,10 +145,14 @@ for i in range(len(query)) :
         query[i] = table_list[int(word[6:])]
     elif word[:7] == 'ATTRIB_':
         query[i] = attrib_list[int(word[7:])]
-    elif word[:8] == 'CONST_' :
+    elif word[:6] == 'CONST_' :
         query[i] = const_list[int(word[6:])]
 
-print 'Answer: '," ".join(query)
+query = " ".join(query)
+query = query.replace('*$*$',' ')
+query = query.replace('*%*%','\t')
+query = query.replace('*&*&','\n') 
+print 'Answer: ',query
 
 
 

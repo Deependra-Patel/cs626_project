@@ -1,0 +1,954 @@
+Tip: install tcmalloc for faster threading.  See BUILD-INSTRUCTIONS.txt for more information.
+warning: No toolsets are configured.
+warning: Configuring default toolset "gcc".
+warning: If the default is wrong, your build may not work correctly.
+warning: Use the "toolset=xxxxx" option to override our guess.
+warning: For more configuration options, please consult
+warning: http://boost.org/boost-build2/doc/html/bbv2/advanced/configuration.html
+...patience...
+...patience...
+...found 3954 targets...
+...updating 69 targets...
+Jamfile</home/prateek/cs626/tools/moses>.write-options /home/prateek/cs626/tools/moses/moses/bin/lm.log
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF_Factory.o
+gcc.archive moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a
+common.copy /home/prateek/cs626/tools/moses/lib/libmoses.a
+gcc.link moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_chart
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_chart" -Wl,--start-group "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o" "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o" "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_chart...
+gcc.link moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses" -Wl,--start-group "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBR.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses...
+gcc.link moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lmbrgrid
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lmbrgrid" -Wl,--start-group "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBR.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBRGrid.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lmbrgrid...
+gcc.link OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/CreateOnDiskPt
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/CreateOnDiskPt" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/CreateOnDiskPt...
+gcc.link OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt...
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/1-1-Extraction
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TMining
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/generateSequences
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/GenerateTuples.o" "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable...
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable...
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable...
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable...
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/merge-sorted
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_program_options -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable...
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/statistics
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-rules
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-reverse
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/relax-parse
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-lex
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-direct
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/score
+gcc.link phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest
+testing.capture-output phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest.run
+**passed** phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest.test
+gcc.link phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-ghkm
+gcc.link phrase-extract/pcfg-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg-extract
+gcc.link phrase-extract/pcfg-score/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg-score
+gcc.link phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-mixed-syntax
+gcc.link mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mira
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mira" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmira_lib.a" "mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmert_lib.a" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_program_options -lm -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mira...
+gcc.link /home/prateek/cs626/tools/moses/bin/moses_chart
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/moses_chart" -Wl,--start-group "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o" "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o" "moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/moses_chart...
+gcc.link /home/prateek/cs626/tools/moses/bin/moses
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/moses" -Wl,--start-group "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBR.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/moses...
+gcc.link /home/prateek/cs626/tools/moses/bin/lmbrgrid
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/lmbrgrid" -Wl,--start-group "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBR.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o" "moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBRGrid.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/lmbrgrid...
+gcc.link /home/prateek/cs626/tools/moses/bin/CreateOnDiskPt
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/CreateOnDiskPt" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/CreateOnDiskPt...
+gcc.link /home/prateek/cs626/tools/moses/bin/queryOnDiskPt
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/queryOnDiskPt" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/queryOnDiskPt...
+gcc.link /home/prateek/cs626/tools/moses/bin/1-1-Extraction
+gcc.link /home/prateek/cs626/tools/moses/bin/TMining
+gcc.link /home/prateek/cs626/tools/moses/bin/generateSequences
+gcc.link /home/prateek/cs626/tools/moses/bin/processPhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/processPhraseTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/GenerateTuples.o" "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/processPhraseTable...
+gcc.link /home/prateek/cs626/tools/moses/bin/processLexicalTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/processLexicalTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/processLexicalTable...
+gcc.link /home/prateek/cs626/tools/moses/bin/queryPhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/queryPhraseTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/queryPhraseTable...
+gcc.link /home/prateek/cs626/tools/moses/bin/queryLexicalTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/queryLexicalTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/queryLexicalTable...
+gcc.link /home/prateek/cs626/tools/moses/bin/merge-sorted
+gcc.link /home/prateek/cs626/tools/moses/bin/prunePhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/prunePhraseTable" -Wl,--start-group "misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_program_options -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/prunePhraseTable...
+gcc.link /home/prateek/cs626/tools/moses/bin/extract
+gcc.link /home/prateek/cs626/tools/moses/bin/statistics
+gcc.link /home/prateek/cs626/tools/moses/bin/extract-rules
+gcc.link /home/prateek/cs626/tools/moses/bin/consolidate-reverse
+gcc.link /home/prateek/cs626/tools/moses/bin/relax-parse
+gcc.link /home/prateek/cs626/tools/moses/bin/extract-lex
+gcc.link /home/prateek/cs626/tools/moses/bin/consolidate-direct
+gcc.link /home/prateek/cs626/tools/moses/bin/consolidate
+gcc.link /home/prateek/cs626/tools/moses/bin/score
+gcc.link /home/prateek/cs626/tools/moses/bin/extract-ghkm
+gcc.link /home/prateek/cs626/tools/moses/bin/pcfg-extract
+gcc.link /home/prateek/cs626/tools/moses/bin/pcfg-score
+gcc.link /home/prateek/cs626/tools/moses/bin/extract-mixed-syntax
+gcc.link /home/prateek/cs626/tools/moses/bin/mira
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64"  -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "/home/prateek/cs626/tools/moses/bin/mira" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmira_lib.a" "mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmert_lib.a" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_filesystem -lboost_program_options -lm -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link /home/prateek/cs626/tools/moses/bin/mira...
+gcc.link moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_test
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_test" -Wl,--start-group "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o" "OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MosesTest.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureVectorTest.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignmentInfoTest.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreComponentCollectionTest.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MockHypothesis.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SparseHieroReorderingFeatureTest.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_unit_test_framework -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_test...
+...skipped <pmoses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi>moses_test.passed for lack of <pmoses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi>moses_test...
+gcc.link moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params() [clone ._omp_fn.3]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:708: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums() [clone ._omp_fn.1]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:310: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations() [clone ._omp_fn.2]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:365: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst() [clone ._omp_fn.0]':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_num_threads'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:243: undefined reference to `omp_get_thread_num'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::param_sums()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:307: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::lognormconst()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:240: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::ensure_exp_params()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:706: undefined reference to `GOMP_parallel_end'
+/home/prateek/cs626/tools/srilm/lib/i686-m64/liboolm.a(hmaxent.o): In function `hmaxent::model::expectations()':
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_start'
+/home/prateek/cs626/tools/srilm/lm/src/hmaxent.cc:362: undefined reference to `GOMP_parallel_end'
+collect2: error: ld returned 1 exit status
+
+    "g++" -L"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib" -L"/home/prateek/cs626/tools/srilm/lib/i686-m64" -L"/home/prateek/cs626/tools/srilm/lib64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-R -Wl,"/home/prateek/cs626/tools/srilm/lib64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/flm/obj/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib/i686-m64" -Wl,-rpath-link -Wl,"/home/prateek/cs626/tools/srilm/lib64" -o "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest" -Wl,--start-group "moses/LM/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ORLM.o" "moses/LM/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SRI.o" "moses/LM/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ParallelBackoff.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Backward.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardLMState.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Base.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Implementation.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Joint.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Ken.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MultiFactor.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Remote.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SingleFactor.o" "moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SkeletonLM.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o" "util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o" "util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/model.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/virtual_interface.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lm_exception.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_arpa.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/binary_format.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bhiksha.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/search_trie.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/search_hashed.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/value_build.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/config.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/quantize.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/trie_sort.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sizes.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/trie.o" "lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/vocab.o" "moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a"  -Wl,-Bstatic -lboost_unit_test_framework -lboost_iostreams -loolm -ldstruct -lmisc -lflm -llzma -lbz2 -lboost_system -lz -lboost_thread -Wl,-Bdynamic -ldl -lSegFault -lrt -Wl,--end-group -g -pthread 
+
+...failed gcc.link moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest...
+...skipped <pmoses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi>BackwardTest.run for lack of <pmoses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi>BackwardTest...
+...removing outdated moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest.test
+...failed updating 24 targets...
+...skipped 3 targets...
+...updated 42 targets...
+The build failed.  If you need support, run:
+  /usr/bin/bjam -j 4 --with-srilm=/home/prateek/cs626/tools/srilm --debug-configuration -d2 |gzip >build.log.gz
+then attach build.log.gz to your e-mail.
+You MUST do 3 things before sending to the mailing list:
+   1. Subscribe to the mailing list at http://mailman.mit.edu/mailman/listinfo/moses-support
+   2. Attach build.log.gz to your e-mail
+   3. Say what is the EXACT command you executed when you got the error
+ERROR

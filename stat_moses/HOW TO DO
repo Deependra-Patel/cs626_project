@@ -1,0 +1,25 @@
+#FOR SRILM INSTALLATION
+download srilm version 1.5.1
+
+
+Assume that data.sql is already tokenized ,truecased and cleaning
+
+#BUILD DATA MODEL
+../srilm/bin/i686-m64/ngram-count -order 5 -interpolate -wbdiscount -text data.sql -lm data.sql.lm
+
+== creating data model wil create .lm file
+
+
+#TRAINING MOSES
+../mosesdecoder-RELEASE-1.0/scripts/training/train-model.perl -root-dir train -corpus data -f en -e sql \
+-alignment  grow-diag-final-and -reordering msd-bidirectional-fe -lm 0:5:$PWD/data.sql.lm:0 --external-bin-dir /home/prateek/cs626/tools/bin/
+== will create moses.in
+
+# TUNING YET TO BE DONE
+
+
+
+
+
+#GENERATING OUTPUT 
+../mosesdecoder-RELEASE-1.0/bin/moses -f train/model/moses.ini < test.en

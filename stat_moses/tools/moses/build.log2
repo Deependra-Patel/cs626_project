@@ -1,0 +1,1764 @@
+Tip: install tcmalloc for faster threading.  See BUILD-INSTRUCTIONS.txt for more information.
+warning: No toolsets are configured.
+warning: Configuring default toolset "gcc".
+warning: If the default is wrong, your build may not work correctly.
+warning: Use the "toolset=xxxxx" option to override our guess.
+warning: For more configuration options, please consult
+warning: http://boost.org/boost-build2/doc/html/bbv2/advanced/configuration.html
+...patience...
+...patience...
+...found 3779 targets...
+...updating 651 targets...
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/strtod.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/double-conversion.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/diy-fp.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum-dtoa.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bignum.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cached-powers.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fast-dtoa.o
+gcc.compile.c++ util/double-conversion/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fixed-dtoa.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ersatz_progress.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/exception.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/murmur_hash.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mmap.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/scoped.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pool.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/string_piece.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/virtual_interface.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lm_exception.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/usage.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_arpa.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/binary_format.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/parallel_read.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bhiksha.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/value_build.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/model.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/config.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/quantize.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/search_hashed.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sizes.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/trie.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/search_trie.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/trie_sort.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/vocab.o
+gcc.link lm/filter/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/filter
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/dump_counts_main.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/util/stream/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/io.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/util/stream/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/multi_progress.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/util/stream/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/chain.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/util/stream/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/line_input.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/interpolate.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/adjust_counts.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/initial_probabilities.o
+Jamfile</home/prateek/cs626/tools/moses>.write-options /home/prateek/cs626/tools/moses/moses/bin/lm.log
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pipeline.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/corpus_count.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/print.o
+gcc.link /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/dump_counts
+gcc.compile.c++ search/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/nbest.o
+gcc.compile.c++ search/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/edge_generator.o
+gcc.compile.c++ search/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/rule.o
+gcc.compile.c++ moses/LM/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ORLM.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SourcePhrase.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskWrapper.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF_Factory.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o
+OnDiskPt/Word.cpp: In member function ‘size_t OnDiskPt::Word::ReadFromFile(std::fstream&)’:
+OnDiskPt/Word.cpp:93:10: warning: unused variable ‘memUsed’ [-Wunused-variable]
+   size_t memUsed = ReadFromMemory(mem);
+          ^
+gcc.compile.c++ search/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/vertex.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseNode.o
+OnDiskPt/PhraseNode.cpp: In member function ‘void OnDiskPt::PhraseNode::Save(OnDiskPt::OnDiskWrapper&, size_t, size_t)’:
+OnDiskPt/PhraseNode.cpp:151:10: warning: unused variable ‘endPos’ [-Wunused-variable]
+   UINT64 endPos = file.tellp();
+          ^
+OnDiskPt/PhraseNode.cpp: In member function ‘void OnDiskPt::PhraseNode::GetChild(OnDiskPt::Word&, UINT64&, size_t, OnDiskPt::OnDiskWrapper&) const’:
+OnDiskPt/PhraseNode.cpp:236:10: warning: unused variable ‘memRead’ [-Wunused-variable]
+   size_t memRead = ReadChild(wordFound, childFilePos, currMem);
+          ^
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OnDiskQuery.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocab.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o
+OnDiskPt/TargetPhraseCollection.cpp: In member function ‘void OnDiskPt::TargetPhraseCollection::Save(OnDiskPt::OnDiskWrapper&)’:
+OnDiskPt/TargetPhraseCollection.cpp:109:10: warning: unused variable ‘endPos’ [-Wunused-variable]
+   UINT64 endPos = file.tellp();
+          ^
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o
+OnDiskPt/TargetPhrase.cpp: In member function ‘void OnDiskPt::TargetPhrase::Save(OnDiskPt::OnDiskWrapper&)’:
+OnDiskPt/TargetPhrase.cpp:153:10: warning: unused variable ‘endPos’ [-Wunused-variable]
+   UINT64 endPos = file.tellp();
+          ^
+OnDiskPt/TargetPhrase.cpp: In member function ‘Moses::TargetPhrase* OnDiskPt::TargetPhrase::ConvertToMoses(const std::vector<long unsigned int>&, const std::vector<long unsigned int>&, const OnDiskPt::Vocab&, const Moses::PhraseDictionary&, const std::vector<float>&, bool) const’:
+OnDiskPt/TargetPhrase.cpp:274:7: warning: unused variable ‘index’ [-Wunused-variable]
+   int index = 0;
+       ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/DecodeStep.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SearchNormalBatch.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhrase.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TreeInput.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartRuleLookupManager.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SentenceStats.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartHypothesisCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartTranslationOption.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SearchCubePruning.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/XmlOption.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ReorderingConstraint.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TrellisPath.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Incremental.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BitmapContainer.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationOptionCollectionLattice.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationOptionList.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TrellisPathCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetPhraseCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartTranslationOptionList.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartTranslationOptions.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypergraphOutput.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignmentInfoCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InputPath.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypothesisStackNormal.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartCell.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationOptionCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Factor.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/DecodeStepGeneration.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FactorTypeSet.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/File.o
+...on 100th target...
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignmentInfo.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FactorCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationOptionCollectionConfusionNet.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/WordLattice.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PCNTools.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FloydWarshall.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureVector.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Hypothesis.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreComponentCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PrefixTreeMap.o
+In file included from moses/PrefixTreeMap.h:10:0,
+                 from moses/PrefixTreeMap.cpp:1:
+moses/PrefixTree.h: In member function ‘void Moses::PrefixTreeF<T, D>::read() [with T = unsigned int; D = long int]’:
+moses/PrefixTree.h:175:5: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&rawOffs[0], sizeof(OFF_T), keys.size(), f);
+     ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PartialTranslOptColl.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartManager.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/UserMessage.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ConfusionNet.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartHypothesis.o
+moses/ChartHypothesis.cpp: In member function ‘void Moses::ChartHypothesis::GetOutputPhrase(int, int, Moses::Phrase&) const’:
+moses/ChartHypothesis.cpp:180:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (outPhrase.GetSize() >= numWords) {
+                             ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypothesisStackCubePruning.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationOption.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/StaticData.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PDTAimp.o
+moses/PDTAimp.cpp: In constructor ‘Moses::PDTAimp::PDTAimp(Moses::PhraseDictionaryTreeAdaptor*)’:
+moses/PDTAimp.cpp:13:21: warning: unused variable ‘staticData’ [-Wunused-variable]
+   const StaticData &staticData = StaticData::Instance();
+                     ^
+moses/PDTAimp.cpp: In member function ‘void Moses::PDTAimp::CacheSource(const Moses::ConfusionNet&)’:
+moses/PDTAimp.cpp:222:33: warning: typedef ‘sPhrase’ locally defined but not used [-Wunused-local-typedefs]
+   typedef StringTgtCand::Tokens sPhrase;
+                                 ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/GenerationDictionary.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/WordsBitmap.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/NonTerminal.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/WordsRange.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LVoc.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/RuleCubeItem.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypothesisStack.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/RuleCubeQueue.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartCellCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InputType.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SearchNormal.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationOptionCollectionText.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/DecodeStepTranslation.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/DecodeGraph.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SquareMatrix.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InputFileStream.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartKBestExtractor.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Manager.o
+In file included from /usr/include/c++/4.8/ext/hash_set:60:0,
+                 from moses/Manager.cpp:25:
+/usr/include/c++/4.8/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ChartParser.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Sentence.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Search.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/RuleCube.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/DynSuffixArray.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryNodeMemory.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Parameter.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryTreeAdaptor.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/BilingualDynSuffixArray.o
+moses/TranslationModel/BilingualDynSuffixArray.cpp: In member function ‘int Moses::BilingualDynSuffixArray::LoadCorpus(Moses::FactorDirection, Moses::InputFileStream&, const FactorList&, std::vector<unsigned int>&, std::vector<unsigned int>&, Moses::Vocab*)’:
+moses/TranslationModel/BilingualDynSuffixArray.cpp:209:17: warning: unused variable ‘factorDelimiter’ [-Wunused-variable]
+   const string& factorDelimiter = StaticData::Instance().GetFactorDelimiter();
+                 ^
+moses/TranslationModel/BilingualDynSuffixArray.cpp: In member function ‘void Moses::BilingualDynSuffixArray::addSntPair(std::string&, std::string&, std::string&)’:
+moses/TranslationModel/BilingualDynSuffixArray.cpp:502:17: warning: unused variable ‘factorDelimiter’ [-Wunused-variable]
+   const string& factorDelimiter = StaticData::Instance().GetFactorDelimiter();
+                 ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/WordCoocTable.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/SkeletonPT.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryDynSuffixArray.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryMemory.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryScope3.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryMultiModelCounts.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionary.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryTransliteration.o
+moses/TranslationModel/PhraseDictionaryTransliteration.cpp: In member function ‘void Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const’:
+moses/TranslationModel/PhraseDictionaryTransliteration.cpp:110:25: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+      system(cmd.c_str());
+                         ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/fuzzy-match/SuffixArray.o
+moses/TranslationModel/fuzzy-match/SuffixArray.cpp: In member function ‘bool tmmt::SuffixArray::MinCount(const std::vector<std::basic_string<char> >&, tmmt::SuffixArray::INDEX)’:
+moses/TranslationModel/fuzzy-match/SuffixArray.cpp:142:68: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   return LimitedCount( phrase, min, dummy, dummy, 0, m_size-1 ) >= min;
+                                                                    ^
+moses/TranslationModel/fuzzy-match/SuffixArray.cpp: In member function ‘int tmmt::SuffixArray::LimitedCount(const std::vector<std::basic_string<char> >&, tmmt::SuffixArray::INDEX, tmmt::SuffixArray::INDEX&, tmmt::SuffixArray::INDEX&, tmmt::SuffixArray::INDEX, tmmt::SuffixArray::INDEX)’:
+moses/TranslationModel/fuzzy-match/SuffixArray.cpp:160:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   INDEX end = (search_end == -1) ? (m_size-1) : search_end;
+                               ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryMultiModel.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/fuzzy-match/create_xml.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/fuzzy-match/Alignments.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/fuzzy-match/SentenceAlignment.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/DynSAInclude/vocab.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/fuzzy-match/Vocabulary.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/DynSAInclude/FileHandler.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/DynSAInclude/params.o
+moses/TranslationModel/DynSAInclude/params.cpp: In member function ‘std::string Moses::Parameters::getParamValue(const string&)’:
+moses/TranslationModel/DynSAInclude/params.cpp:126:5: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wparentheses]
+   if(isValidParamName(name))
+     ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/PhraseDictionaryTree.o
+In file included from ./moses/TranslationModel/PhraseDictionaryTree.h:15:0,
+                 from moses/TranslationModel/PhraseDictionaryTree.cpp:4:
+./moses/PrefixTree.h: In member function ‘void Moses::PrefixTreeF<T, D>::read() [with T = unsigned int; D = long int]’:
+./moses/PrefixTree.h:175:5: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&rawOffs[0], sizeof(OFF_T), keys.size(), f);
+     ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/LoaderCompact.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/fuzzy-match/FuzzyMatchWrapper.o
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp: In member function ‘std::string tmmt::FuzzyMatchWrapper::ExtractTM(tmmt::FuzzyMatchWrapper::WordIndex&, long int, const string&)’:
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:124:70: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int word=start; stillMatched && word<input[sentenceInd].size(); word++) {
+                                                                      ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:159:61: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int start = 0; start <= input[sentenceInd].size() - length; start++) {
+                                                             ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:160:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (match_range[start].size() >= length) {
+                                        ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:264:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int m=0; m<match.size(); m++) {
+                               ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:277:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int p=0; p<pruned.size(); p++) {
+                                ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:320:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (size_t pos = 0; pos < input_length; ++pos) {
+                              ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:327:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int si=0; si<best_tm.size(); si++) {
+                                   ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:330:20: warning: unused variable ‘letter_cost’ [-Wunused-variable]
+       unsigned int letter_cost = sed( input[sentenceInd], source[s], path, true );
+                    ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:326:9: warning: unused variable ‘input_letter_length’ [-Wunused-variable]
+     int input_letter_length = compute_length( input[sentenceInd] );
+         ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp: In member function ‘int tmmt::FuzzyMatchWrapper::basic_fuzzy_match(std::vector<std::vector<unsigned int> >, std::vector<std::vector<unsigned int> >)’:
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:737:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (length_filter_flag && (diff >= best_cost)) {
+                                          ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:726:9: warning: variable ‘best_match’ set but not used [-Wunused-but-set-variable]
+     int best_match = -1;
+         ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:754:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp: In member function ‘void tmmt::FuzzyMatchWrapper::init_short_matches(tmmt::FuzzyMatchWrapper::WordIndex&, long int, const std::vector<unsigned int>&)’:
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:786:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<input.size(); i++) {
+                             ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp: In member function ‘void tmmt::FuzzyMatchWrapper::add_short_matches(tmmt::FuzzyMatchWrapper::WordIndex&, long int, std::vector<tmmt::Match>&, const std::vector<unsigned int>&, int, int)’:
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:805:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int t_pos=0; t_pos<tm.size(); t_pos++) {
+                                  ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:809:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int j=0; j<position_vector.size(); j++) {
+                                           ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp: In member function ‘int tmmt::FuzzyMatchWrapper::parse_matches(std::vector<tmmt::Match>&, int, int, int&)’:
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:880:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<match.size(); i++) {
+                             ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:902:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int i1 = 0; i1 < first_match.size(); i1++) {
+                                             ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:903:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i2 = 0; i2 < second_match.size(); i2++) {
+                                                ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp: In member function ‘std::string tmmt::FuzzyMatchWrapper::Extract(long int, const string&)’:
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:67:22: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   system(cmd.c_str());
+                      ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:70:22: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   system(cmd.c_str());
+                      ^
+moses/TranslationModel/fuzzy-match/FuzzyMatchWrapper.cpp:83:22: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   system(cmd.c_str());
+                      ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/PhraseDictionaryOnDisk.o
+In file included from ./moses/Util.h:36:0,
+                 from ./moses/Word.h:33,
+                 from ./moses/Phrase.h:33,
+                 from ./moses/TranslationModel/PhraseDictionary.h:42,
+                 from moses/TranslationModel/RuleTable/PhraseDictionaryOnDisk.h:27,
+                 from moses/TranslationModel/RuleTable/PhraseDictionaryOnDisk.cpp:21:
+moses/TranslationModel/RuleTable/PhraseDictionaryOnDisk.cpp: In member function ‘virtual void Moses::PhraseDictionaryOnDisk::InitializeForInput(const Moses::InputType&)’:
+moses/TranslationModel/RuleTable/PhraseDictionaryOnDisk.cpp:90:70: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   UTIL_THROW_IF2(obj->GetMisc("Version") != OnDiskPt::OnDiskWrapper::VERSION_NUM,
+                                                                      ^
+./util/exception.hh:96:7: note: in expansion of macro ‘UTIL_UNLIKELY’
+   if (UTIL_UNLIKELY(Condition)) { \
+       ^
+./util/exception.hh:105:3: note: in expansion of macro ‘UTIL_THROW_IF_ARG’
+   UTIL_THROW_IF_ARG(Condition, util::Exception, , Modify)
+   ^
+moses/TranslationModel/RuleTable/PhraseDictionaryOnDisk.cpp:90:3: note: in expansion of macro ‘UTIL_THROW_IF2’
+   UTIL_THROW_IF2(obj->GetMisc("Version") != OnDiskPt::OnDiskWrapper::VERSION_NUM,
+   ^
+moses/TranslationModel/RuleTable/PhraseDictionaryOnDisk.cpp:83:21: warning: unused variable ‘staticData’ [-Wunused-variable]
+   const StaticData &staticData = StaticData::Instance();
+                     ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/PhraseDictionaryFuzzyMatch.o
+moses/TranslationModel/RuleTable/PhraseDictionaryFuzzyMatch.cpp: In member function ‘virtual void Moses::PhraseDictionaryFuzzyMatch::InitializeForInput(const Moses::InputType&)’:
+moses/TranslationModel/RuleTable/PhraseDictionaryFuzzyMatch.cpp:215:22: warning: unused variable ‘factorDelimiter’ [-Wunused-variable]
+   const std::string& factorDelimiter = staticData.GetFactorDelimiter();
+                      ^
+moses/TranslationModel/RuleTable/PhraseDictionaryFuzzyMatch.cpp: In function ‘std::ostream& Moses::operator<<(std::ostream&, const Moses::PhraseDictionaryFuzzyMatch&)’:
+moses/TranslationModel/RuleTable/PhraseDictionaryFuzzyMatch.cpp:398:51: warning: typedef ‘TermMap’ locally defined but not used [-Wunused-local-typedefs]
+   typedef PhraseDictionaryNodeMemory::TerminalMap TermMap;
+                                                   ^
+moses/TranslationModel/RuleTable/PhraseDictionaryFuzzyMatch.cpp:399:54: warning: typedef ‘NonTermMap’ locally defined but not used [-Wunused-local-typedefs]
+   typedef PhraseDictionaryNodeMemory::NonTerminalMap NonTermMap;
+                                                      ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/LoaderHiero.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/UTrieNode.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/LoaderFactory.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/PhraseDictionaryALSuffixArray.o
+moses/TranslationModel/RuleTable/PhraseDictionaryALSuffixArray.cpp: In member function ‘virtual void Moses::PhraseDictionaryALSuffixArray::InitializeForInput(const Moses::InputType&)’:
+moses/TranslationModel/RuleTable/PhraseDictionaryALSuffixArray.cpp:52:3: warning: NULL used in arithmetic [-Wpointer-arith]
+   UTIL_THROW_IF2(ret == NULL,
+   ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/Scope3Parser/ApplicableRuleTrie.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/Trie.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/UTrie.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/RuleTable/LoaderStandard.o
+moses/TranslationModel/RuleTable/LoaderStandard.cpp: In member function ‘bool Moses::RuleTableLoaderStandard::Load(Moses::FormatType, const std::vector<long unsigned int>&, const std::vector<long unsigned int>&, const string&, size_t, Moses::RuleTableTrie&)’:
+moses/TranslationModel/RuleTable/LoaderStandard.cpp:155:22: warning: unused variable ‘factorDelimiter’ [-Wunused-variable]
+   const std::string& factorDelimiter = staticData.GetFactorDelimiter();
+                      ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/Scope3Parser/VarSpanTrieBuilder.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/Scope3Parser/Parser.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/Scope3Parser/StackLatticeBuilder.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/ChartRuleLookupManagerMemory.o
+moses/TranslationModel/CYKPlusParser/ChartRuleLookupManagerMemory.cpp: In member function ‘void Moses::ChartRuleLookupManagerMemory::UpdateCompressedMatrix(size_t, size_t, size_t)’:
+moses/TranslationModel/CYKPlusParser/ChartRuleLookupManagerMemory.cpp:157:34: warning: unused variable ‘sourceNonTermArray’ [-Wunused-variable]
+         const std::vector<bool> &sourceNonTermArray = inputPath.GetNonTerminalArray();
+                                  ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/ChartRuleLookupManagerMemoryPerSentence.o
+moses/TranslationModel/CYKPlusParser/ChartRuleLookupManagerMemoryPerSentence.cpp: In member function ‘void Moses::ChartRuleLookupManagerMemoryPerSentence::UpdateCompressedMatrix(size_t, size_t, size_t)’:
+moses/TranslationModel/CYKPlusParser/ChartRuleLookupManagerMemoryPerSentence.cpp:157:34: warning: unused variable ‘sourceNonTermArray’ [-Wunused-variable]
+         const std::vector<bool> &sourceNonTermArray = inputPath.GetNonTerminalArray();
+                                  ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/ChartRuleLookupManagerOnDisk.o
+moses/TranslationModel/CYKPlusParser/ChartRuleLookupManagerOnDisk.cpp: In member function ‘virtual void Moses::ChartRuleLookupManagerOnDisk::GetChartRuleCollection(const Moses::WordsRange&, size_t, Moses::ChartParserCallback&)’:
+moses/TranslationModel/CYKPlusParser/ChartRuleLookupManagerOnDisk.cpp:180:16: warning: unused variable ‘targetLHS’ [-Wunused-variable]
+    const Word &targetLHS = cellLabel.GetLabel();
+                ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/CompletedRuleCollection.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/DotChartOnDisk.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/ChartRuleLookupManagerCYKPlus.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/DotChartInMemory.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationModel/CYKPlusParser/ChartRuleLookupManagerSkeleton.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SkeletonStatelessFF.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseOrientation.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SyntaxRHS.o
+moses/FF/SyntaxRHS.cpp: In member function ‘virtual void Moses::SyntaxRHS::EvaluateWithSourceContext(const Moses::InputType&, const Moses::InputPath&, const Moses::TargetPhrase&, const Moses::StackVec*, Moses::ScoreComponentCollection&, Moses::ScoreComponentCollection*) const’:
+moses/FF/SyntaxRHS.cpp:33:25: warning: unused variable ‘cell’ [-Wunused-variable]
+   const ChartCellLabel &cell = *stackVec->at(i);
+                         ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/TargetBigramFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/PhrasePairFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/TreeStructureFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/WordPenaltyProducer.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/TargetNgramFeature.o
+moses/FF/TargetNgramFeature.cpp: In member function ‘virtual Moses::FFState* Moses::TargetNgramFeature::EvaluateWhenApplied(const Moses::Hypothesis&, const Moses::FFState*, Moses::ScoreComponentCollection*) const’:
+moses/FF/TargetNgramFeature.cpp:136:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if (prev_words.size() < from_prev_state) {
+                                   ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/MaxSpanFreeNonTermSource.o
+moses/FF/MaxSpanFreeNonTermSource.cpp: In member function ‘virtual void Moses::MaxSpanFreeNonTermSource::EvaluateWithSourceContext(const Moses::InputType&, const Moses::InputPath&, const Moses::TargetPhrase&, const Moses::StackVec*, Moses::ScoreComponentCollection&, Moses::ScoreComponentCollection*) const’:
+moses/FF/MaxSpanFreeNonTermSource.cpp:58:50: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (cell.GetCoverage().GetNumWordsCovered() > m_maxSpan) {
+                                                  ^
+moses/FF/MaxSpanFreeNonTermSource.cpp:65:50: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (cell.GetCoverage().GetNumWordsCovered() > m_maxSpan) {
+                                                  ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SkeletonChangeInput.o
+...on 200th target...
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/PhraseBoundaryFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SourceGHKMTreeInputMatchFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SetSourcePhrase.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/InputFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/StatefulFeatureFunction.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/WordTranslationFeature.o
+In file included from moses/FF/WordTranslationFeature.cpp:3:0:
+moses/FF/WordTranslationFeature.h: In constructor ‘Moses::WordTranslationFeature::WordTranslationFeature(const string&)’:
+moses/FF/WordTranslationFeature.h:34:8: warning: ‘Moses::WordTranslationFeature::m_ignorePunctuation’ will be initialized after [-Wreorder]
+   bool m_ignorePunctuation;
+        ^
+moses/FF/WordTranslationFeature.h:33:8: warning:   ‘bool Moses::WordTranslationFeature::m_domainTrigger’ [-Wreorder]
+   bool m_domainTrigger;
+        ^
+moses/FF/WordTranslationFeature.cpp:20:1: warning:   when initialized here [-Wreorder]
+ WordTranslationFeature::WordTranslationFeature(const std::string &line)
+ ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/TargetWordInsertionFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/InternalTree.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/PhrasePenalty.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/StatelessFeatureFunction.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/ConstrainedDecoding.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/HyperParameterAsWeight.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/FFState.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/ReferenceComparison.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/ControlRecombination.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/UnknownWordPenaltyProducer.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SoftMatchingFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/PhraseLengthFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/PhraseOrientationFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/BleuScoreFeature.o
+moses/FF/BleuScoreFeature.cpp: In member function ‘void Moses::BleuScoreFeature::SetCurrShortestRefLength(size_t)’:
+moses/FF/BleuScoreFeature.cpp:229:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (shortestRef == -1 || (m_refs[sent_id].first)[i] < shortestRef)
+                                                           ^
+moses/FF/BleuScoreFeature.cpp: In member function ‘size_t Moses::BleuScoreFeature::GetShortestRefIndex(size_t)’:
+moses/FF/BleuScoreFeature.cpp:259:58: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (shortestRef == -1 || (m_refs[ref_id].first)[i] < shortestRef) {
+                                                          ^
+moses/FF/BleuScoreFeature.cpp: In member function ‘virtual bool Moses::BleuScoreFeature::IsUseable(const Moses::FactorMask&) const’:
+moses/FF/BleuScoreFeature.cpp:884:8: warning: unused variable ‘ret’ [-Wunused-variable]
+   bool ret = mask[0];
+        ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/RuleScope.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/CoveredReferenceFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/GlobalLexicalModel.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/NieceTerminal.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/GlobalLexicalModelUnlimited.o
+moses/FF/GlobalLexicalModelUnlimited.cpp: In constructor ‘Moses::GlobalLexicalModelUnlimited::GlobalLexicalModelUnlimited(const string&)’:
+moses/FF/GlobalLexicalModelUnlimited.cpp:22:10: warning: variable ‘ignorePunctuation’ set but not used [-Wunused-but-set-variable]
+     bool ignorePunctuation = true, biasFeature = false, restricted = false;
+          ^
+moses/FF/GlobalLexicalModelUnlimited.cpp:22:36: warning: variable ‘biasFeature’ set but not used [-Wunused-but-set-variable]
+     bool ignorePunctuation = true, biasFeature = false, restricted = false;
+                                    ^
+moses/FF/GlobalLexicalModelUnlimited.cpp:23:12: warning: variable ‘context’ set but not used [-Wunused-but-set-variable]
+     size_t context = 0;
+            ^
+moses/FF/GlobalLexicalModelUnlimited.cpp: In member function ‘virtual void Moses::GlobalLexicalModelUnlimited::EvaluateWhenApplied(const Moses::Hypothesis&, Moses::ScoreComponentCollection*) const’:
+moses/FF/GlobalLexicalModelUnlimited.cpp:173:80: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for(int contextIndex = sourceIndex+1; contextIndex < input.GetSize(); contextIndex++ ) {
+                                                                                ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/FeatureFunction.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/CountNonTerms.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SparseHieroReorderingFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SoftSourceSyntacticConstraintsFeature.o
+moses/FF/SoftSourceSyntacticConstraintsFeature.cpp: In member function ‘void Moses::SoftSourceSyntacticConstraintsFeature::LoadTargetSourceLeftHandSideJointCountFile()’:
+moses/FF/SoftSourceSyntacticConstraintsFeature.cpp:190:113: warning: variable ‘insertedJointCount’ set but not used [-Wunused-but-set-variable]
+       std::pair< boost::unordered_map<const Factor*, std::vector< std::pair<float,float> >* >::iterator, bool > insertedJointCount = 
+                                                                                                                 ^
+moses/FF/SoftSourceSyntacticConstraintsFeature.cpp: In member function ‘virtual void Moses::SoftSourceSyntacticConstraintsFeature::EvaluateWhenApplied(const Moses::ChartHypothesis&, Moses::ScoreComponentCollection*) const’:
+moses/FF/SoftSourceSyntacticConstraintsFeature.cpp:240:9: warning: variable ‘ruleLabelledProbability’ set but not used [-Wunused-but-set-variable]
+   float ruleLabelledProbability = 1;
+         ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SpanLength.o
+moses/FF/SpanLength.cpp: In member function ‘virtual void Moses::SpanLength::EvaluateWithSourceContext(const Moses::InputType&, const Moses::InputPath&, const Moses::TargetPhrase&, const Moses::StackVec*, Moses::ScoreComponentCollection&, Moses::ScoreComponentCollection*) const’:
+moses/FF/SpanLength.cpp:48:17: warning: unused variable ‘ruleSource’ [-Wunused-variable]
+   const Phrase *ruleSource = targetPhrase.GetRuleSource();
+                 ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/DistortionScoreProducer.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/ExternalFeature.o
+moses/FF/ExternalFeature.cpp: In destructor ‘virtual Moses::ExternalFeature::~ExternalFeature()’:
+moses/FF/ExternalFeature.cpp:41:10: warning: deleting object of abstract class type ‘Moses::CdecFF’ which has non-virtual destructor will cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete ff_ext;
+          ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SkeletonStatefulFF.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SourceWordDeletionFeature.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/OSM-Feature/KenOSM.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/DecodeFeature.o
+In file included from moses/FF/DecodeFeature.cpp:25:0:
+moses/FF/DecodeFeature.h: In constructor ‘Moses::DecodeFeature::DecodeFeature(size_t, const std::vector<long unsigned int>&, const std::vector<long unsigned int>&, const string&)’:
+moses/FF/DecodeFeature.h:94:21: warning: ‘Moses::DecodeFeature::m_container’ will be initialized after [-Wreorder]
+   const DecodeStep *m_container;
+                     ^
+moses/FF/DecodeFeature.h:90:27: warning:   ‘std::vector<long unsigned int> Moses::DecodeFeature::m_input’ [-Wreorder]
+   std::vector<FactorType> m_input;
+                           ^
+moses/FF/DecodeFeature.cpp:48:1: warning:   when initialized here [-Wreorder]
+ DecodeFeature::DecodeFeature(size_t numScoreComponents
+ ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/LexicalReordering/ReorderingStack.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/OSM-Feature/OpSequenceModel.o
+moses/FF/OSM-Feature/OpSequenceModel.cpp: In destructor ‘virtual Moses::OpSequenceModel::~OpSequenceModel()’:
+moses/FF/OSM-Feature/OpSequenceModel.cpp:23:10: warning: deleting object of abstract class type ‘Moses::KenOSMBase’ which has non-virtual destructor will cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete OSM;    
+          ^
+moses/FF/OSM-Feature/OpSequenceModel.cpp: In member function ‘virtual void Moses::OpSequenceModel::EvaluateInIsolation(const Moses::Phrase&, const Moses::TargetPhrase&, Moses::ScoreComponentCollection&, Moses::ScoreComponentCollection&) const’:
+moses/FF/OSM-Feature/OpSequenceModel.cpp:68:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < targetPhrase.GetSize(); i++) {
+                                            ^
+moses/FF/OSM-Feature/OpSequenceModel.cpp:75:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < source.GetSize(); i++) {
+                                      ^
+moses/FF/OSM-Feature/OpSequenceModel.cpp: In member function ‘virtual Moses::FFState* Moses::OpSequenceModel::EvaluateWhenApplied(const Moses::Hypothesis&, const Moses::FFState*, Moses::ScoreComponentCollection*) const’:
+moses/FF/OSM-Feature/OpSequenceModel.cpp:151:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < target.GetSize(); i++) {
+                                      ^
+moses/FF/OSM-Feature/OpSequenceModel.cpp:99:19: warning: unused variable ‘sourceSentence’ [-Wunused-variable]
+   const Sentence &sourceSentence = static_cast<const Sentence&>(source);
+                   ^
+moses/FF/OSM-Feature/OpSequenceModel.cpp:126:14: warning: unused variable ‘statePtr’ [-Wunused-variable]
+   osmState * statePtr;
+              ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/OSM-Feature/osmHyp.o
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘int Moses::osmHypothesis::isTranslationOperation(int)’:
+moses/FF/OSM-Feature/osmHyp.cpp:86:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (operations[x].find("_JMP_BCK_") != -1)
+                                           ^
+moses/FF/OSM-Feature/osmHyp.cpp:89:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (operations[x].find("_JMP_FWD_") != -1)
+                                           ^
+moses/FF/OSM-Feature/osmHyp.cpp:92:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (operations[x].find("_CONT_CEPT_") != -1)
+                                             ^
+moses/FF/OSM-Feature/osmHyp.cpp:95:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (operations[x].find("_INS_GAP_") != -1)
+                                           ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::removeReorderingOperations()’:
+moses/FF/OSM-Feature/osmHyp.cpp:111:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int x = 0; x < operations.size(); x++) {
+                                       ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::calculateOSMProb(Moses::OSMLM&)’:
+moses/FF/OSM-Feature/osmHyp.cpp:131:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i<operations.size(); i++) {
+                                     ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘int Moses::osmHypothesis::firstOpenGap(std::vector<int>&)’:
+moses/FF/OSM-Feature/osmHyp.cpp:147:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int nd = 0; nd < coverageVector.size(); nd++) {
+                                            ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::generateOperations(int&, int, int, Moses::WordsBitmap&, std::string, std::string, std::set<int>&, std::vector<std::basic_string<char> >&)’:
+moses/FF/OSM-Feature/osmHyp.cpp:255:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (j < coverageVector.GetSize()) {
+                                  ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::print()’:
+moses/FF/OSM-Feature/osmHyp.cpp:268:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i< operations.size(); i++) {
+                                      ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::computeOSMFeature(int, Moses::WordsBitmap&)’:
+moses/FF/OSM-Feature/osmHyp.cpp:394:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < ceptsInPhrase.size(); i++) {
+                                          ^
+moses/FF/OSM-Feature/osmHyp.cpp:371:7: warning: unused variable ‘start’ [-Wunused-variable]
+   int start = 0;
+       ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::getMeCepts(std::set<int>&, std::set<int>&, std::map<int, std::vector<int> >&, std::map<int, std::vector<int> >&)’:
+moses/FF/OSM-Feature/osmHyp.cpp:465:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < t.size(); i++) {
+                                ^
+moses/FF/OSM-Feature/osmHyp.cpp:475:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0 ; i<t.size(); i++) {
+                               ^
+moses/FF/OSM-Feature/osmHyp.cpp:481:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (eSide.size () > sz) {
+                       ^
+moses/FF/OSM-Feature/osmHyp.cpp: In member function ‘void Moses::osmHypothesis::constructCepts(std::vector<int>&, int, int, int)’:
+moses/FF/OSM-Feature/osmHyp.cpp:501:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0;  i < align.size(); i+=2) {
+                                   ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/LexicalReordering/LexicalReordering.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/LexicalReordering/LexicalReorderingState.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/SpanLengthPhraseProperty.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/NonTermContextProperty.o
+moses/PP/NonTermContextProperty.cpp: In member function ‘virtual void Moses::NonTermContextProperty::ProcessValue(const string&)’:
+moses/PP/NonTermContextProperty.cpp:35:12: warning: unused variable ‘ntInd’ [-Wunused-variable]
+     size_t ntInd = Scan<size_t>(toks[ind]);
+            ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/SourceLabelsPhraseProperty.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/PhraseProperty.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/OrientationPhraseProperty.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/CountsPhraseProperty.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PP/Factory.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/LexicalReordering/SparseReordering.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardLMState.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Backward.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/LexicalReordering/LexicalReorderingTable.o
+moses/FF/LexicalReordering/LexicalReorderingTable.cpp: In member function ‘virtual void Moses::LexicalReorderingTableTree::InitializeForInput(const Moses::InputType&)’:
+moses/FF/LexicalReordering/LexicalReorderingTable.cpp:319:29: warning: unused variable ‘s’ [-Wunused-variable]
+   } else if(Sentence const* s = dynamic_cast<Sentence const*>(&input)) {
+                             ^
+In file included from ./moses/PrefixTreeMap.h:10:0,
+                 from moses/FF/LexicalReordering/LexicalReorderingTable.h:21,
+                 from moses/FF/LexicalReordering/LexicalReorderingTable.cpp:1:
+./moses/PrefixTree.h: In member function ‘void Moses::PrefixTreeF<T, D>::read() [with T = unsigned int; D = long int]’:
+./moses/PrefixTree.h:175:5: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&rawOffs[0], sizeof(OFF_T), keys.size(), f);
+     ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Joint.o
+In file included from moses/LM/Joint.cpp:22:0:
+moses/LM/Joint.h: In member function ‘virtual bool Moses::LanguageModelJoint::Load(const string&, const std::vector<long unsigned int>&, size_t)’:
+moses/LM/Joint.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+   }
+   ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Base.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MultiFactor.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Implementation.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Remote.o
+moses/LM/Remote.cpp: In member function ‘virtual Moses::LMResult Moses::LanguageModelRemote::GetValue(const std::vector<const Moses::Word*>&, const void**) const’:
+moses/LM/Remote.cpp:91:58: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   cur->boState = *reinterpret_cast<const State*>(&m_curId);
+                                                          ^
+moses/LM/Remote.cpp:130:72: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   cur->prob = FloorScore(TransformLMScore(*reinterpret_cast<float*>(res)));
+                                                                        ^
+moses/LM/Remote.cpp:111:39: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+   write(sock, out.c_str(), out.size());
+                                       ^
+moses/LM/Remote.cpp:127:35: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+       read(sock, &res[cnt], 6-cnt);
+                                   ^
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SkeletonLM.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SingleFactor.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Ken.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.compile.c++ moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o
+gcc.compile.c++ moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o
+gcc.compile.c++ moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o
+gcc.compile.c++ moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o
+gcc.compile.c++ moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mbr.o
+gcc.compile.c++ moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o
+gcc.compile.c++ moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/IOWrapper.o
+gcc.archive moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a
+gcc.compile.c++ moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TranslationAnalysis.o
+gcc.compile.c++ moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBR.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt.o
+gcc.compile.c++ moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/LatticeMBRGrid.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/GzFileBuf.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FileStream.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreStats.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreArray.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreData.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreDataIterator.o
+mert/ScoreDataIterator.cpp: In member function ‘void MosesTuning::ScoreDataIterator::readNext()’:
+mert/ScoreDataIterator.cpp:52:12: warning: unused variable ‘sentenceId’ [-Wunused-variable]
+     size_t sentenceId = m_in->ReadULong();
+            ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureStats.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureArray.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureDataIterator.o
+mert/FeatureDataIterator.cpp: In member function ‘void MosesTuning::FeatureDataIterator::readNext()’:
+mert/FeatureDataIterator.cpp:90:12: warning: unused variable ‘sentenceId’ [-Wunused-variable]
+     size_t sentenceId = m_in->ReadULong();
+            ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureData.o
+gcc.link moses-chart-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_chart
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ForestRescore.o
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/ForestRescore.cpp:29:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/ForestRescore.cpp:29:0:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/ForestRescore.cpp:29:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HopeFearDecoder.o
+mert/HopeFearDecoder.cpp: In member function ‘virtual void MosesTuning::HypergraphHopeFearDecoder::HopeFear(const std::vector<float>&, const MosesTuning::MiraWeightVector&, MosesTuning::HopeFearData*)’:
+mert/HopeFearDecoder.cpp:231:11: warning: unused variable ‘hope_scale’ [-Wunused-variable]
+   ValType hope_scale = 1.0;
+           ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/HopeFearDecoder.cpp:31:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/HopeFearDecoder.cpp:31:0:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/HopeFearDecoder.cpp:31:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+mert/HopeFearDecoder.cpp: In member function ‘virtual void MosesTuning::NbestHopeFearDecoder::HopeFear(const std::vector<float>&, const MosesTuning::MiraWeightVector&, MosesTuning::HopeFearData*)’:
+mert/HopeFearDecoder.cpp:117:28: warning: ‘hope_bleu’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     hope_bleu *= BLEU_RATIO; // We only care about cases where model has MUCH more influence than BLEU
+                            ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MiraFeatureVector.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Hypergraph.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MiraWeightVector.o
+gcc.link moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Data.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypPackEnumerator.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BleuScorer.o
+mert/BleuScorer.cpp: In member function ‘virtual MosesTuning::statscore_t MosesTuning::BleuScorer::calculateScore(const std::vector<int>&) const’:
+mert/BleuScorer.cpp:194:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < kBleuNgramOrder; ++i) {
+                       ^
+mert/BleuScorer.cpp: In function ‘float MosesTuning::smoothedSentenceBleu(const std::vector<float>&, float, bool)’:
+mert/BleuScorer.cpp:252:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < kBleuNgramOrder; j++) {
+                       ^
+mert/BleuScorer.cpp: In function ‘float MosesTuning::sentenceLevelBackgroundBleu(const std::vector<float>&, const std::vector<float>&)’:
+mert/BleuScorer.cpp:278:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < kBleuNgramOrder; j++) {
+                       ^
+mert/BleuScorer.cpp: In function ‘float MosesTuning::unsmoothedBleu(const std::vector<float>&)’:
+mert/BleuScorer.cpp:297:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < kBleuNgramOrder; j++) {
+                       ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SemposOverlapping.o
+gcc.link OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryOnDiskPt
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InterpolatedScorer.o
+...on 300th target...
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SemposScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BleuDocScorer.o
+mert/BleuDocScorer.cpp: In member function ‘virtual MosesTuning::statscore_t MosesTuning::BleuDocScorer::calculateScore(const std::vector<int>&) const’:
+mert/BleuDocScorer.cpp:177:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < kBleuNgramOrder; ++i) {
+                       ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PerScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Point.o
+gcc.link moses-cmd/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lmbrgrid
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Scorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Optimizer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScorerFactory.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OptimizerFactory.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/hashMap.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/stringHasher.o
+gcc.link OnDiskPt/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/CreateOnDiskPt
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/alignmentStruct.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/terShift.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/terAlignment.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/hashMapStringInfos.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/infosHasher.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/stringInfosHasher.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/hashMapInfos.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/CderScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/tercalc.o
+mert/TER/tercalc.cpp: In member function ‘TERCpp::terAlignment TERCpp::terCalc::minimizeDistanceEdition(std::vector<std::basic_string<char> >, std::vector<std::basic_string<char> >, std::vector<std::vector<int> >)’:
+mert/TER/tercalc.cpp:163:13: warning: variable ‘last_peak’ set but not used [-Wunused-but-set-variable]
+         int last_peak = 0;
+             ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TerScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocabulary.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MeteorScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PreProcessFilter.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SentenceLevelScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Permutation.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/StatisticsBasedScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PermutationScorer.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extractor.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/evaluator.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mert.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sentence-bleu.o
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/sentence-bleu.cpp:5:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/sentence-bleu.cpp:5:0:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/sentence-bleu.cpp:5:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TER/tools.o
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/1-1-Extraction.o
+misc/1-1-Extraction.cpp: In function ‘void getMeCepts(std::set<int>&, std::set<int>&, std::map<int, std::vector<int> >&, std::map<int, std::vector<int> >&)’:
+misc/1-1-Extraction.cpp:65:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < t.size(); i++) {
+                                ^
+misc/1-1-Extraction.cpp:75:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0 ; i<t.size(); i++) {
+                               ^
+misc/1-1-Extraction.cpp:81:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (eSide.size () > sz) {
+                       ^
+misc/1-1-Extraction.cpp: In function ‘void constructCepts(std::vector<std::pair<std::set<int>, std::set<int> > >&, std::set<int>&, std::set<int>&, std::vector<std::basic_string<char> >&, int, int)’:
+misc/1-1-Extraction.cpp:109:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j=0; j<alignment.size(); j+=1)
+                                  ^
+misc/1-1-Extraction.cpp:116:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j=0; j<mAlign.size(); j+=2) {
+                               ^
+misc/1-1-Extraction.cpp:121:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0;  i < align.size(); i+=2) {
+                                   ^
+misc/1-1-Extraction.cpp: In function ‘void getOneToOne(std::vector<std::pair<std::set<int>, std::set<int> > >&, std::vector<std::basic_string<char> >&, std::vector<std::basic_string<char> >&, std::set<std::basic_string<char> >&)’:
+misc/1-1-Extraction.cpp:171:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i< ceptsInPhrase.size(); i++)
+                                        ^
+misc/1-1-Extraction.cpp: In function ‘int main(int, char**)’:
+misc/1-1-Extraction.cpp:216:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i=0; i<a.size(); i++) {
+                          ^
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/1-1-Extraction
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pro.o
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/pro.cpp:41:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/pro.cpp:41:0:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/pro.cpp:41:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+gcc.archive mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmert_lib.a
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/kbmira.o
+mert/kbmira.cpp: In function ‘int main(int, char**)’:
+mert/kbmira.cpp:176:16: warning: unused variable ‘id’ [-Wunused-variable]
+         size_t id = SparseVector::encode(names[i]);
+                ^
+mert/kbmira.cpp:214:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int j=0; j<kBleuNgramOrder; j++) {
+                  ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/kbmira.cpp:44:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/kbmira.cpp:44:0:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/kbmira.cpp:44:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TransliterationMining.o
+misc/TransliterationMining.cpp: In member function ‘void NodeStructure::print()’:
+misc/TransliterationMining.cpp:94:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < source.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp:99:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < target.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp: In member function ‘void NodeStructure::computeGammaForEdges(std::map<std::pair<int, int>, double>&, std::map<std::pair<int, int>, double>&, std::map<std::basic_string<char>, double>&, std::map<std::basic_string<char>, double>&)’:
+misc/TransliterationMining.cpp:147:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i< incomingEdges.size(); i++)
+                                         ^
+misc/TransliterationMining.cpp:136:9: warning: unused variable ‘tProb’ [-Wunused-variable]
+  double tProb;
+         ^
+misc/TransliterationMining.cpp: In member function ‘void NodeStructure::computeNonTransliterationProb(std::map<std::basic_string<char>, double>&, std::map<std::basic_string<char>, double>&)’:
+misc/TransliterationMining.cpp:165:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < source.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp:170:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < target.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp: In member function ‘void NodeStructure::getOutgoingEdges(std::pair<int, int>&, std::vector<std::pair<int, int> >&)’:
+misc/TransliterationMining.cpp:241:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (ST.first == source.size()-1) // Source is END ..
+                                ^
+misc/TransliterationMining.cpp:245:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if (ST.second == target.size()-1) // Target is END ...
+                                      ^
+misc/TransliterationMining.cpp: In member function ‘double NodeStructure::FwdProb(std::pair<int, int>&, std::map<std::basic_string<char>, double>&, std::map<std::pair<int, int>, double>&)’:
+misc/TransliterationMining.cpp:340:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int k = 0; k < incomingEdges.size(); k++)
+                                         ^
+misc/TransliterationMining.cpp: In member function ‘double NodeStructure::computeFwdProbs(std::pair<int, int>&, std::map<std::basic_string<char>, double>&, std::map<std::pair<int, int>, double>&)’:
+misc/TransliterationMining.cpp:359:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < source.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp:366:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < target.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp:373:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < source.size(); i++)
+                                  ^
+misc/TransliterationMining.cpp:375:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < target.size(); j++)
+                                   ^
+misc/TransliterationMining.cpp: In member function ‘double NodeStructure::BckProb(std::pair<int, int>&, std::map<std::basic_string<char>, double>&, std::map<std::pair<int, int>, double>&)’:
+misc/TransliterationMining.cpp:396:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int k = 0; k < outgoingEdges.size(); k++)
+                                         ^
+misc/TransliterationMining.cpp: In function ‘int main(int, char**)’:
+misc/TransliterationMining.cpp:597:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i<input.size(); i+=2)
+                            ^
+misc/TransliterationMining.cpp:609:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int j = 0; j< source.size(); j++)
+                                   ^
+misc/TransliterationMining.cpp:617:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int j = 0; j< target.size(); j++)
+                                   ^
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mert
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/GenerateSequences.o
+misc/GenerateSequences.cpp: In function ‘void generateStory(std::vector<std::pair<std::basic_string<char>, std::vector<int> > >&, std::set<int>&, std::vector<std::basic_string<char> >&, std::map<std::basic_string<char>, int>&)’:
+misc/GenerateSequences.cpp:151:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (i < gCepts.size() && gCepts[i].second.size() == 0) {
+                          ^
+misc/GenerateSequences.cpp:230:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       while(i < gCepts.size() && gCepts[i].second.size() == 0) { // ei is unliked word ...
+                             ^
+misc/GenerateSequences.cpp:130:7: warning: unused variable ‘fl’ [-Wunused-variable]
+   int fl = 0;
+       ^
+misc/GenerateSequences.cpp:138:7: warning: unused variable ‘Lj’ [-Wunused-variable]
+   int Lj=0; // Links of word j
+       ^
+misc/GenerateSequences.cpp: In function ‘void ceptsInGenerativeStoryFormat(std::vector<std::pair<std::set<int>, std::set<int> > >&, std::vector<std::pair<std::basic_string<char>, std::vector<int> > >&, std::set<int>&, std::vector<std::basic_string<char> >&)’:
+misc/GenerateSequences.cpp:260:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i< ceptsInPhrase.size(); i++) {
+                                         ^
+misc/GenerateSequences.cpp:316:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while(engIndex < currE.size()) {
+                               ^
+misc/GenerateSequences.cpp: In function ‘void printCepts(std::vector<std::pair<std::basic_string<char>, std::vector<int> > >&, std::vector<std::basic_string<char> >&)’:
+misc/GenerateSequences.cpp:338:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < gCepts.size(); i++) {
+                                   ^
+misc/GenerateSequences.cpp:346:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < fSide.size(); j++) {
+                                    ^
+misc/GenerateSequences.cpp: In function ‘void getMeCepts(std::set<int>&, std::set<int>&, std::map<int, std::vector<int> >&, std::map<int, std::vector<int> >&)’:
+misc/GenerateSequences.cpp:365:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < t.size(); i++) {
+                                ^
+misc/GenerateSequences.cpp:375:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0 ; i<t.size(); i++) {
+                               ^
+misc/GenerateSequences.cpp:381:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (eSide.size () > sz) {
+                       ^
+misc/GenerateSequences.cpp: In function ‘void constructCepts(std::vector<std::pair<std::set<int>, std::set<int> > >&, std::set<int>&, std::set<int>&, std::vector<std::basic_string<char> >&, int, int)’:
+misc/GenerateSequences.cpp:407:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j=0; j<alignment.size(); j+=2) {
+                                  ^
+misc/GenerateSequences.cpp:412:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0;  i < align.size(); i+=2) {
+                                   ^
+misc/GenerateSequences.cpp: In function ‘int main(int, char**)’:
+misc/GenerateSequences.cpp:478:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i<singletons.size(); i++)
+                                  ^
+misc/GenerateSequences.cpp:486:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i=0; i<a.size(); i++) {
+                          ^
+misc/GenerateSequences.cpp: In function ‘void ceptsInGenerativeStoryFormat(std::vector<std::pair<std::set<int>, std::set<int> > >&, std::vector<std::pair<std::basic_string<char>, std::vector<int> > >&, std::set<int>&, std::vector<std::basic_string<char> >&)’:
+misc/GenerateSequences.cpp:287:9: warning: ‘prev’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if (prev == curr-1) {
+         ^
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extractor
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/evaluator
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pro
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/kbmira
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/GenerateTuples.o
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sentence-bleu
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TMining
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable.o
+misc/processPhraseTable.cpp: In function ‘int main(int, char**)’:
+misc/processPhraseTable.cpp:45:10: warning: variable ‘noScoreComponent’ set but not used [-Wunused-but-set-variable]
+   size_t noScoreComponent=5;
+          ^
+misc/processPhraseTable.cpp:46:7: warning: variable ‘cn’ set but not used [-Wunused-but-set-variable]
+   int cn=0;
+       ^
+misc/processPhraseTable.cpp:49:7: warning: variable ‘verb’ set but not used [-Wunused-but-set-variable]
+   int verb=0;
+       ^
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/generateSequences
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable.o
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable.o
+misc/queryPhraseTable.cpp: In function ‘int main(int, char**)’:
+misc/queryPhraseTable.cpp:18:7: warning: variable ‘nscores’ set but not used [-Wunused-but-set-variable]
+   int nscores = 5;
+       ^
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable.o
+gcc.compile.c++ moses/TranslationModel/UG/generic/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ug_thread_safe_counter.o
+gcc.compile.c++ moses/TranslationModel/UG/generic/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ug_splice_arglist.o
+gcc.compile.c++ moses/TranslationModel/UG/generic/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ug_get_options.o
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/merge-sorted.o
+gcc.compile.c++ symal/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/symal.o
+symal/symal.cpp: In function ‘int main(int, char**)’:
+symal/symal.cpp:415:28: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+                 (char*)NULL);
+                            ^
+gcc.compile.c++ moses/TranslationModel/UG/generic/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ug_stream.o
+gcc.compile.c++ misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeature.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/XmlTree.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InternalStructFeature.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HoleCollection.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/DomainFeature.o
+phrase-extract/DomainFeature.cpp: In member function ‘virtual void MosesTraining::SubsetDomainFeature::add(const std::map<std::basic_string<char>, float>&, float, const MosesTraining::MaybeLog&, std::vector<float>&, std::map<std::basic_string<char>, float>&) const’:
+phrase-extract/DomainFeature.cpp:90:51: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(size_t i = 1; i < (1 << m_domain.list.size()); i++) {
+                                                   ^
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SentenceAlignmentWithSyntax.o
+gcc.compile.c symal/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cmd.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SyntaxTree.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/tables-core.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignmentPhrase.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PropertiesConsolidator.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InputFileStream.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SentenceAlignment.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OutputFileStream.o
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processPhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-main.o
+phrase-extract/extract-main.cpp: In member function ‘void MosesTraining::ExtractTask::extract(MosesTraining::SentenceAlignment&)’:
+phrase-extract/extract-main.cpp:439:28: warning: statement has no effect [-Wunused-value]
+                     " | | ";
+                            ^
+phrase-extract/extract-main.cpp: In function ‘MosesTraining::REO_POS MosesTraining::getOrientPhraseModel(MosesTraining::SentenceAlignment&, MosesTraining::REO_MODEL_TYPE, bool, bool, int, int, int, int, int, int, int, bool (*)(int, int), bool (*)(int, int), const HSentenceVertices&, const HSentenceVertices&)’:
+phrase-extract/extract-main.cpp:553:70: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+                           it->second.find(indexF) != it->second.end())
+                                                                      ^
+phrase-extract/extract-main.cpp:558:71: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+                            it->second.find(indexF) != it->second.end())
+                                                                       ^
+phrase-extract/extract-main.cpp: In member function ‘void MosesTraining::ExtractTask::addPhrase(MosesTraining::SentenceAlignment&, int, int, int, int, std::string&)’:
+phrase-extract/extract-main.cpp:823:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (endF+1 == sentence.source.size()) outextractstrContextRight << "<s>";
+                                        ^
+phrase-extract/extract-main.cpp:827:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (endE+1 == sentence.target.size()) outextractstrContextRightInv << "<s>";
+                                        ^
+phrase-extract/extract-main.cpp: In member function ‘bool MosesTraining::ExtractTask::checkPlaceholders(const MosesTraining::SentenceAlignment&, int, int, int, int)’:
+phrase-extract/extract-main.cpp:924:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (size_t pos = startF; pos <= endF; ++pos) {
+                                    ^
+phrase-extract/extract-main.cpp:940:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (size_t pos = startE; pos <= endE; ++pos) {
+                                    ^
+phrase-extract/extract-main.cpp: In member function ‘void MosesTraining::ExtractTask::extract(MosesTraining::SentenceAlignment&)’:
+phrase-extract/extract-main.cpp:493:179: warning: ‘wordNextOrient’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       orientationInfo = ((m_options.isWordModel())? getOrientString(wordPrevOrient, m_options.isWordType()) + " " + getOrientString(wordNextOrient, m_options.isWordType()) : "") + " | " +
+                                                                                                                                                                                   ^
+phrase-extract/extract-main.cpp:493:109: warning: ‘wordPrevOrient’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       orientationInfo = ((m_options.isWordModel())? getOrientString(wordPrevOrient, m_options.isWordType()) + " " + getOrientString(wordNextOrient, m_options.isWordType()) : "") + " | " +
+                                                                                                             ^
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/statistics-main.o
+phrase-extract/statistics-main.cpp: In function ‘int main(int, char**)’:
+phrase-extract/statistics-main.cpp:66:10: warning: unused variable ‘starttime’ [-Wunused-variable]
+   time_t starttime = time(NULL);
+          ^
+phrase-extract/statistics-main.cpp:105:7: warning: unused variable ‘fileCount’ [-Wunused-variable]
+   int fileCount = 0;
+       ^
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-reverse-main.o
+phrase-extract/consolidate-reverse-main.cpp: In function ‘std::vector<std::basic_string<char> > splitLine(const char*)’:
+phrase-extract/consolidate-reverse-main.cpp:203:8: warning: unused variable ‘betweenWords’ [-Wunused-variable]
+   bool betweenWords = true;
+        ^
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/relax-parse-main.o
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/processLexicalTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-lex-main.o
+phrase-extract/extract-lex-main.cpp: In function ‘int main(int, char**)’:
+phrase-extract/extract-lex-main.cpp:50:14: warning: unused variable ‘isSource’ [-Wunused-variable]
+     istream &isSource = getline(streamSource, lineSource);
+              ^
+phrase-extract/extract-lex-main.cpp:52:14: warning: unused variable ‘isAlign’ [-Wunused-variable]
+     istream &isAlign = getline(streamAlign, lineAlign);
+              ^
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-direct-main.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-rules-main.o
+phrase-extract/extract-rules-main.cpp: In function ‘int main(int, char**)’:
+phrase-extract/extract-rules-main.cpp:122:7: warning: variable ‘thread_count’ set but not used [-Wunused-but-set-variable]
+   int thread_count = 1;
+       ^
+phrase-extract/extract-rules-main.cpp: In member function ‘void ExtractTask::saveHieroPhrase(int, int, int, int, MosesTraining::HoleCollection&, LabelIndex&, int)’:
+phrase-extract/extract-rules-main.cpp:716:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     rule.sourceContextRight = endS+1 == m_sentence.source.size() ? "<s>" : m_sentence.source[endS+1];
+                                                                ^
+phrase-extract/extract-rules-main.cpp:718:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     rule.targetContextRight = endT+1 == m_sentence.target.size() ? "<s>" : m_sentence.target[endT+1];
+                                                                ^
+phrase-extract/extract-rules-main.cpp: In member function ‘void ExtractTask::addRule(int, int, int, int, int, MosesTraining::RuleExist&)’:
+phrase-extract/extract-rules-main.cpp:995:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     rule.sourceContextRight = endS+1 == m_sentence.source.size() ? "<s>" : m_sentence.source[endS+1];
+                                                                ^
+phrase-extract/extract-rules-main.cpp:997:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     rule.targetContextRight = endT+1 == m_sentence.target.size() ? "<s>" : m_sentence.target[endT+1];
+                                                                ^
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryPhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-main.o
+phrase-extract/consolidate-main.cpp: In function ‘int main(int, char**)’:
+phrase-extract/consolidate-main.cpp:134:120: warning: ‘fileNameSourceLabelSet’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   processFiles( fileNameDirect, fileNameIndirect, fileNameConsolidated, fileNameCountOfCounts, fileNameSourceLabelSet );
+                                                                                                                        ^
+phrase-extract/consolidate-main.cpp:134:120: warning: ‘fileNameCountOfCounts’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/queryLexicalTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ExtractionPhrasePair.o
+gcc.compile.c++ phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest.o
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/merge-sorted
+gcc.compile.c++ phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/score-main.o
+gcc.compile.c++ phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ phrase-extract/lexical-reordering/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/InputFileStream.o
+gcc.compile.c++ phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ExtractionPhrasePair.o
+...on 400th target...
+gcc.compile.c++ phrase-extract/lexical-reordering/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/reordering_classes.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Span.o
+gcc.compile.c++ phrase-extract/lexical-reordering/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/score.o
+gcc.link misc/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/prunePhraseTable
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+gcc.link symal/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/symal
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Subgraph.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Node.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ParseTree.o
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/XmlTreeParser.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/statistics
+gcc.compile.c++ phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-reverse
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/relax-parse
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-lex
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScfgRule.o
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate-direct
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Alignment.o
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-rules
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/consolidate
+gcc.link phrase-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/score
+gcc.link phrase-extract/lexical-reordering/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lexical-reordering-score
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScfgRuleWriter.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignmentGraph.o
+gcc.link phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest
+testing.capture-output phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest.run
+**passed** phrase-extract/bin/ScoreFeatureTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreFeatureTest.test
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ComposedRule.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ExtractGHKM.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ phrase-extract/pcfg-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/main.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhraseOrientation.o
+gcc.compile.c++ phrase-extract/pcfg-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/rule_extractor.o
+gcc.compile.c++ phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/tool.o
+gcc.compile.c++ phrase-extract/pcfg-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/rule_collection.o
+gcc.compile.c++ phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.link phrase-extract/extract-ghkm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-ghkm
+gcc.compile.c++ phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/xml_tree_parser.o
+gcc.compile.c++ phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ phrase-extract/pcfg-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg_extract.o
+gcc.compile.c++ phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ phrase-extract/pcfg-score/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/main.o
+gcc.compile.c++ phrase-extract/pcfg-score/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/tree_scorer.o
+gcc.compile.c++ phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignedSentence.o
+phrase-extract/extract-mixed-syntax/AlignedSentence.cpp: In member function ‘void AlignedSentence::PopulateAlignment(const string&)’:
+phrase-extract/extract-mixed-syntax/AlignedSentence.cpp:59:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (sourcePos >= m_source.size()) {
+                                  ^
+phrase-extract/extract-mixed-syntax/AlignedSentence.cpp: In member function ‘void AlignedSentence::CreateConsistentPhrases(const Parameter&)’:
+phrase-extract/extract-mixed-syntax/AlignedSentence.cpp:158:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if( width < params.minSpan )
+                       ^
+phrase-extract/extract-mixed-syntax/AlignedSentence.cpp:161:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if( width > params.maxSpan )
+                       ^
+gcc.compile.c++ phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.archive phrase-extract/pcfg-common/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libpcfg_common.a
+gcc.link phrase-extract/pcfg-extract/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg-extract
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignedSentenceSyntax.o
+phrase-extract/extract-mixed-syntax/AlignedSentenceSyntax.cpp: In member function ‘void AlignedSentenceSyntax::XMLParse(Phrase&, SyntaxTree&, std::string, const Parameter&)’:
+phrase-extract/extract-mixed-syntax/AlignedSentenceSyntax.cpp:138:25: warning: variable ‘result’ set but not used [-Wunused-but-set-variable]
+  pugi::xml_parse_result result = doc.load(input.c_str(),
+                         ^
+phrase-extract/extract-mixed-syntax/AlignedSentenceSyntax.cpp: In member function ‘void AlignedSentenceSyntax::CreateNonTerms()’:
+phrase-extract/extract-mixed-syntax/AlignedSentenceSyntax.cpp:147:56: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int sourceStart = 0; sourceStart < m_source.size(); ++sourceStart) {
+                                                        ^
+phrase-extract/extract-mixed-syntax/AlignedSentenceSyntax.cpp:148:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int sourceEnd = sourceStart; sourceEnd < m_source.size(); ++sourceEnd) {
+                                                               ^
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ConsistentPhrase.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/NonTerm.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Parameter.o
+gcc.compile.c++ phrase-extract/pcfg-score/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg_score.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ConsistentPhrases.o
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp: In destructor ‘virtual ConsistentPhrases::~ConsistentPhrases()’:
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:21:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int start = 0; start < m_coll.size(); ++start) {
+                                          ^
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:24:49: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int size = 0; size < allSourceStart.size(); ++size) {
+                                                 ^
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp: In member function ‘void ConsistentPhrases::Add(int, int, int, int, const Parameter&)’:
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:50:30: warning: variable ‘inserted’ set but not used [-Wunused-but-set-variable]
+   pair<Coll::iterator, bool> inserted = coll.insert(cp);
+                              ^
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp: In member function ‘std::string ConsistentPhrases::Debug() const’:
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:71:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int start = 0; start < m_coll.size(); ++start) {
+                                          ^
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:74:49: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int size = 0; size < allSourceStart.size(); ++size) {
+                                                 ^
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp: In member function ‘void ConsistentPhrases::AddHieroNonTerms(const Parameter&)’:
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:91:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < m_coll.size(); ++i) {
+                                  ^
+phrase-extract/extract-mixed-syntax/ConsistentPhrases.cpp:93:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < inner.size(); ++j) {
+                                  ^
+gcc.link phrase-extract/pcfg-score/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcfg-score
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Phrase.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/RulePhrase.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/RuleSymbol.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SyntaxTree.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Rule.o
+In file included from phrase-extract/extract-mixed-syntax/Rule.cpp:10:0:
+phrase-extract/extract-mixed-syntax/Rule.h: In constructor ‘Rule::Rule(const Rule&, const NonTerm&)’:
+phrase-extract/extract-mixed-syntax/Rule.h:74:18: warning: ‘Rule::m_canRecurse’ will be initialized after [-Wreorder]
+  bool m_isValid, m_canRecurse;
+                  ^
+phrase-extract/extract-mixed-syntax/Rule.h:72:30: warning:   ‘std::vector<const NonTerm*> Rule::m_nonterms’ [-Wreorder]
+  std::vector<const NonTerm*> m_nonterms;
+                              ^
+phrase-extract/extract-mixed-syntax/Rule.cpp:27:1: warning:   when initialized here [-Wreorder]
+ Rule::Rule(const Rule &copy, const NonTerm &nonTerm)
+ ^
+phrase-extract/extract-mixed-syntax/Rule.cpp: In member function ‘void Rule::NonTermContext(int, int, size_t, const ConsistentPhrase&, std::ostream&) const’:
+phrase-extract/extract-mixed-syntax/Rule.cpp:256:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (endPos == phrase->size() - 1) {
+                                  ^
+phrase-extract/extract-mixed-syntax/Rule.cpp: In member function ‘void Rule::Prevalidate(const Parameter&)’:
+phrase-extract/extract-mixed-syntax/Rule.cpp:271:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (m_source.GetSize() > params.maxSymbolsSource) {
+                                   ^
+phrase-extract/extract-mixed-syntax/Rule.cpp:478:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (scope >= params.scopeSpan.size()) {
+                                       ^
+phrase-extract/extract-mixed-syntax/Rule.cpp:268:27: warning: unused variable ‘cp’ [-Wunused-variable]
+   const ConsistentPhrase &cp = m_lhs.GetConsistentPhrase();
+                           ^
+phrase-extract/extract-mixed-syntax/Rule.cpp: In member function ‘void Rule::CreateAlignments()’:
+phrase-extract/extract-mixed-syntax/Rule.cpp:621:6: warning: unused variable ‘sourceStart’ [-Wunused-variable]
+  int sourceStart = GetConsistentPhrase().corners[0];
+      ^
+phrase-extract/extract-mixed-syntax/Rule.cpp:622:6: warning: unused variable ‘targetStart’ [-Wunused-variable]
+  int targetStart = GetConsistentPhrase().corners[2];
+      ^
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Rules.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Timer.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Word.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Util.o
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Vocabulary.o
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TargetCorpus.o
+biconcor/TargetCorpus.cpp: In member function ‘void TargetCorpus::Load(const string&)’:
+biconcor/TargetCorpus.cpp:150:44: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( &m_size, sizeof(INDEX), 1, pFile );
+                                            ^
+biconcor/TargetCorpus.cpp:159:51: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_array, sizeof(WORD_ID), m_size, pFile ); // corpus
+                                                   ^
+biconcor/TargetCorpus.cpp:161:53: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( &m_sentenceCount, sizeof(INDEX), 1, pFile );
+                                                     ^
+biconcor/TargetCorpus.cpp:170:63: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_sentenceEnd, sizeof(INDEX), m_sentenceCount, pFile); // sentence index
+                                                               ^
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SuffixArray.o
+biconcor/SuffixArray.cpp: In member function ‘void SuffixArray::Load(const string&)’:
+biconcor/SuffixArray.cpp:306:44: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( &m_size, sizeof(INDEX), 1, pFile );
+                                            ^
+biconcor/SuffixArray.cpp:333:51: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_array, sizeof(WORD_ID), m_size, pFile ); // corpus
+                                                   ^
+biconcor/SuffixArray.cpp:334:49: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_index, sizeof(INDEX), m_size, pFile );   // suffix array
+                                                 ^
+biconcor/SuffixArray.cpp:335:56: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_wordInSentence, sizeof(char), m_size, pFile); // word index
+                                                        ^
+biconcor/SuffixArray.cpp:336:51: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_sentence, sizeof(INDEX), m_size, pFile); // sentence index
+                                                   ^
+biconcor/SuffixArray.cpp:338:53: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( &m_sentenceCount, sizeof(INDEX), 1, pFile );
+                                                     ^
+biconcor/SuffixArray.cpp:347:65: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_sentenceLength, sizeof(char), m_sentenceCount, pFile); // sentence length
+                                                                 ^
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Alignment.o
+biconcor/Alignment.cpp: In member function ‘void Alignment::Load(const string&)’:
+biconcor/Alignment.cpp:211:44: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( &m_size, sizeof(INDEX), 1, pFile );
+                                            ^
+biconcor/Alignment.cpp:214:49: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_array, sizeof(int), m_size*2, pFile ); // corpus
+                                                 ^
+biconcor/Alignment.cpp:216:53: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( &m_sentenceCount, sizeof(INDEX), 1, pFile );
+                                                     ^
+biconcor/Alignment.cpp:219:63: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fread( m_sentenceEnd, sizeof(INDEX), m_sentenceCount, pFile); // sentence index
+                                                               ^
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Mismatch.o
+biconcor/Mismatch.cpp: In member function ‘void Mismatch::PrintClippedHTML(std::ostream*, int)’:
+biconcor/Mismatch.cpp:228:3: warning: ‘target_end’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for(int i=target_start; i<=target_end; i++)
+   ^
+biconcor/Mismatch.cpp:106:9: warning: ‘target_end’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int target_end;
+         ^
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhrasePair.o
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/biconcor.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ThreadPool.o
+gcc.compile.c++ phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pugixml.o
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PhrasePairCollection.o
+biconcor/PhrasePairCollection.cpp: In member function ‘void PhrasePairCollection::Print(bool) const’:
+biconcor/PhrasePairCollection.cpp:110:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int j=0; j<ppWithSameTarget->size() && j<m_max_example; j++, p++ ) {
+                                           ^
+biconcor/PhrasePairCollection.cpp:116:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (ppWithSameTarget->size() > m_max_example) {
+                                      ^
+gcc.compile.c++ biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/base64.o
+gcc.link phrase-extract/extract-mixed-syntax/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/extract-mixed-syntax
+gcc.compile.c++ mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypothesisQueue.o
+gcc.link biconcor/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/biconcor
+gcc.compile.c++ mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Hildreth.o
+gcc.compile.c++ mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Perceptron.o
+common.copy /home/prateek/cs626/tools/moses/bin/filter
+common.copy /home/prateek/cs626/tools/moses/bin/dump_counts
+common.copy /home/prateek/cs626/tools/moses/bin/moses_chart
+gcc.compile.c++ mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MiraOptimiser.o
+gcc.compile.c++ mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Decoder.o
+common.copy /home/prateek/cs626/tools/moses/bin/moses
+common.copy /home/prateek/cs626/tools/moses/bin/lmbrgrid
+gcc.compile.c++ mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Main.o
+mira/Main.cpp: In function ‘int main(int, char**)’:
+mira/Main.cpp:668:12: warning: unused variable ‘weightMixingThisEpoch’ [-Wunused-variable]
+     size_t weightMixingThisEpoch = 0;
+            ^
+mira/Main.cpp:1566:13: warning: variable ‘sendbuf_uint’ set but not used [-Wunused-but-set-variable]
+     size_t *sendbuf_uint, *recvbuf_uint;
+             ^
+mira/Main.cpp:1566:28: warning: variable ‘recvbuf_uint’ set but not used [-Wunused-but-set-variable]
+     size_t *sendbuf_uint, *recvbuf_uint;
+                            ^
+In file included from ./mert/BleuScorer.h:11:0,
+                 from mira/Main.cpp:42:
+./mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+./mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+./mert/BleuScorer.h:78:100:   required from here
+./mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+./mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mira/Main.cpp:42:0:
+./mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from ./mert/BleuScorer.h:11:0,
+                 from mira/Main.cpp:42:
+./mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+In file included from mira/Main.cpp:36:0:
+mira/Optimiser.h:89:32: warning: ‘scale_update’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     m_sigmoidParam(sigmoidParam) { }
+                                ^
+mira/Main.cpp:80:8: note: ‘scale_update’ was declared here
+   bool scale_update;
+        ^
+common.copy /home/prateek/cs626/tools/moses/bin/queryOnDiskPt
+common.copy /home/prateek/cs626/tools/moses/bin/mert
+common.copy /home/prateek/cs626/tools/moses/bin/extractor
+common.copy /home/prateek/cs626/tools/moses/bin/CreateOnDiskPt
+common.copy /home/prateek/cs626/tools/moses/bin/evaluator
+common.copy /home/prateek/cs626/tools/moses/bin/pro
+common.copy /home/prateek/cs626/tools/moses/bin/sentence-bleu
+...on 500th target...
+common.copy /home/prateek/cs626/tools/moses/bin/1-1-Extraction
+common.copy /home/prateek/cs626/tools/moses/bin/TMining
+common.copy /home/prateek/cs626/tools/moses/bin/generateSequences
+common.copy /home/prateek/cs626/tools/moses/bin/kbmira
+common.copy /home/prateek/cs626/tools/moses/bin/processPhraseTable
+common.copy /home/prateek/cs626/tools/moses/bin/processLexicalTable
+common.copy /home/prateek/cs626/tools/moses/bin/merge-sorted
+common.copy /home/prateek/cs626/tools/moses/bin/prunePhraseTable
+common.copy /home/prateek/cs626/tools/moses/bin/symal
+common.copy /home/prateek/cs626/tools/moses/bin/extract
+common.copy /home/prateek/cs626/tools/moses/bin/statistics
+common.copy /home/prateek/cs626/tools/moses/bin/extract-rules
+common.copy /home/prateek/cs626/tools/moses/bin/consolidate-reverse
+common.copy /home/prateek/cs626/tools/moses/bin/relax-parse
+common.copy /home/prateek/cs626/tools/moses/bin/extract-lex
+common.copy /home/prateek/cs626/tools/moses/bin/consolidate-direct
+common.copy /home/prateek/cs626/tools/moses/bin/queryPhraseTable
+common.copy /home/prateek/cs626/tools/moses/bin/consolidate
+common.copy /home/prateek/cs626/tools/moses/bin/score
+common.copy /home/prateek/cs626/tools/moses/bin/lexical-reordering-score
+common.copy /home/prateek/cs626/tools/moses/bin/extract-ghkm
+common.copy /home/prateek/cs626/tools/moses/bin/pcfg-extract
+common.copy /home/prateek/cs626/tools/moses/bin/pcfg-score
+common.copy /home/prateek/cs626/tools/moses/bin/biconcor
+common.copy /home/prateek/cs626/tools/moses/bin/extract-mixed-syntax
+gcc.archive mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmira_lib.a
+common.copy /home/prateek/cs626/tools/moses/bin/queryLexicalTable
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fragment_main.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/query_main.o
+gcc.compile.c++ lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/build_binary_main.o
+gcc.compile.c++ /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lmplz_main.o
+common.copy /home/prateek/cs626/tools/moses/lib/libpcfg_common.a
+common.copy /home/prateek/cs626/tools/moses/lib/libmira_lib.a
+common.copy /home/prateek/cs626/tools/moses/lib/libmert_lib.a
+common.copy /home/prateek/cs626/tools/moses/lib/libmoses.a
+gcc.compile.c++ lm/bin/partial_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/partial_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/read_compressed_test.o
+gcc.compile.c++ lm/bin/left_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/left_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cat_compressed_main.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sized_iterator_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/probing_hash_table_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sorted_uniform_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing_test.o
+gcc.link mira/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/mira
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+common.copy /home/prateek/cs626/tools/moses/bin/mira
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcqueue_test.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/joint_sort_test.o
+gcc.link lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/fragment
+common.copy /home/prateek/cs626/tools/moses/bin/fragment
+gcc.link lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/query
+common.copy /home/prateek/cs626/tools/moses/bin/query
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/tokenize_piece_test.o
+gcc.link lm/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/build_binary
+common.copy /home/prateek/cs626/tools/moses/bin/build_binary
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MosesTest.o
+gcc.compile.c++ util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/multi_intersection_test.o
+gcc.link /home/prateek/cs626/tools/moses/lm/builder/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/lmplz
+common.copy /home/prateek/cs626/tools/moses/bin/lmplz
+gcc.link lm/bin/partial_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/partial_test
+testing.capture-output lm/bin/partial_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/partial_test.run
+**passed** lm/bin/partial_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/partial_test.test
+gcc.link lm/bin/left_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/left_test
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/AlignmentInfoTest.o
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/cat_compressed
+gcc.link util/bin/file_piece_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece_test
+testing.capture-output lm/bin/left_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/left_test.run
+**passed** lm/bin/left_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/left_test.test
+testing.capture-output util/bin/file_piece_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece_test.run
+**passed** util/bin/file_piece_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/file_piece_test.test
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sized_iterator_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sized_iterator_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/probing_hash_table_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/probing_hash_table_test.passed
+Running 2 test cases...
+
+*** No errors detected
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sorted_uniform_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/sorted_uniform_test.passed
+Running 7 test cases...
+
+*** No errors detected
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bit_packing_test.passed
+Running 5 test cases...
+
+*** No errors detected
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcqueue_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/pcqueue_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureVectorTest.o
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/joint_sort_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/joint_sort_test.passed
+Running 4 test cases...
+
+*** No errors detected
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/tokenize_piece_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/tokenize_piece_test.passed
+Running 4 test cases...
+
+*** No errors detected
+gcc.compile.c++ lm/bin/model_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/model_test.o
+gcc.link util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/multi_intersection_test
+testing.unit-test util/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/multi_intersection_test.passed
+Running 4 test cases...
+
+*** No errors detected
+gcc.link lm/bin/model_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/model_test
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FF/SparseHieroReorderingFeatureTest.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ScoreComponentCollectionTest.o
+gcc.compile.c++ moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MockHypothesis.o
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Backward.o
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest.o
+testing.capture-output lm/bin/model_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/model_test.run
+**passed** lm/bin/model_test.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/model_test.test
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardLMState.o
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Joint.o
+In file included from moses/LM/Joint.cpp:22:0:
+moses/LM/Joint.h: In member function ‘virtual bool Moses::LanguageModelJoint::Load(const string&, const std::vector<long unsigned int>&, size_t)’:
+moses/LM/Joint.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+   }
+   ^
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Base.o
+gcc.link moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_test
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+...on 600th target...
+testing.unit-test moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/moses_test.passed
+Running 17 test cases...
+Constructing a Sparse Reordering feature
+
+*** No errors detected
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Implementation.o
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/MultiFactor.o
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Remote.o
+moses/LM/Remote.cpp: In member function ‘virtual Moses::LMResult Moses::LanguageModelRemote::GetValue(const std::vector<const Moses::Word*>&, const void**) const’:
+moses/LM/Remote.cpp:91:58: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   cur->boState = *reinterpret_cast<const State*>(&m_curId);
+                                                          ^
+moses/LM/Remote.cpp:130:72: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   cur->prob = FloorScore(TransformLMScore(*reinterpret_cast<float*>(res)));
+                                                                        ^
+moses/LM/Remote.cpp:111:39: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+   write(sock, out.c_str(), out.size());
+                                       ^
+moses/LM/Remote.cpp:127:35: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+       read(sock, &res[cnt], 6-cnt);
+                                   ^
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SkeletonLM.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/FeatureDataTest.o
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SingleFactor.o
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/feature_data_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/feature_data_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.compile.c++ moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/Ken.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BleuScorerTest.o
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/BleuScorerTest.cpp:1:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/BleuScorerTest.cpp:1:0:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/BleuScorerTest.cpp:1:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/DataTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/NgramTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/HypergraphTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ForestRescoreTest.o
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/ForestRescore.h:27,
+                 from mert/ForestRescoreTest.cpp:3:
+mert/ScopedVector.h: In instantiation of ‘void MosesTuning::ScopedVector<T>::reset() [with T = MosesTuning::Reference]’:
+mert/ScopedVector.h:18:11:   required from ‘MosesTuning::ScopedVector<T>::~ScopedVector() [with T = MosesTuning::Reference]’
+mert/BleuScorer.h:78:100:   required from here
+mert/ScopedVector.h:31:7: warning: possible problem detected in invocation of delete operator: [enabled by default]
+       delete *it;
+       ^
+mert/ScopedVector.h:31:7: warning: invalid use of incomplete type ‘class MosesTuning::Reference’ [enabled by default]
+In file included from mert/ForestRescore.h:27:0,
+                 from mert/ForestRescoreTest.cpp:3:
+mert/BleuScorer.h:19:7: warning: forward declaration of ‘class MosesTuning::Reference’ [enabled by default]
+ class Reference;
+       ^
+In file included from mert/BleuScorer.h:11:0,
+                 from mert/ForestRescore.h:27,
+                 from mert/ForestRescoreTest.cpp:3:
+mert/ScopedVector.h:31:7: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+       delete *it;
+       ^
+gcc.link moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest
+moses/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/libmoses.a(PhraseDictionaryTransliteration.o): In function `Moses::PhraseDictionaryTransliteration::GetTargetPhraseCollection(Moses::InputPath&) const':
+/home/prateek/cs626/tools/moses/moses/TranslationModel/PhraseDictionaryTransliteration.cpp:72: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+testing.capture-output moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest.run
+**passed** moses/LM/bin/BackwardTest.test/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/BackwardTest.test
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bleu_scorer_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/bleu_scorer_test.passed
+Running 6 test cases...
+name: reflen value: average
+name: reflen value: shortest
+
+*** No errors detected
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/PointTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/OptimizerFactoryTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/TimerTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ReferenceTest.o
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/SingletonTest.o
+common.copy mert/mert
+common.copy mert/extractor
+common.copy mert/evaluator
+common.copy mert/pro
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/VocabularyTest.o
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/data_test
+gcc.compile.c++ mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/UtilTest.o
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/data_test.passed
+Running 3 test cases...
+Data::m_score_type BLEU
+Data::Scorer type from Scorer: BLEU
+Data::m_score_type BLEU
+Data::Scorer type from Scorer: BLEU
+Data::m_score_type BLEU
+Data::Scorer type from Scorer: BLEU
+Data::m_score_type BLEU
+Data::Scorer type from Scorer: BLEU
+Data::m_score_type BLEU
+Data::Scorer type from Scorer: BLEU
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/util_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/util_test.passed
+Running 3 test cases...
+
+*** No errors detected
+common.copy mert/kbmira
+common.copy mert/sentence-bleu
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/hypergraph_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/hypergraph_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/forest_rescore_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/forest_rescore_test.passed
+Running 2 test cases...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/point_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/point_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/optimizer_factory_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/optimizer_factory_test.passed
+Running 2 test cases...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/timer_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/timer_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/reference_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/reference_test.passed
+Running 5 test cases...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/singleton_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/singleton_test.passed
+Running 1 test case...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/vocabulary_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/vocabulary_test.passed
+Running 2 test cases...
+
+*** No errors detected
+gcc.link mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ngram_test
+testing.unit-test mert/bin/gcc-4.8/release/debug-symbols-on/link-static/threading-multi/ngram_test.passed
+Running 3 test cases...
+
+*** No errors detected
+...updated 651 targets...
+SUCCESS

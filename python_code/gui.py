@@ -1,13 +1,15 @@
 import subprocess
 from Tkinter import *
 import ttk
+from main import *
 
 def calculate(*args):
     try:
-    	# subprocess.call(['C:\\Temp\\a b c\\Notepad.exe', 'C:\\test.txt'])
-        value = float(feet.get())
-        meters.set("something")
+        value = feet.get()
+        sql = process_query(value)
+        meters.set(sql)
     except ValueError:
+        print 'passing'
         pass
     
 root = Tk()

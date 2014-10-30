@@ -1,30 +1,14 @@
-select rno from student where department = 'mechanical'
-select rno from student where cpi = 9
-select rno from student where cpi = 9
-select rno from student;
-select * from student where name = 'deependra';
-select name from student where hostel = 9;
-select name from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select * from instructor
-select * from instructor
-select salary from instructor
-select * from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0, ATTRIB_2 from TABLE_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0 from TABLE_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from TABLE_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0 from TABLE_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from TABLE_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0, ATTRIB_1 from TABLE_0 where ATTRIB_0 >= CONST_0

@@ -1,10 +1,10 @@
 #!/usr/bin/python2.7
 from random import *
-lines = 330
+lines = 144
 fract_testing = 0.10
 fract_tuning = 0.20
-full_en = open("./data.en",'r')
-full_sql = open("./data.sql",'r')
+full_en = open("./data_gen.en",'r')
+full_sql = open("./data_gen.sql",'r')
 
 lines_en = full_en.readlines()
 lines_sql = full_sql.readlines()

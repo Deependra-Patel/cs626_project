@@ -9,9 +9,9 @@ def calculate(*args):
     try:
         value = feet.get()
         sql = process_query(value)
-        meters.set(sql)
-        f = os.popen('./../stat_moses/convert.sh \''+value+'\'')
-        meters_stat.set(f.read())
+        meters.set(sql[0])
+        #f = os.popen('./../stat_moses/convert.sh \''+value+'\'')
+        meters_stat.set(sql[1])
     except ValueError:
         print 'passing'
         pass

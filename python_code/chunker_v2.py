@@ -7,9 +7,7 @@ grammar1 = nltk.data.load('file:grammar/mygrammar_v1.cfg')
 rd_parser = nltk.RecursiveDescentParser(grammar1)
 
 def give_sql(tokens) :
-
     print tokens
-    return 'something'
     query_tree = rd_parser.parse(tokens)[0]
     print 'giving sql'
 
@@ -84,3 +82,6 @@ def give_sql(tokens) :
 
     return action + ' ' + ' , '.join(fields) + ' from ' + ' , '.join(tables) + ' where ' + ' '.join(conds)
 
+#a = raw_input()
+#a = nltk.word_tokenize(a)
+#print give_sql(a)

@@ -1,6 +1,7 @@
 import sys
 from chunker_v2 import *
 from schema import *
+import os
 
 #### Helper functions ####
 def is_number(s):
@@ -137,6 +138,7 @@ def process_query(sent):
 
     print "Final query sent for processing: "+" ".join(sent_final)
     query = give_sql(sent_final)
+    query_stat = (os.popen('../stat_moses/convert.sh \''+' '.join(sent_final)+'\'')).read().split()
     query = query.split()
 
     for i in range(len(query)) :
@@ -147,9 +149,18 @@ def process_query(sent):
             query[i] = attrib_list[int(word[7:])]
         elif word[:6] == 'CONST_' :
             query[i] = const_list[int(word[6:])]
+    for i in range(len(query_stat)) :
+        word = query_stat[i]
+        if word[:6] == 'TABLE_':
+            query_stat[i] = table_list[int(word[6:])]
+        elif word[:7] == 'ATTRIB_':
+            query_stat[i] = attrib_list[int(word[7:])]
+        elif word[:6] == 'CONST_' :
+            query_stat[i] = const_list[int(word[6:])]
 
     query = " ".join(query)
+    query_stat = " ".join(query_stat)
     query = query.replace('*$*$',' ')
     query = query.replace('*%*%','\t')
     query = query.replace('*&*&','\n') 
-    return query
+    return query,query_stat

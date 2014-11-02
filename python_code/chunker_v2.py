@@ -7,8 +7,9 @@ grammar1 = nltk.data.load('file:grammar/mygrammar_v1.cfg')
 rd_parser = nltk.RecursiveDescentParser(grammar1)
 
 def give_sql(tokens) :
-
+    print tokens
     query_tree = rd_parser.parse(tokens)[0]
+    print 'giving sql'
 
     wordmap = {'get':'select', 'fetch':'select', 'select':'select', 'find':'select', 'show':'select'}
 
@@ -25,7 +26,8 @@ def give_sql(tokens) :
 
     nltk.Tree.get_child = get_child
 
-    action = wordmap[select_part.get_child('VB').get_child('VERB')[0]]
+    #action = wordmap[select_part.get_child('VB').get_child('VERB')[0]]
+    action = 'select'
 
     fields = []
     temp = select_part
@@ -80,3 +82,6 @@ def give_sql(tokens) :
 
     return action + ' ' + ' , '.join(fields) + ' from ' + ' , '.join(tables) + ' where ' + ' '.join(conds)
 
+#a = raw_input()
+#a = nltk.word_tokenize(a)
+#print give_sql(a)

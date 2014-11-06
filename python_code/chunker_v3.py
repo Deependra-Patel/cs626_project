@@ -311,6 +311,8 @@ def get_where(conds_list, attribs_used, table_aliases, attrib_list, entity_list,
                 prev_cond_exists = True
                 current_state = [True,False]
 
+        if wheres == []:
+            return ''
         where_string = 'WHERE ' + " ".join(wheres)
         return where_string
 

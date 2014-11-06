@@ -7,7 +7,7 @@ from nltk.tree import *
 def get_child(self, node_val):
     try:
         for subt in self:
-            if subt.node == node_val:
+            if type(subt)== nltk.tree.Tree and subt.node == node_val:
                return subt
         return False
     except:
@@ -328,7 +328,9 @@ def give_sql(tokens, entity_list, attrib_list, const_list, attrib_map, entity_ma
 
     try:
         grammar1 = nltk.data.load('file:grammar/mygrammar_v3.cfg')
-        rd_parser = nltk.RecursiveDescentParser(grammar1)
+        rd_parser = nltk.SteppingRecursiveDescentParser(grammar1)
+        #rd_parser = nltk.RecursiveDescentParser(grammar1)
+        nltk.tree.Tree.get_child = get_child
         print "Rule Based: Created the parser object from the CFG"
     except:
         print "Rule Based: Could not create the parser object instance. Check the CFG!"
@@ -345,10 +347,11 @@ def give_sql(tokens, entity_list, attrib_list, const_list, attrib_map, entity_ma
     try:
         sys.stdout.write("Rule Based: Parsing the generic english query... ")
         sys.stdout.flush()
-        query_tree = rd_parser.parse(tokens)[0]
-        print "Done"
-        #print query_tree
-        #query_tree.draw()
+        rd_parser.initialize(tokens)
+        while(rd_parser.parses() == []):
+            rd_parser.step()
+        query_tree = rd_parser.parses()[0]
+        query_tree = query_tree.get_child('P')
     except:
         print "Failed to parse !"
         return ''
@@ -356,8 +359,6 @@ def give_sql(tokens, entity_list, attrib_list, const_list, attrib_map, entity_ma
     #query_tree = Tree('P', [Tree('SELECT', [Tree('ACTION', [Tree('DO', [Tree('VERB', ['give']), Tree('TARGET_', [Tree('TARGET', [Tree('AGENT_', [Tree('AGENT', ['me'])])]), Tree('CONJ1_', [Tree('CONJ1', ['and'])]), Tree('TARGET_', [Tree('TARGET', [Tree('AGENT_', [Tree('AGENT', ['my'])]), Tree('RELATE', ['friend'])])])])])]), Tree('FIELD_', [Tree('FIELD', [Tree('ATTRIB1_', [Tree('ATTRIB1', [Tree('FILLER_', [Tree('FILLER', ['the'])]), Tree('ATTRIB2', [Tree('ATTRIB', ['ATTRIB_0'])])]), Tree('CONJ1_', [Tree('CONJ1', [',']), Tree('CONJ1_', [Tree('CONJ1', ['and'])])]), Tree('ATTRIB1_', [Tree('ATTRIB1', [Tree('ATTRIB2', [Tree('ATTRIB', ['ATTRIB_1'])])])])]), Tree('ENTITY1_', [Tree('ENTITY1', [Tree('FILLER_', [Tree('FILLER', ['from'])]), Tree('ENTITY2', [Tree('ENTITY', ['ENTITY_0'])])])])])])]), Tree('WHERE', [Tree('COND1', [Tree('FILLER2_', [Tree('FILLER2', ['with']), Tree('FILLER2_', [Tree('FILLER2', [Tree('FILLER', ['the'])])])]), Tree('COND', [Tree('VALUE', [Tree('ATTRIB', ['ATTRIB_2'])]), Tree('COMP_', [Tree('COMP1', [Tree('COMP2', [Tree('COMP3', ['more']), Tree('EXTRA', ['than'])])])]), Tree('VALUE', [Tree('CONSTANT', ['CONST_0'])])])])])])
 
     #query_tree = Tree('P', [Tree('SELECT', [Tree('ACTION', [Tree('DO', [Tree('VERB', ['give']), Tree('TARGET_', [Tree('TARGET', [Tree('AGENT_', [Tree('AGENT', ['me'])])]), Tree('CONJ1_', [Tree('CONJ1', ['and'])]), Tree('TARGET_', [Tree('TARGET', [Tree('AGENT_', [Tree('AGENT', ['my'])]), Tree('RELATE', ['friend'])])])])])]), Tree('FIELD_', [Tree('FIELD', [Tree('ENTITY1_', [Tree('ENTITY1', [Tree('FILLER_', [Tree('FILLER', ['the'])]), Tree('ENTITY2', [Tree('ENTITY', ['ENTITY_0'])])])])]), Tree('CONJ1_', [Tree('CONJ1', ['and'])]), Tree('FIELD_', [Tree('FIELD', [Tree('ATTRIB1_', [Tree('ATTRIB1', [Tree('ATTRIB2', [Tree('ATTRIB', ['ATTRIB_0'])])])])])])])]), Tree('WHERE', [Tree('COND1', [Tree('FILLER2_', [Tree('FILLER2', [Tree('FILLER', ['which'])]), Tree('FILLER2_', [Tree('FILLER2', [Tree('FILLER', ['have'])]), Tree('FILLER2_', [Tree('FILLER2', [Tree('FILLER', ['a'])])])])]), Tree('COND', [Tree('VALUE', [Tree('ATTRIB', ['ATTRIB_1'])]), Tree('COMP_', [Tree('COMP1', [Tree('COMP2', [Tree('COMP3', ['greater_than_or_equal']), Tree('EXTRA', ['to'])])])]), Tree('VALUE', [Tree('CONSTANT', ['CONST_0'])])])])])])
-
-    nltk.Tree.get_child = get_child
 
     fields_list = []                           # List for containing pairs [[ATTRIBs],[ENTITYs]]
     fill_fields(fields_list, query_tree)       # Populate the list

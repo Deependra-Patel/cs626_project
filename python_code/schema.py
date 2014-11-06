@@ -1,8 +1,11 @@
+import sys
 import MySQLdb
 from config import *
+
 '''
-connect to the database using credentials imported from credentials.py
+connect to the database using credentials imported from config.py
 '''
+
 def connect_db():
     db = MySQLdb.connect(host="localhost",
                          user=mysql_username,
@@ -30,21 +33,31 @@ class column:
         print self.column_name, self.column_type
 
 tables = []
-db = connect_db()
-dbcur = db.cursor()
+
+try:
+    db = connect_db()
+    dbcur = db.cursor()
+    print "Connected to the database."
+except:
+    print "Could not connect to the database. Check the credentials !"
+    sys.exit()
+
 tablenames = []
-dbcur.execute('show tables')
-for row in dbcur.fetchall():
-    tablenames.append(row[0])
 
-for t in tablenames:
-    dbcur.execute("show columns from "+t)
-    tb = table(t)
+try:
+    dbcur.execute('show tables')
     for row in dbcur.fetchall():
-        col = column(row[0], row[1])
-        tb.columns.append(col)
-    tables.append(tb)
+        tablenames.append(row[0])
 
-
-
+    for t in tablenames:
+        dbcur.execute("show columns from "+t)
+        tb = table(t)
+        for row in dbcur.fetchall():
+            col = column(row[0], row[1])
+            tb.columns.append(col)
+        tables.append(tb)
+    print "Extracted Metadata of the Database"
+except:
+    print "Could not extract the Metadata from the database."
+    sys.exit()
 

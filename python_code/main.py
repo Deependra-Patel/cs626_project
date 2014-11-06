@@ -163,4 +163,7 @@ def process_query(sent):
     query = query.replace('*$*$',' ')
     query = query.replace('*%*%','\t')
     query = query.replace('*&*&','\n') 
+    query_stat = query_stat.replace('*$*$',' ')
+    query_stat = query_stat.replace('*%*%','\t')
+    query_stat = query_stat.replace('*&*&','\n')
     return query,query_stat

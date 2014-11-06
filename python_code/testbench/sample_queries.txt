@@ -1,0 +1,2 @@
+give me and my friend the cities and countries which have a population greater than or equal to 1500.
+give me and my friend the city, and country from cities with the population more than 2000

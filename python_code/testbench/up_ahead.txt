@@ -1,0 +1,6 @@
+-> take care of the friends, sons, fathers, etc... in a seperate file
+-> speed up the CFG
+-> create a list of queries which can get converted and those which cannot
+-> list all the new features of the improved grammar
+-> start making report
+-> Briefly describe aim, benefits, algorithm, timeline, architecture diagram, scores/accuracies/tables, compare performance, conclusions and future scope

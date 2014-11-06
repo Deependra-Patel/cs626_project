@@ -1,0 +1,43 @@
+Forms of question:
+
+i) All 3 clauses present -> select from where
+ii) Not having where clause -> select from
+iii) Not having from clause -> select where
+iv) Only select clause -> select
+
+For all the cases, we can write a general CFG as follows: -------->
+
+S -> P | P END_SYM
+( where END_SYM -> '.' | '?' | '!' )
+P -> SELECT | SELECT FROM | SELECT WHERE | SELECT FROM WHERE
+
+select part -> 
+(	name/list/select/show/find/fetch/.. [(me/them/these/those/him/her/us/my/our/their/your/such)* [relative] [and/or/,/'as well as']*) | 
+	(what/which/who/where [are/were/is/was/there]) 
+)
+( [ [also] [all/some] [of] [a/an/the/those] [few] (ATTRIB/INFO_WORD) [and/or/,/'as well as'] ]* 
+  [ from/of/those/belong/belongs/belonging/to/who/which/whose/that/were/are/have/had/been/is/was/by/in/among/inside/also/all ]*
+  [ [also] [all/some] [of] [a/an/the/those] [few] ENTITY/TABLE [and/or/,/'as well as'] ]* 
+  [ and/or/,/'as well as']
+)+ --^
+(Attributes/entities may be present here in the plural form)
+
+INFO_WORD -> 'information' | 'info' | 'data' | 'detail' | 'details'
+
+--> The use of from non-terminal is now redundant
+from part -> 
+(  [ of/those/belong/to/who/which/whose/that/were/are/have/had/been/is/was/by ]*
+   [table/relation/data]*
+   TABLE 
+  [ and/or/,/'as well as']
+)+ --^
+
+where part ->
+([where/whose/with/which/while/it/their/those/such/that/have/...............]*
+ COND
+ [and/or/,/'as well as'/neither/either/nor/but]*
+)
+COND -> VALUE COMP VALUE | COMP VALUE
+VALUE -> CONSTANT | ATTRIB
+COMP -> ([does/do/it/is/to]* [[not] (belongs/belong/equal/unequal/greater/lesser/...) [to/than]] [but/and/or/while])*
+

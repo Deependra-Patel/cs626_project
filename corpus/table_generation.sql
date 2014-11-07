@@ -1,7 +1,7 @@
-drop table student;
-drop table instructor;
-drop table takes;
-drop table teaches;
+drop table if exists student;
+drop table if exists instructor;
+drop table if exists takes;
+drop table if exists teaches;
 
 create table student
 	(roll			varchar(10), 

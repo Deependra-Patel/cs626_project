@@ -1,59 +1,59 @@
-;KategProblem:cats: 50   words: 20
+;KategProblem:cats: 50   words: 53
 0:$,
 1:
-2:>,
-3:<,
-4:
-5:<=,
-6:=,
-7:>=,
-8:select,
-9:and,
-10:CONST_1,
-11:or,
-12:ATTRIB_1,,
-13:ATTRIB_0,
-14:CONST_0,
-15:TABLE_0,
-16:from,
-17:ATTRIB_2,
-18:where,
-19:ATTRIB_1,
-20:ATTRIB_0,,
-21:!=,
-22:
-23:
-24:
-25:
-26:
-27:
-28:
-29:
-30:
-31:
-32:
-33:
-34:
-35:
-36:
-37:
-38:
-39:
-40:
-41:
-42:
-43:
-44:
-45:
-46:
-47:
-48:
-49:
-50:
-51:
-;I have 20 categories used.
+2:ATTRIB_1,
+3:(SELECT,
+4:CONST_6,
+5:ATTRIB_4,office,
+6:ATTRIB_3,
+7:CONST_0,
+8:CONST_7;,
+9:OR,
+10:=,
+11:from,
+12:!=,
+13:ENTITY_2,
+14:CONST_3;,
+15:ATRIB_1,,
+16:ATTRIB_2,
+17:<,
+18:ENTITY_0);,
+19:CONST_2;,
+20:ENTITY_0,
+21:>=,
+22:select,
+23:FROM,
+24:WHERE,
+25:CONST_1,
+26:max(ATRIB_0),
+27:>,
+28:or,
+29:<=,
+30:<CONST_2;,
+31:;,
+32:ATRIB_1,
+33:and,
+34:ATTRIB_1,,
+35:SELECT,
+36:ATTRIB_0,,
+37:AND,
+38:ATRIB_0,
+39:CONST_2,CONST_7,
+40:CONST_0;,
+41:NATURAL,
+42:ATRIB_2,
+43:CONST_1;,
+44:CONST_4;,
+45:*,
+46:ENTITY_1,
+47:JOIN,
+48:ATTRIB_0,
+49:CONST_4,
+50:CONST_3,
+51:where,
+;I have 51 categories used.
 
 Problem(1,0,208)
       #value: 6
-#valueChange: 50035
-   #doChange: 50001
+#valueChange: 21830
+   #doChange: 21487

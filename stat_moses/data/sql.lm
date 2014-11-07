@@ -1,492 +1,578 @@
 
 \data\
-ngram 1=45
-ngram 2=91
-ngram 3=103
-ngram 4=112
-ngram 5=122
+ngram 1=54
+ngram 2=132
+ngram 3=111
+ngram 4=129
+ngram 5=133
 
 \1-grams:
--3.040075	"computer";	-0.4771213
--2.915136	'chemical'	-0.60206
--1.577677	'computer'	-1.939519
--3.040075	'deependra';	-0.4771213
--3.040075	'electrical';	-0.4771213
--1.592917	'mechanical'	-1.924279
--3.040075	'mechanical';	-0.4771213
--3.040075	'metallurgy'	-0.4771213
--1.534925	*	-1.982271
--2.915136	10	-0.60206
--2.739045	10.00	-0.7781513
--3.216166	120050032;	-0.30103
--2.614106	120050042;	-0.90309
--1.603382	20000	-1.618048
--3.040075	4	-0.4771213
--2.739045	4.00	-0.7781513
--2.915136	5	-0.60206
--1.603382	50000	-1.618048
--3.040075	5;	-0.4771213
--3.040075	6	-0.4771213
--2.739045	7	-0.7781513
--2.739045	8	-0.7781513
--2.562953	8;	-0.9542426
--2.739045	9	-0.7781513
--3.040075	9;	-0.4771213
--2.739045	<	-0.7781513
--0.9973679	</s>
--99	<s>	-2.519828
--1.194977	=	-1.123659
--1.247683	>	-1.502882
--1.479769	and	-2.037426
--3.040075	count(*)	-0.4771213
--1.873743	cpi	-1.070038
--3.040075	credits	-0.4771213
--1.247683	department	-1.970811
--0.9973679	from	-2.045324
--2.136985	hostel	-1.09691
--1.129806	instructor	-2.088136
--1.508596	name	-1.711807
--1.960893	rno	-1.267172
--1.129806	salary	-2.088136
--0.9973679	select	-1.575957
--1.636382	student	-1.880814
--2.403253	student;	-1.113943
--1.051813	where	-1.694605
+-1.627794	!=	-1.060698
+-2.960233	(SELECT	-0.30103
+-2.483112	*	-0.544068
+-2.960233	;	-0.30103
+-1.881052	<	-1.09691
+-1.079419	</s>
+-1.717195	<=	-1.255272
+-2.960233	<CONST_2;	-0.30103
+-99	<s>	-1.883662
+-1.589165	=	-0.7861202
+-1.60805	>	-0.8624721
+-1.681479	>=	-1.124938
+-2.483112	AND	-0.4259687
+-2.115135	ATRIB_0	-0.5563025
+-2.261263	ATRIB_1	-0.7403626
+-2.659203	ATRIB_1,	-0.39794
+-2.358173	ATRIB_2	-0.4393327
+-1.059866	ATTRIB_0	-1.372386
+-1.428754	ATTRIB_0,	-1.367977
+-1.223836	ATTRIB_1	-1.2156
+-1.899535	ATTRIB_1,	-1.361728
+-1.428754	ATTRIB_2	-1.367977
+-2.659203	ATTRIB_3	-0.60206
+-2.960233	ATTRIB_4	-0.30103
+-1.079419	CONST_0	-1.494155
+-2.659203	CONST_0;	-0.60206
+-1.536987	CONST_1	-1.431364
+-2.960233	CONST_1;	-0.30103
+-2.960233	CONST_2	-0.30103
+-2.784142	CONST_2;	-0.4771212
+-2.784142	CONST_3	-0.30103
+-2.659203	CONST_3;	-0.60206
+-2.784142	CONST_4	-0.30103
+-2.483112	CONST_4;	-0.7781513
+-2.960233	CONST_6	-0.30103
+-2.960233	CONST_7	-0.30103
+-2.960233	CONST_7;	-0.30103
+-1.079419	ENTITY_0	-1.7104
+-2.960233	ENTITY_0);	-0.30103
+-2.483112	ENTITY_1	-0.7781512
+-2.562293	ENTITY_2	-0.69897
+-2.00599	FROM	-0.9777236
+-2.483112	JOIN	-0.544068
+-2.483112	NATURAL	-0.7781513
+-2.960233	OR	-0.30103
+-1.982509	SELECT	-0.6627578
+-1.982509	WHERE	-0.60206
+-1.717195	and	-0.8239088
+-1.127724	from	-2.133539
+-2.960233	max(ATRIB_0)	-0.30103
+-2.784142	office	-0.4771213
+-1.693061	or	-1.113943
+-1.134158	select	-1.829303
+-1.134158	where	-1.829304
 
 \2-grams:
--0.1547763	"computer"; </s>
--0.1106131	'chemical' </s>
--0.004513035	'computer' </s>
--0.1547763	'deependra'; </s>
--0.1547763	'electrical'; </s>
--0.004675085	'mechanical' </s>
--0.1547763	'mechanical'; </s>
--0.1547763	'metallurgy' </s>
--0.00408794	* from	-1.514106
--0.1106131	10 </s>
--0.07052931	10.00 </s>
--0.2593974	120050032; </s>
--0.05179445	120050042; </s>
--0.4844898	20000 </s>
--0.1861518	20000 and	-1.740363
--0.1547763	4 </s>
--0.07052931	4.00 </s>
--0.1106131	5 </s>
--0.4844898	50000 </s>
--0.1861518	50000 and	-1.740363
--0.1547763	5; </s>
--0.1547763	6 </s>
--0.07052931	7 </s>
--0.07052931	8 </s>
--0.0457249	8; </s>
--0.07052931	9 </s>
--0.1547763	9; </s>
--0.07902287	< 10.00	-0.7781513
--0.00118167	<s> select	-1.575937
--2.049725	= "computer";	-0.4771213
--1.874005	= 'chemical'	-0.60206
--0.4173457	= 'computer'	-1.939519
--2.049725	= 'deependra';	-0.4771213
--2.049725	= 'electrical';	-0.4771213
--0.4327652	= 'mechanical'	-1.924279
--2.049725	= 'mechanical';	-0.4771213
--2.049725	= 'metallurgy'	-0.4771213
--1.874005	= 10	-0.60206
--2.349643	= 120050032;
--1.506453	= 120050042;	-0.90309
--2.049725	= 4	-0.4771213
--1.874005	= 5	-0.60206
--2.049725	= 5;	-0.4771213
--2.049725	= 6	-0.4771213
--1.652454	= 9	-0.7781513
--2.049725	= 9;	-0.4771213
--0.3717473	> 20000	-1.618065
--1.581114	> 4.00	-0.7781513
--0.3717473	> 50000	-1.618065
--1.581114	> 7	-0.7781513
--1.581114	> 8	-0.7781513
--1.377053	> 8;	-0.9542425
--0.003775461	and department	-2.037426
--0.1547763	count(*) from	-0.4771213
--0.9724947	cpi <	-0.7781513
--0.9514987	cpi =	-0.7781513
--0.3061208	cpi >	-0.8293039
--0.654963	cpi from	-0.7781513
--0.1547763	credits from	-0.4771213
--0.0162612	department =	-1.426744
--1.555737	department from	-0.7781512
--0.1364405	from instructor	-2.088084
--0.6469818	from student	-1.880814
--1.442834	from student;	-1.113943
--0.2478698	hostel =	-0.5228787
--0.4340948	hostel from	-0.9999999
--0.9545777	instructor </s>
--0.05435558	instructor where	-2.037426
--1.684935	name =	-0.4771213
--0.01632023	name from	-1.531492
--0.6582362	rno =	-0.5182481
--0.1336134	rno from	-1.161368
--0.1793481	salary >	-1.913821
--0.4796036	salary from	-1.913814
--0.5512772	select *	-1.982271
--2.227391	select count(*)	-0.4771213
--1.525004	select cpi	-1.041393
--2.227391	select credits	-0.4771213
--1.789142	select department	-0.7781513
--1.572801	select hostel	-1
--0.5333422	select name	-2
--1.097255	select rno	-1.447158
--0.6181505	select salary	-1.913814
--0.005238696	student where	-1.20412
--0.03113616	student; </s>
--0.9531878	where cpi	-1.079181
--0.6133827	where department	-1.863323
--1.325273	where hostel	-1.176091
--2.133103	where name	-0.4771213
--1.566117	where rno	-0.9542425
--0.2620502	where salary	-2.212188
+-0.210463	!= CONST_0	-1.176091
+-0.5793927	!= CONST_1	-1.113943
+-1.659912	!= CONST_2;
+-1.659912	!= CONST_3
+-0.3005543	(SELECT max(ATRIB_0)
+-0.2409016	* FROM	-0.69897
+-0.7847625	* from
+-0.2662862	; </s>
+-0.05224141	< CONST_0	-0.920819
+-1.39604	< CONST_0;
+-0.1914407	<= CONST_0	-1.09691
+-0.5126227	<= CONST_1	-1.079181
+-0.2662862	<CONST_2; </s>
+-0.9289168	<s> SELECT	-0.2963994
+-0.06036054	<s> select	-1.829307
+-0.3833891	= CONST_0	-0.5737064
+-1.43507	= CONST_0;	-0.4771214
+-0.7291573	= CONST_1	-1.041393
+-1.7361	= CONST_2
+-1.733985	= CONST_3
+-1.43507	= CONST_3;	-0.4771214
+-1.436132	= CONST_4
+-1.03883	= CONST_4;	-0.7781513
+-1.7361	= CONST_7
+-1.704251	> (SELECT
+-0.1945789	> CONST_0	-0.1025668
+-0.8500394	> CONST_1	0.369179
+-1.704251	> CONST_1;
+-1.702601	> CONST_2;
+-1.700958	> CONST_3;
+-1.704251	> CONST_6
+-0.2173507	>= CONST_0	-1.113944
+-0.5197371	>= CONST_1	-1.113943
+-1.600635	>= CONST_7;
+-0.5970911	AND ATRIB_0
+-0.5992137	AND ATRIB_2	-0.4771213
+-0.8988275	AND ENTITY_1
+-0.9293859	ATRIB_0 !=
+-1.252899	ATRIB_0 <CONST_2;
+-0.4678994	ATRIB_0 =	-0.07985348
+-0.7606605	ATRIB_0 >
+-1.117728	ATRIB_0 from
+-1.019581	ATRIB_1 =
+-0.1372332	ATRIB_1 FROM	-0.9542425
+-0.6923575	ATRIB_1, ATRIB_0
+-0.3969892	ATRIB_1, ATTRIB_3	-0.4771212
+-1.019128	ATRIB_2 <
+-0.4287539	ATRIB_2 >
+-1.006649	ATRIB_2 >=
+-1.024588	ATRIB_2 FROM
+-0.8526529	ATTRIB_0 !=	-1.09691
+-1.134984	ATTRIB_0 <	-1.113943
+-0.8724192	ATTRIB_0 <=	-1.079183
+-1.131827	ATTRIB_0 =	-1.113943
+-1.16933	ATTRIB_0 >	-1.079181
+-1.13306	ATTRIB_0 >=	-1.113943
+-0.394521	ATTRIB_0 from	-1.826075
+-0.4991526	ATTRIB_0, ATTRIB_1	-1.361728
+-0.5019296	ATTRIB_0, ATTRIB_1,	-1.361728
+-0.4812646	ATTRIB_0, ATTRIB_2	-1.380211
+-0.8260558	ATTRIB_1 !=	-1.255273
+-1.056718	ATTRIB_1 <	-1.041393
+-0.976685	ATTRIB_1 <=	-1.113943
+-1.097842	ATTRIB_1 =	-0.9999999
+-0.6428509	ATTRIB_1 >	-1.146128
+-0.9762734	ATTRIB_1 >=	-1.113943
+-0.7080978	ATTRIB_1 from	-1.361728
+-0.01857023	ATTRIB_1, ATTRIB_2	-1.361728
+-0.8417556	ATTRIB_2 =	-1.041393
+-0.7636619	ATTRIB_2 >=	-1.113943
+-0.1897333	ATTRIB_2 from	-1.662758
+-0.1235133	ATTRIB_3 FROM	-0.60206
+-0.289987	ATTRIB_4 =
+-2.190751	CONST_0 ;
+-0.2771108	CONST_0 </s>
+-2.190751	CONST_0 OR
+-0.7004216	CONST_0 and	-1.054357
+-0.6356009	CONST_0 or	-1.113942
+-0.1130459	CONST_0; </s>
+-0.02340741	CONST_1 </s>
+-1.729548	CONST_1 AND
+-0.2662862	CONST_1; </s>
+-0.2996045	CONST_2 AND
+-0.158372	CONST_2; </s>
+-0.5992137	CONST_3 AND
+-0.5857136	CONST_3 and
+-0.1130459	CONST_3; </s>
+-0.5992137	CONST_4 AND
+-0.5857136	CONST_4 and
+-0.07200656	CONST_4; </s>
+-0.2927799	CONST_6 and
+-0.2996045	CONST_7 AND
+-0.2662862	CONST_7; </s>
+-1.487695	ENTITY_0 NATURAL	-0.7781513
+-1.072535	ENTITY_0 WHERE	-0.4381802
+-0.0629504	ENTITY_0 where	-1.829318
+-0.2662862	ENTITY_0); </s>
+-0.07695007	ENTITY_1 =	-0.3536451
+-0.09578113	ENTITY_2 WHERE	-0.1218178
+-0.07013557	FROM ENTITY_0	-0.9542426
+-1.277803	FROM ENTITY_0);
+-0.2424435	JOIN ENTITY_2	-0.69897
+-0.8361481	JOIN WHERE
+-0.07889578	NATURAL JOIN	-0.2078482
+-0.2991304	OR ATRIB_2
+-0.6613324	SELECT *	-0.2067309
+-0.4571531	SELECT ATRIB_1	-0.9542425
+-0.883023	SELECT ATRIB_1,	-0.1344098
+-1.352312	SELECT ATRIB_2
+-1.356994	SELECT ATTRIB_3
+-0.4237534	WHERE ATRIB_0	-0.3752346
+-1.366163	WHERE ATRIB_1
+-1.073507	WHERE ATRIB_2
+-1.377365	WHERE ATTRIB_4
+-0.9002437	WHERE ENTITY_1	-0.60206
+-1.077045	WHERE office	-0.4771213
+-1.582517	and ATRIB_0
+-1.590785	and ATRIB_2
+-0.5405042	and ATTRIB_0	-0.8129132
+-0.5867692	and ATTRIB_1	-1.041393
+-0.5924578	and ATTRIB_2	-0.7781512
+-1.593576	and ENTITY_1
+-0.002937286	from ENTITY_0	-1.835691
+-0.2967675	max(ATRIB_0) FROM
+-0.1705347	office =
+-0.5025256	or ATTRIB_0	-0.845098
+-0.5054466	or ATTRIB_1	-0.845098
+-0.5078566	or ATTRIB_2	-0.8450981
+-0.3096448	select ATTRIB_0	-1.826075
+-0.3037762	select ATTRIB_0,	-1.367973
+-0.2903893	where ATTRIB_0	-1.09691
+-0.323344	where ATTRIB_1	-1.066947
 
 \3-grams:
--0.0457249	= "computer"; </s>
--0.02512555	= 'chemical' </s>
--5.160844e-05	= 'computer' </s>
--0.0457249	= 'deependra'; </s>
--0.0457249	= 'electrical'; </s>
--5.536082e-05	= 'mechanical' </s>
--0.0457249	= 'mechanical'; </s>
--0.0457249	= 'metallurgy' </s>
--4.238499e-05	select * from	-1.514588
--0.02512555	= 10 </s>
--0.01098786	< 10.00 </s>
--0.006146431	= 120050042; </s>
--0.4772973	> 20000 </s>
--0.176331	> 20000 and	2.062701
--0.0457249	= 4 </s>
--0.01098786	> 4.00 </s>
--0.02512555	= 5 </s>
--0.4772973	> 50000 </s>
--0.176331	> 50000 and	2.062701
--0.0457249	= 5; </s>
--0.0457249	= 6 </s>
--0.01098786	> 7 </s>
--0.01098786	> 8 </s>
--0.004849207	> 8; </s>
--0.01098786	= 9 </s>
--0.0457249	= 9; </s>
--0.01221183	cpi < 10.00	-0.7781512
--0.07725196	cpi = 9	-0.7781512
--1.957463	department = "computer";	-0.4771212
--1.781383	department = 'chemical'	-0.60206
--0.3240275	department = 'computer'	1.98557
--1.957463	department = 'electrical';	-0.4771212
--0.3394478	department = 'mechanical'	1.97033
--1.957463	department = 'mechanical';	-0.4771212
--1.957463	department = 'metallurgy'	-0.4771212
--0.8124518	hostel = 10	-0.60206
--0.9885334	hostel = 4	-0.4771212
--0.8124518	hostel = 5	-0.60206
--0.9885334	hostel = 5;	-0.4771212
--0.9885334	hostel = 6	-0.4771212
--0.9885334	hostel = 9;	-0.4771212
--0.174159	name = 'deependra';	-0.4771212
--0.1510531	rno = 120050042;	-0.9030901
--0.723373	cpi > 4.00	-0.7781512
--0.723373	cpi > 7	-0.7781512
--0.723373	cpi > 8	-0.7781512
--0.5192543	cpi > 8;	-0.9542425
--0.3018266	salary > 20000	-1.617962
--0.3018266	salary > 50000	-1.617962
--6.835262e-05	20000 and department	-1.740363
--6.835262e-05	50000 and department	-1.740363
--0.0457249	select count(*) from	-0.4771212
--0.03188535	select cpi from	-0.778151
--0.8304223	where cpi <	-0.7781513
--0.8291318	where cpi =	-0.7781513
--0.1674464	where cpi >	-0.8293045
--0.0457249	select credits from	-0.4771213
--0.0001464516	and department =	-1.740366
--0.07677205	select department from	-0.7781513
--0.0002186925	where department =	-1.05253
--0.07114872	* from instructor	2.649345
--0.8882335	* from student	-1.113943
--1.667311	* from student;	-0.4771211
--0.1683282	count(*) from student;	-0.4771211
--0.15228	cpi from student	-0.9542427
--0.7627615	cpi from student;	-0.4771211
--0.1297067	credits from student	-0.4771214
--0.06002894	department from student	-0.778151
--0.03501322	hostel from student	-1
--0.08852281	name from instructor	2.649345
--0.7865005	name from student	-1.230449
--1.684685	name from student;	-0.4771211
--0.0922391	rno from student	-1.380211
--0.8525749	rno from student;	-0.6989698
--0.001430239	salary from instructor	2.649345
--0.02835086	select hostel from	-1
--0.0127776	where hostel =	-0.5228789
--0.9542453	from instructor </s>
--0.05117857	from instructor where	-2.037563
--0.0001602034	select name from	-1.531684
--0.1716287	where name =	-0.4771212
--0.00412723	select rno from	-1.161368
--0.03938831	where rno =	-0.2672815
--0.003555425	select salary from	-1.913814
--0.0009023349	where salary >	-1.914056
--0.5410655	<s> select *	2.028322
--2.217744	<s> select count(*)	-0.4771212
--1.518685	<s> select cpi	-1.041393
--2.217744	<s> select credits	-0.4771212
--1.818709	<s> select department	-0.7781512
--1.564496	<s> select hostel	-0.9999999
--0.5231533	<s> select name	-2
--1.087415	<s> select rno	-1.447158
--0.6102426	<s> select salary	-1.913814
--6.852154e-05	from student where	-1.204122
--0.002317421	from student; </s>
--0.6021625	instructor where department	-1.740363
--0.1260188	instructor where salary	-2.212188
--0.3773081	student where cpi	-1.07918
--0.6193856	student where department	-1.278753
--0.749689	student where hostel	-1.176091
--1.594141	student where name	-0.4771212
--0.9926905	student where rno	-0.9542426
+-0.3104469	ATTRIB_0 != CONST_0	-0.8129115
+-0.3001002	ATTRIB_0 != CONST_1	-1.113943
+-0.00936673	ATTRIB_1 != CONST_0	-0.9777224
+-0.1334179	SELECT * FROM	-0.69897
+-0.00380288	ATTRIB_0 < CONST_0	-0.8450979
+-0.004497905	ATTRIB_1 < CONST_0	-0.778151
+-0.2907642	ATTRIB_0 <= CONST_0	-0.8129114
+-0.3152168	ATTRIB_0 <= CONST_1	-1.079181
+-0.01207549	ATTRIB_1 <= CONST_0	-0.8450965
+-0.7022173	ATRIB_0 = CONST_3;	-0.4771212
+-0.0200446	ATTRIB_0 = CONST_0	-0.8450975
+-0.02624293	ATTRIB_1 = CONST_0	-0.7403622
+-0.03336469	ATTRIB_2 = CONST_1	-1.041393
+-0.2236212	ENTITY_1 = CONST_4;	-0.6989698
+-0.01326996	ATTRIB_0 > CONST_0	-0.8129137
+-0.119232	ATTRIB_1 > CONST_0	-1.041393
+-0.6490268	ATTRIB_1 > CONST_1	-0.8450981
+-0.01335755	ATTRIB_0 >= CONST_0	-0.8450993
+-0.01335755	ATTRIB_1 >= CONST_0	-0.8450993
+-0.02396134	ATTRIB_2 >= CONST_1	-1.113943
+-0.2327537	WHERE ATRIB_0 =	-0.04179651
+-0.6776863	WHERE ATRIB_0 >
+-0.01327473	SELECT ATRIB_1 FROM	-0.9542425
+-0.2515401	SELECT ATRIB_1, ATTRIB_3	-0.4771212
+-0.1018962	AND ATRIB_2 >
+-0.3159293	and ATTRIB_0 !=	-0.845098
+-0.3922734	and ATTRIB_0 <=	-0.7781513
+-0.348114	or ATTRIB_0 !=	-0.845098
+-0.3489787	or ATTRIB_0 <=	-0.845098
+-0.003886046	select ATTRIB_0 from	2.171306
+-0.801623	where ATTRIB_0 !=	-1.079181
+-0.780251	where ATTRIB_0 <	-1.113943
+-0.8029996	where ATTRIB_0 <=	-1.079181
+-0.780139	where ATTRIB_0 =	-1.113943
+-0.8179173	where ATTRIB_0 >	-1.079181
+-0.7801828	where ATTRIB_0 >=	-1.113943
+-0.4843052	select ATTRIB_0, ATTRIB_1	-1.361728
+-0.4844199	select ATTRIB_0, ATTRIB_1,	-1.361728
+-0.4650587	select ATTRIB_0, ATTRIB_2	-1.380211
+-0.01545624	ATTRIB_0, ATTRIB_1 from	-1.361728
+-0.03161947	and ATTRIB_1 >	-1.041393
+-0.3468895	or ATTRIB_1 !=	-0.845098
+-0.33622	or ATTRIB_1 >	-0.8450981
+-0.7697131	where ATTRIB_1 !=	-1.079181
+-0.8228123	where ATTRIB_1 <	-1.041393
+-0.7435884	where ATTRIB_1 <=	-1.113943
+-0.8683369	where ATTRIB_1 =	-1
+-0.7895085	where ATTRIB_1 >	-1.041393
+-0.7435678	where ATTRIB_1 >=	-1.113943
+-0.000791103	ATTRIB_0, ATTRIB_1, ATTRIB_2	-1.361728
+-0.006452622	ATTRIB_0, ATTRIB_2 from	-1.380211
+-0.006735357	ATTRIB_1, ATTRIB_2 from	-1.361728
+-0.4469344	and ATTRIB_2 =	-0.69897
+-0.2767741	and ATTRIB_2 >=	-0.8450981
+-0.3476209	or ATTRIB_2 =	-0.845098
+-0.3437209	or ATTRIB_2 >=	-0.8450981
+-0.03739933	ATRIB_1, ATTRIB_3 FROM	-0.4771212
+-0.2204848	!= CONST_0 </s>
+-0.4202673	!= CONST_0 and	-0.8129133
+-0.2980891	< CONST_0 </s>
+-0.6499073	< CONST_0 and	-0.7781513
+-0.5722376	< CONST_0 or	-0.845098
+-0.3167144	<= CONST_0 </s>
+-0.302323	<= CONST_0 or	-1.113943
+-0.2980891	= CONST_0 </s>
+-0.3727162	= CONST_0 and	-0.7781513
+-0.2116501	> CONST_0 </s>
+-0.7930744	> CONST_0 and	-0.7781513
+-0.7158403	> CONST_0 or	-0.8450981
+-0.2991425	>= CONST_0 </s>
+-0.3193564	>= CONST_0 or	-0.8450981
+-0.03451264	= CONST_0; </s>
+-0.001756454	!= CONST_1 </s>
+-0.001903146	<= CONST_1 </s>
+-0.002076574	= CONST_1 </s>
+-0.05688716	> CONST_1 </s>
+-0.001756454	>= CONST_1 </s>
+-0.03451264	= CONST_3; </s>
+-0.01120222	= CONST_4; </s>
+-0.5506876	FROM ENTITY_0 NATURAL	-0.7781512
+-0.207249	FROM ENTITY_0 WHERE	-0.3469242
+-1.800414	from ENTITY_0 WHERE	-0.4771212
+-0.007255827	from ENTITY_0 where	1.898293
+-0.01799739	WHERE ENTITY_1 =	-0.04722503
+-0.01754042	JOIN ENTITY_2 WHERE	-0.06487857
+-0.01315015	* FROM ENTITY_0	-0.69897
+-0.007256431	ATRIB_1 FROM ENTITY_0	-0.6989703
+-0.01650086	ATTRIB_3 FROM ENTITY_0	-0.03290737
+-0.1337614	NATURAL JOIN ENTITY_2	-0.6989701
+-0.01219366	ENTITY_0 NATURAL JOIN	-0.08374083
+-0.5770727	<s> SELECT *	-0.08311731
+-0.3729421	<s> SELECT ATRIB_1	-0.9542425
+-0.7988932	<s> SELECT ATRIB_1,	-0.0680806
+-0.2523748	ENTITY_0 WHERE ATRIB_0	-0.69897
+-0.861657	ENTITY_0 WHERE ATRIB_2
+-0.8621663	ENTITY_0 WHERE office	-0.4771212
+-0.4689838	ENTITY_2 WHERE ENTITY_1	-0.4771212
+-0.4572403	CONST_0 and ATTRIB_0	-0.8129137
+-0.498986	CONST_0 and ATTRIB_1	-1.041393
+-0.4993936	CONST_0 and ATTRIB_2	-0.778151
+-4.369437e-05	ATTRIB_0 from ENTITY_0	-1.826075
+-0.0001272959	ATTRIB_1 from ENTITY_0	-1.361728
+-6.364327e-05	ATTRIB_2 from ENTITY_0	-1.662758
+-0.04975669	WHERE office =
+-0.4790235	CONST_0 or ATTRIB_0	-0.845098
+-0.4792357	CONST_0 or ATTRIB_1	-0.8450975
+-0.4794098	CONST_0 or ATTRIB_2	-0.8450978
+-0.3043863	<s> select ATTRIB_0	-1.826075
+-0.2978651	<s> select ATTRIB_0,	-1.368042
+-0.2850819	ENTITY_0 where ATTRIB_0	-1.096912
+-0.3177552	ENTITY_0 where ATTRIB_1	-1.066949
 
 \4-grams:
--0.01471314	department = "computer"; </s>
--0.006146431	department = 'chemical' </s>
--0.005020801	department = 'computer' </s>
--0.01471314	name = 'deependra'; </s>
--0.01471314	department = 'electrical'; </s>
--0.005201194	department = 'mechanical' </s>
--0.01471314	department = 'mechanical'; </s>
--0.01471314	department = 'metallurgy' </s>
--0.004547628	<s> select * from	3.606257
--0.006146431	hostel = 10 </s>
--0.001812113	cpi < 10.00 </s>
--0.0007635634	rno = 120050042; </s>
--0.4771255	salary > 20000 </s>
--0.176097	salary > 20000 and	-1.740363
--0.01471314	hostel = 4 </s>
--0.001812113	cpi > 4.00 </s>
--0.006146431	hostel = 5 </s>
--0.4771255	salary > 50000 </s>
--0.176097	salary > 50000 and	-1.740363
--0.01471314	hostel = 5; </s>
--0.01471314	hostel = 6 </s>
--0.001812113	cpi > 7 </s>
--0.001812113	cpi > 8 </s>
--0.0005361346	cpi > 8; </s>
--0.001812113	cpi = 9 </s>
--0.01471314	hostel = 9; </s>
--0.002011607	where cpi < 10.00	-0.7781513
--0.01195832	where cpi = 9	-0.7781513
--0.3014374	and department = 'computer'	-1.740363
--0.301699	and department = 'mechanical'	-1.740363
--1.580148	where department = "computer";	-0.4771212
--1.404057	where department = 'chemical'	-0.60206
--0.3496127	where department = 'computer'	-1.518514
--1.580148	where department = 'electrical';	-0.4771212
--0.3897215	where department = 'mechanical'	-1.477121
--1.580148	where department = 'mechanical';	-0.4771212
--1.580148	where department = 'metallurgy'	-0.4771212
--0.7072945	where hostel = 10	-0.60206
--0.8833835	where hostel = 4	-0.4771212
--0.7072945	where hostel = 5	-0.60206
--0.8833835	where hostel = 5;	-0.4771212
--0.8833835	where hostel = 6	-0.4771212
--0.8833835	where hostel = 9;	-0.4771212
--0.05066865	where name = 'deependra';	-0.4771212
--0.07507686	where rno = 120050042;	-0.9030898
--0.6712213	where cpi > 4.00	-0.7781513
--0.6712213	where cpi > 7	-0.7781513
--0.6712213	where cpi > 8	-0.7781513
--0.4671015	where cpi > 8;	-0.9542425
--0.3010397	where salary > 20000	3.298377
--0.3010397	where salary > 50000	3.298377
--0.00796893	> 20000 and department	3.472164
--0.00796893	> 50000 and department	3.472164
--0.01471314	<s> select count(*) from	-0.4771213
--0.002803848	<s> select cpi from	-0.778152
--0.8204401	student where cpi <	-0.7781513
--0.8203349	student where cpi =	-0.7781513
--0.1576645	student where cpi >	-0.8293089
--0.01471314	<s> select credits from	-0.4771212
--2.662315e-06	20000 and department =	-1.446896
--2.662315e-06	50000 and department =	-1.446896
--0.01188947	<s> select department from	-0.7781513
--3.975244e-06	instructor where department =	-1.447158
--1.150738e-05	student where department =	-0.5528364
--0.06929693	select * from instructor	-1.618043
--0.8982231	select * from student	3.801991
--1.676403	select * from student;	-0.4771214
--0.04919871	select count(*) from student;	-0.4771214
--0.1056619	select cpi from student	3.801992
--0.7089723	select cpi from student;	-0.4771214
--0.03908372	select credits from student	-0.4771214
--0.009446156	select department from student	-0.7781515
--0.003376996	select hostel from student	3.801991
--0.08719049	select name from instructor	-1.618043
--0.7913669	select name from student	3.801991
--1.69431	select name from student;	-0.4771214
--0.07115756	select rno from student	3.801991
--0.8308693	select rno from student;	-0.6989701
--1.74136e-05	select salary from instructor	-1.618043
--0.002753239	<s> select hostel from	-1
--0.000840243	student where hostel =	-0.5228788
--0.9648356	* from instructor </s>
--0.0617456	* from instructor where	3.185642
--0.9648356	name from instructor </s>
--0.0617456	name from instructor where	3.185642
--0.9648356	salary from instructor </s>
--0.0617456	salary from instructor where	3.185642
--1.601742e-06	<s> select name from	3.623366
--0.05003257	student where name =	-0.4771212
--0.0001467277	<s> select rno from	-1.16136
--0.004204167	student where rno =	-0.08097088
--4.318399e-05	<s> select salary from	2.483091
--5.530085e-06	instructor where salary >	2.737201
--5.270504e-06	* from student where	-0.69897
--7.612971e-06	cpi from student where	-0.3222249
--2.283931e-05	credits from student where
--1.141951e-05	department from student where	-0.7781512
--6.851668e-06	hostel from student where	-0.6020599
--4.03038e-06	name from student where	-0.8016325
--2.854848e-06	rno from student where	-0.9378521
--0.0007711004	* from student; </s>
--0.0007711004	count(*) from student; </s>
--0.0007711004	cpi from student; </s>
--0.0007711004	name from student; </s>
--0.0004624959	rno from student; </s>
--0.6020609	from instructor where department	3.29806
--0.1249486	from instructor where salary	2.682868
--0.3578162	from student where cpi	-1.079199
--0.6197636	from student where department	3.298059
--0.7302018	from student where hostel	-1.176091
--1.575261	from student where name	-0.4771212
--0.9732377	from student where rno	-0.9542425
+-0.03211309	and ATTRIB_0 != CONST_1	-0.845098
+-0.03211309	or ATTRIB_0 != CONST_1	-0.845098
+-0.01888862	where ATTRIB_0 != CONST_0	-0.8129094
+-0.001325799	or ATTRIB_1 != CONST_0	-0.845098
+-0.0007728909	where ATTRIB_1 != CONST_0	-0.8129096
+-0.1070315	<s> SELECT * FROM	-0.6989701
+-0.0002913499	where ATTRIB_0 < CONST_0	-0.8450969
+-0.000406981	where ATTRIB_1 < CONST_0	-0.7781528
+-0.03905929	and ATTRIB_0 <= CONST_1	-0.778151
+-0.03325967	or ATTRIB_0 <= CONST_1	-0.845098
+-0.01803199	where ATTRIB_0 <= CONST_0	-0.8129065
+-0.0009170565	where ATTRIB_1 <= CONST_0	-0.8450935
+-0.5653512	WHERE ATRIB_0 = CONST_3;	-0.4771211
+-0.001509471	where ATTRIB_0 = CONST_0	-0.845099
+-0.002554073	where ATTRIB_1 = CONST_0	-0.7403631
+-0.006471025	and ATTRIB_2 = CONST_1	-0.6989701
+-0.004612301	or ATTRIB_2 = CONST_1	-0.8450978
+-0.1944838	WHERE ENTITY_1 = CONST_4;	-0.4771214
+-0.001090474	where ATTRIB_0 > CONST_0	-0.8129138
+-0.009583635	and ATTRIB_1 > CONST_0	-1.041393
+-0.05100233	or ATTRIB_1 > CONST_1	-0.845098
+-0.009583635	where ATTRIB_1 > CONST_0	-0.7781553
+-0.001013044	where ATTRIB_0 >= CONST_0	-0.8451161
+-0.001013044	where ATTRIB_1 >= CONST_0	-0.8451161
+-0.003343167	and ATTRIB_2 >= CONST_1	-0.845098
+-0.003343167	or ATTRIB_2 >= CONST_1	-0.845098
+-0.1444661	ENTITY_0 WHERE ATRIB_0 =	-0.02041507
+-0.6161683	ENTITY_0 WHERE ATRIB_0 >
+-0.001455091	<s> SELECT ATRIB_1 FROM	-0.9542425
+-0.2047178	<s> SELECT ATRIB_1, ATTRIB_3	-0.4771214
+-0.2709427	CONST_0 and ATTRIB_0 !=	-0.845098
+-0.3497293	CONST_0 and ATTRIB_0 <=	-0.7781513
+-0.3074517	CONST_0 or ATTRIB_0 !=	-0.845098
+-0.3075641	CONST_0 or ATTRIB_0 <=	-0.8450981
+-5.77458e-05	<s> select ATTRIB_0 from	-1.826075
+-0.7977883	ENTITY_0 where ATTRIB_0 !=	-1.079181
+-0.761279	ENTITY_0 where ATTRIB_0 <	-1.113943
+-0.7978973	ENTITY_0 where ATTRIB_0 <=	-1.079181
+-0.7612705	ENTITY_0 where ATTRIB_0 =	-1.113943
+-0.7990583	ENTITY_0 where ATTRIB_0 >	-1.079181
+-0.7612739	ENTITY_0 where ATTRIB_0 >=	-1.113943
+-0.4836801	<s> select ATTRIB_0, ATTRIB_1	-1.361728
+-0.483685	<s> select ATTRIB_0, ATTRIB_1,	-1.361728
+-0.4643774	<s> select ATTRIB_0, ATTRIB_2	-1.380211
+-0.0006606953	select ATTRIB_0, ATTRIB_1 from	3.533034
+-0.002781237	CONST_0 and ATTRIB_1 >	-1.041393
+-0.3072923	CONST_0 or ATTRIB_1 !=	-0.845098
+-0.3058859	CONST_0 or ATTRIB_1 >	-0.845098
+-0.7652073	ENTITY_0 where ATTRIB_1 !=	-1.079181
+-0.8075809	ENTITY_0 where ATTRIB_1 <	-1.041393
+-0.7283961	ENTITY_0 where ATTRIB_1 <=	-1.113943
+-0.8533191	ENTITY_0 where ATTRIB_1 =	-1
+-0.8047256	ENTITY_0 where ATTRIB_1 >	-1.041393
+-0.7283944	ENTITY_0 where ATTRIB_1 >=	-1.113943
+-3.436583e-05	select ATTRIB_0, ATTRIB_1, ATTRIB_2	-1.361728
+-0.0002669538	select ATTRIB_0, ATTRIB_2 from	3.834064
+-0.0002906798	ATTRIB_0, ATTRIB_1, ATTRIB_2 from	3.834064
+-0.4057315	CONST_0 and ATTRIB_2 =	-0.69897
+-0.230534	CONST_0 and ATTRIB_2 >=	-0.845098
+-0.3073876	CONST_0 or ATTRIB_2 =	-0.845098
+-0.3068777	CONST_0 or ATTRIB_2 >=	-0.845098
+-0.01211209	SELECT ATRIB_1, ATTRIB_3 FROM	-0.4771214
+-0.2563832	ATTRIB_0 != CONST_0 </s>
+-0.3535276	ATTRIB_0 != CONST_0 and	-0.7781512
+-0.1922594	ATTRIB_1 != CONST_0 </s>
+-0.4488126	ATTRIB_1 != CONST_0 and	-0.845098
+-0.3006087	ATTRIB_0 < CONST_0 </s>
+-0.3308465	ATTRIB_0 < CONST_0 or	-0.8450981
+-0.3005385	ATTRIB_1 < CONST_0 </s>
+-0.3429569	ATTRIB_1 < CONST_0 and	-0.7781512
+-0.3383672	ATTRIB_0 <= CONST_0 </s>
+-0.2690298	ATTRIB_0 <= CONST_0 or	-0.845098
+-0.3032362	ATTRIB_1 <= CONST_0 </s>
+-0.3012145	ATTRIB_1 <= CONST_0 or	-0.845098
+-0.3006087	ATTRIB_0 = CONST_0 </s>
+-0.3105744	ATTRIB_0 = CONST_0 and	-0.845098
+-0.2627499	ATTRIB_1 = CONST_0 </s>
+-0.3558444	ATTRIB_1 = CONST_0 and	-0.69897
+-0.2548943	ATTRIB_0 > CONST_0 </s>
+-0.3878624	ATTRIB_0 > CONST_0 and	-0.7781512
+-0.1597652	ATTRIB_1 > CONST_0 </s>
+-0.5372781	ATTRIB_1 > CONST_0 or	-0.845098
+-0.3007599	ATTRIB_0 >= CONST_0 </s>
+-0.3036012	ATTRIB_0 >= CONST_0 or	-0.845098
+-0.3007599	ATTRIB_1 >= CONST_0 </s>
+-0.3036012	ATTRIB_1 >= CONST_0 or	-0.8450981
+-0.0001348599	ATTRIB_0 != CONST_1 </s>
+-0.0001582774	ATTRIB_0 <= CONST_1 </s>
+-0.0001883697	ATTRIB_2 = CONST_1 </s>
+-0.007684573	ATTRIB_1 > CONST_1 </s>
+-0.0001348599	ATTRIB_2 >= CONST_1 </s>
+-0.01120222	ATRIB_0 = CONST_3; </s>
+-0.002217446	ENTITY_1 = CONST_4; </s>
+-0.03427979	* FROM ENTITY_0 WHERE	-0.69897
+-0.34077	ATRIB_1 FROM ENTITY_0 NATURAL	-0.6989701
+-0.2805836	ATRIB_1 FROM ENTITY_0 WHERE	-0.0588938
+-0.1882875	ATTRIB_3 FROM ENTITY_0 WHERE	-0.4771212
+-0.0001074096	ATTRIB_0 from ENTITY_0 where	-1.531481
+-0.0003129628	ATTRIB_1 from ENTITY_0 where	-1.079177
+-0.0001564532	ATTRIB_2 from ENTITY_0 where	-1.371062
+-0.005916647	ENTITY_2 WHERE ENTITY_1 =
+-0.003451866	NATURAL JOIN ENTITY_2 WHERE	-0.03107509
+-0.002598369	SELECT * FROM ENTITY_0	-0.69897
+-0.0008003085	SELECT ATRIB_1 FROM ENTITY_0	-0.6989709
+-0.005430924	ATRIB_1, ATTRIB_3 FROM ENTITY_0
+-0.1071238	ENTITY_0 NATURAL JOIN ENTITY_2	-0.6989698
+-0.00200865	FROM ENTITY_0 NATURAL JOIN	-0.02722406
+-0.1603503	FROM ENTITY_0 WHERE ATRIB_0	-0.6989697
+-0.7636538	FROM ENTITY_0 WHERE ATRIB_2
+-0.1472453	from ENTITY_0 WHERE office	-0.4771212
+-0.3652473	JOIN ENTITY_2 WHERE ENTITY_1	-0.4771214
+-0.3631316	!= CONST_0 and ATTRIB_1	-0.7781513
+-0.2922111	!= CONST_0 and ATTRIB_2	-0.845098
+-0.05248729	< CONST_0 and ATTRIB_1	-0.7781513
+-0.2532429	= CONST_0 and ATTRIB_0	-0.845098
+-0.4132872	= CONST_0 and ATTRIB_2	-0.69897
+-0.04988294	> CONST_0 and ATTRIB_0	-0.7781513
+-0.006530867	select ATTRIB_0 from ENTITY_0	-1.826075
+-5.533827e-06	ATTRIB_0, ATTRIB_1 from ENTITY_0	-1.361728
+-2.651617e-06	ATTRIB_0, ATTRIB_2 from ENTITY_0	-1.380211
+-2.766905e-06	ATTRIB_1, ATTRIB_2 from ENTITY_0	-1.361728
+-0.01596045	ENTITY_0 WHERE office =
+-0.04357672	< CONST_0 or ATTRIB_1	-0.845098
+-0.02291419	<= CONST_0 or ATTRIB_0	-0.8450929
+-0.04358584	> CONST_0 or ATTRIB_2	-0.845098
+-0.3224303	>= CONST_0 or ATTRIB_1	-0.845098
+-0.3224476	>= CONST_0 or ATTRIB_2	-0.845098
+-0.2914847	from ENTITY_0 where ATTRIB_0	-1.096903
+-0.3241538	from ENTITY_0 where ATTRIB_1	-1.066971
 
 \5-grams:
--0.004849207	where department = "computer"; </s>
--0.001528472	where department = 'chemical' </s>
--9.077114e-05	and department = 'computer' </s>
--0.0001512958	where department = 'computer' </s>
--0.004849207	where name = 'deependra'; </s>
--0.004849207	where department = 'electrical'; </s>
--9.40133e-05	and department = 'mechanical' </s>
--0.0001723733	where department = 'mechanical' </s>
--0.004849207	where department = 'mechanical'; </s>
--0.004849207	where department = 'metallurgy' </s>
--0.001528472	where hostel = 10 </s>
--0.0003014943	where cpi < 10.00 </s>
--9.537204e-05	where rno = 120050042; </s>
--0.4877143	where salary > 20000 </s>
--0.1866843	where salary > 20000 and
--0.004849207	where hostel = 4 </s>
--0.0003014943	where cpi > 4.00 </s>
--0.001528472	where hostel = 5 </s>
--0.4877143	where salary > 50000 </s>
--0.1866843	where salary > 50000 and
--0.004849207	where hostel = 5; </s>
--0.004849207	where hostel = 6 </s>
--0.0003014943	where cpi > 7 </s>
--0.0003014943	where cpi > 8 </s>
--5.953784e-05	where cpi > 8; </s>
--0.0003014943	where cpi = 9 </s>
--0.004849207	where hostel = 9; </s>
--0.0003346215	student where cpi < 10.00
--0.001970327	student where cpi = 9
--0.3010446	20000 and department = 'computer'
--0.3010539	20000 and department = 'mechanical'
--0.3010446	50000 and department = 'computer'
--0.3010539	50000 and department = 'mechanical'
--0.3026747	instructor where department = 'computer'
--0.3039045	instructor where department = 'mechanical'
--1.058676	student where department = "computer";
--0.882585	student where department = 'chemical'
--0.4878722	student where department = 'computer'
--1.058676	student where department = 'electrical';
--0.7118858	student where department = 'mechanical'
--1.058676	student where department = 'mechanical';
--1.058676	student where department = 'metallurgy'
--0.6801429	student where hostel = 10
--0.8562335	student where hostel = 4
--0.6801429	student where hostel = 5
--0.8562335	student where hostel = 5;
--0.8562335	student where hostel = 6
--0.8562335	student where hostel = 9;
--0.01624148	student where name = 'deependra';
--0.06135558	student where rno = 120050042;
--0.6640013	student where cpi > 4.00
--0.6640013	student where cpi > 7
--0.6640013	student where cpi > 8
--0.4598814	student where cpi > 8;
--0.3063588	instructor where salary > 20000
--0.3063588	instructor where salary > 50000
--0.0001435922	salary > 20000 and department
--0.0001435922	salary > 50000 and department
--0.8196185	from student where cpi <
--0.8196098	from student where cpi =
--0.1568592	from student where cpi >
--0.00796893	> 20000 and department =
--0.00796893	> 50000 and department =
--0.00796893	from instructor where department =
--0.0234811	from student where department =
--0.08274106	<s> select * from instructor
--0.9120448	<s> select * from student
--1.690196	<s> select * from student;
--0.01578831	<s> select count(*) from student;
--0.09835646	<s> select cpi from student
--0.7006211	<s> select cpi from student;
--0.01264109	<s> select credits from student
--0.00156016	<s> select department from student
--0.0003365204	<s> select hostel from student
--0.1001152	<s> select name from instructor
--0.8044802	<s> select name from student
--1.70757	<s> select name from student;
--0.0697407	<s> select rno from student
--0.8294116	<s> select rno from student;
--0.005328834	<s> select salary from instructor
--5.596565e-05	from student where hostel =
--0.9544948	select * from instructor </s>
--0.05140476	select * from instructor where
--0.9544948	select name from instructor </s>
--0.05140476	select name from instructor where
--0.9544948	select salary from instructor </s>
--0.05140476	select salary from instructor where
--0.01604551	from student where name =
--0.0004651249	from student where rno =
--0.00267259	from instructor where salary >
--0.03476211	select * from student where
--0.05115252	select cpi from student where
--7.612971e-06	select credits from student where
--1.90323e-06	select department from student where
--0.04575749	select hostel from student where
--0.02632894	select name from student where
--0.01848341	select rno from student where
--0.0002568814	select * from student; </s>
--0.0002568814	select count(*) from student; </s>
--0.0002568814	select cpi from student; </s>
--0.0002568814	select name from student; </s>
--9.245979e-05	select rno from student; </s>
--0.6139592	* from instructor where department
--0.136838	* from instructor where salary
--0.6139592	name from instructor where department
--0.136838	name from instructor where salary
--0.6139592	salary from instructor where department
--0.136838	salary from instructor where salary
--0.2068548	* from student where cpi
--0.7415157	* from student where department
--0.8580751	* from student where name
--0.2407396	cpi from student where rno
--0.04265484	department from student where cpi
--0.2787289	hostel from student where cpi
--0.6446057	hostel from student where department
--0.6712185	hostel from student where hostel
--0.338235	name from student where department
--0.4619579	name from student where hostel
--0.91344	name from student where rno
--0.2023557	rno from student where cpi
--0.7410275	rno from student where department
--0.7561641	rno from student where hostel
+-0.004444746	CONST_0 and ATTRIB_0 != CONST_1
+-0.004444746	CONST_0 or ATTRIB_0 != CONST_1
+-0.001543051	ENTITY_0 where ATTRIB_0 != CONST_0
+-0.0001891523	CONST_0 or ATTRIB_1 != CONST_0
+-6.435507e-05	ENTITY_0 where ATTRIB_1 != CONST_0
+-2.24046e-05	ENTITY_0 where ATTRIB_0 < CONST_0
+-3.698251e-05	ENTITY_0 where ATTRIB_1 < CONST_0
+-0.006270778	CONST_0 and ATTRIB_0 <= CONST_1
+-0.004598258	CONST_0 or ATTRIB_0 <= CONST_1
+-0.001474397	ENTITY_0 where ATTRIB_0 <= CONST_0
+-7.04741e-05	ENTITY_0 where ATTRIB_1 <= CONST_0
+-0.5150211	ENTITY_0 WHERE ATRIB_0 = CONST_3;
+-0.0001159271	ENTITY_0 where ATTRIB_0 = CONST_0
+-0.0002547324	ENTITY_0 where ATTRIB_1 = CONST_0
+-0.001286515	CONST_0 and ATTRIB_2 = CONST_1
+-0.0006559088	CONST_0 or ATTRIB_2 = CONST_1
+-9.076834e-05	ENTITY_0 where ATTRIB_0 > CONST_0
+-0.000862553	CONST_0 and ATTRIB_1 > CONST_0
+-0.006929478	CONST_0 or ATTRIB_1 > CONST_1
+-0.000862553	ENTITY_0 where ATTRIB_1 > CONST_0
+-7.784263e-05	ENTITY_0 where ATTRIB_0 >= CONST_0
+-7.784263e-05	ENTITY_0 where ATTRIB_1 >= CONST_0
+-0.0004760225	CONST_0 and ATTRIB_2 >= CONST_1
+-0.0004760225	CONST_0 or ATTRIB_2 >= CONST_1
+-0.1287746	FROM ENTITY_0 WHERE ATRIB_0 =
+-0.6048452	FROM ENTITY_0 WHERE ATRIB_0 >
+-0.02979481	= CONST_0 and ATTRIB_0 !=
+-0.0419969	> CONST_0 and ATTRIB_0 <=
+-0.3019416	<= CONST_0 or ATTRIB_0 !=
+-0.3019575	<= CONST_0 or ATTRIB_0 <=
+-0.797483	from ENTITY_0 where ATTRIB_0 !=
+-0.7597965	from ENTITY_0 where ATTRIB_0 <
+-0.7974917	from ENTITY_0 where ATTRIB_0 <=
+-0.7597958	from ENTITY_0 where ATTRIB_0 =
+-0.7975844	from ENTITY_0 where ATTRIB_0 >
+-0.7597961	from ENTITY_0 where ATTRIB_0 >=
+-2.870499e-05	<s> select ATTRIB_0, ATTRIB_1 from
+-0.0004623043	!= CONST_0 and ATTRIB_1 >
+-0.0004623043	< CONST_0 and ATTRIB_1 >
+-0.0325563	< CONST_0 or ATTRIB_1 >
+-0.0326632	>= CONST_0 or ATTRIB_1 !=
+-0.7648233	from ENTITY_0 where ATTRIB_1 !=
+-0.8062999	from ENTITY_0 where ATTRIB_1 <
+-0.7271183	from ENTITY_0 where ATTRIB_1 <=
+-0.8520557	from ENTITY_0 where ATTRIB_1 =
+-0.8060551	from ENTITY_0 where ATTRIB_1 >
+-0.7271182	from ENTITY_0 where ATTRIB_1 >=
+-1.49411e-06	<s> select ATTRIB_0, ATTRIB_1, ATTRIB_2
+-1.11198e-05	<s> select ATTRIB_0, ATTRIB_2 from
+-1.263421e-05	select ATTRIB_0, ATTRIB_1, ATTRIB_2 from
+-0.02633654	!= CONST_0 and ATTRIB_2 >=
+-0.05621989	= CONST_0 and ATTRIB_2 =
+-0.03267043	> CONST_0 or ATTRIB_2 =
+-0.03263173	>= CONST_0 or ATTRIB_2 >=
+-0.003999947	<s> SELECT ATRIB_1, ATTRIB_3 FROM
+-0.2621793	where ATTRIB_0 != CONST_0 </s>
+-0.3441128	where ATTRIB_0 != CONST_0 and
+-0.0227793	or ATTRIB_1 != CONST_0 </s>
+-0.3156652	where ATTRIB_1 != CONST_0 </s>
+-0.2871193	where ATTRIB_1 != CONST_0 and
+-0.3009698	where ATTRIB_0 < CONST_0 </s>
+-0.3051662	where ATTRIB_0 < CONST_0 or
+-0.300948	where ATTRIB_1 < CONST_0 </s>
+-0.3077427	where ATTRIB_1 < CONST_0 and
+-0.3417963	where ATTRIB_0 <= CONST_0 </s>
+-0.264127	where ATTRIB_0 <= CONST_0 or
+-0.3013445	where ATTRIB_1 <= CONST_0 </s>
+-0.3010564	where ATTRIB_1 <= CONST_0 or
+-0.3009698	where ATTRIB_0 = CONST_0 </s>
+-0.3023807	where ATTRIB_0 = CONST_0 and
+-0.2566225	where ATTRIB_1 = CONST_0 </s>
+-0.352846	where ATTRIB_1 = CONST_0 and
+-0.2619468	where ATTRIB_0 > CONST_0 </s>
+-0.3491114	where ATTRIB_0 > CONST_0 and
+-0.0123254	and ATTRIB_1 > CONST_0 </s>
+-0.3480431	where ATTRIB_1 > CONST_0 </s>
+-0.2609268	where ATTRIB_1 > CONST_0 or
+-0.3009914	where ATTRIB_0 >= CONST_0 </s>
+-0.3013964	where ATTRIB_0 >= CONST_0 or
+-0.3009914	where ATTRIB_1 >= CONST_0 </s>
+-0.3013964	where ATTRIB_1 >= CONST_0 or
+-1.926314e-05	and ATTRIB_0 != CONST_1 </s>
+-1.926314e-05	or ATTRIB_0 != CONST_1 </s>
+-2.637556e-05	and ATTRIB_0 <= CONST_1 </s>
+-2.260752e-05	or ATTRIB_0 <= CONST_1 </s>
+-3.76674e-05	and ATTRIB_2 = CONST_1 </s>
+-2.690495e-05	or ATTRIB_2 = CONST_1 </s>
+-0.001089506	or ATTRIB_1 > CONST_1 </s>
+-1.926314e-05	and ATTRIB_2 >= CONST_1 </s>
+-1.926314e-05	or ATTRIB_2 >= CONST_1 </s>
+-0.003702059	WHERE ATRIB_0 = CONST_3; </s>
+-0.0007378915	WHERE ENTITY_1 = CONST_4; </s>
+-0.006642908	SELECT * FROM ENTITY_0 WHERE
+-0.3086924	SELECT ATRIB_1 FROM ENTITY_0 NATURAL
+-0.296863	SELECT ATRIB_1 FROM ENTITY_0 WHERE
+-1.602933e-06	select ATTRIB_0 from ENTITY_0 where
+-1.360239e-05	ATTRIB_0, ATTRIB_1 from ENTITY_0 where
+-6.517758e-06	ATTRIB_0, ATTRIB_2 from ENTITY_0 where
+-6.801141e-06	ATTRIB_1, ATTRIB_2 from ENTITY_0 where
+-0.001963273	JOIN ENTITY_2 WHERE ENTITY_1 =
+-0.0006881818	ENTITY_0 NATURAL JOIN ENTITY_2 WHERE
+-0.0005184317	<s> SELECT * FROM ENTITY_0
+-8.885038e-05	<s> SELECT ATRIB_1 FROM ENTITY_0
+-0.001802773	SELECT ATRIB_1, ATTRIB_3 FROM ENTITY_0
+-0.09980381	FROM ENTITY_0 NATURAL JOIN ENTITY_2
+-0.0004009876	ATRIB_1 FROM ENTITY_0 NATURAL JOIN
+-0.02767928	* FROM ENTITY_0 WHERE ATRIB_0
+-0.1364247	ATRIB_1 FROM ENTITY_0 WHERE ATRIB_0
+-0.1401966	ATTRIB_3 FROM ENTITY_0 WHERE ATRIB_2
+-0.3273982	NATURAL JOIN ENTITY_2 WHERE ENTITY_1
+-0.04308121	ATTRIB_0 != CONST_0 and ATTRIB_1
+-0.03149991	ATTRIB_1 != CONST_0 and ATTRIB_2
+-0.008319101	ATTRIB_1 < CONST_0 and ATTRIB_1
+-0.02831617	ATTRIB_0 = CONST_0 and ATTRIB_0
+-0.05689033	ATTRIB_1 = CONST_0 and ATTRIB_2
+-0.007926017	ATTRIB_0 > CONST_0 and ATTRIB_0
+-9.675715e-05	<s> select ATTRIB_0 from ENTITY_0
+-0.01930515	select ATTRIB_0, ATTRIB_1 from ENTITY_0
+-0.01848341	select ATTRIB_0, ATTRIB_2 from ENTITY_0
+-0.01930515	ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0
+-0.005255247	from ENTITY_0 WHERE office =
+-0.00596388	ATTRIB_0 < CONST_0 or ATTRIB_1
+-0.00320036	ATTRIB_0 <= CONST_0 or ATTRIB_0
+-0.00320036	ATTRIB_1 <= CONST_0 or ATTRIB_0
+-0.005965075	ATTRIB_1 > CONST_0 or ATTRIB_2
+-0.03379394	ATTRIB_0 >= CONST_0 or ATTRIB_1
+-0.03379521	ATTRIB_1 >= CONST_0 or ATTRIB_2
+-0.2640464	ATTRIB_0 from ENTITY_0 where ATTRIB_0
+-0.3418742	ATTRIB_0 from ENTITY_0 where ATTRIB_1
+-0.1244029	ATTRIB_1 from ENTITY_0 where ATTRIB_0
+-0.6058295	ATTRIB_1 from ENTITY_0 where ATTRIB_1
+-0.4410816	ATTRIB_2 from ENTITY_0 where ATTRIB_0
+-0.1957279	ATTRIB_2 from ENTITY_0 where ATTRIB_1
 
 \end\

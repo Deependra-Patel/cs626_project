@@ -17,15 +17,11 @@ def get_child(self, node_val):
 #### Method for putting underscores in between complex comparators ####################################
 def convert_complex_comp(tokens):
 
+    phrase_map = {'greater than or equal':'greater_than_or_equal', 'lesser than or equal':'lesser_than_or_equal', 'higher than or equal':'greater_than_or_equal', 'lower than or equal':'lesser_than_or_equal', 'larger than or equal':'greater_than_or_equal', 'smaller than or equal':'lesser_than_or_equal', 'bigger than or equal':'greater_than_or_equal', 'as well as':'as_well_as', 'as well':'as_well'}
     try:
         sentence = " ".join(tokens)
-        sentence = sentence.replace('greater than or equal','greater_than_or_equal')
-        sentence = sentence.replace('lesser than or equal','lesser_than_or_equal')
-        sentence = sentence.replace('higher than or equal','greater_than_or_equal')
-        sentence = sentence.replace('lower than or equal','lesser_than_or_equal')
-        sentence = sentence.replace('larger than or equal','greater_than_or_equal')
-        sentence = sentence.replace('smaller than or equal','lesser_than_or_equal')
-        sentence = sentence.replace('bigger than or equal','greater_than_or_equal')
+        for key in phrase_map.keys():
+            sentence.replace(key,phrase_map[key])
         return sentence.split()
     except:
         return []
@@ -179,7 +175,10 @@ def get_select_from(fields_list, attrib_used, table_aliases, attrib_list, entity
                 from_temp = entity_map[entity_list[int(entities[0].replace('ENTITY_',''))]]
                 for j in range(1,len(entities)):
                     from_temp += (' natural join '+ entity_map[entity_list[int(entities[j].replace('ENTITY_',''))]])
-                from_temp += (' as T'+str(count))
+                if len(from_temp.split())>1:
+                    from_temp = '( ' + from_temp + ' )'
+                else:
+                    from_temp += (' as T'+str(count))
                 froms += [from_temp]
                 count += 1
             elif entities==[]:

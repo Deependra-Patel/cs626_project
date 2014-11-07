@@ -1,3 +1,4 @@
+#!/usr/bin/python2.7
 import sys
 import os
 import pattern.en
@@ -146,6 +147,10 @@ def process_query(sent, entity_list, attrib_list, const_list, attrib_map, entity
             attrib_list.append(word)
             sent[i] = 'ATTRIB_'+str(l_attrib)
             l_attrib += 1
+        elif word in entity_map.keys():
+            entity_list.append(word)
+            sent[i] = 'ENTITY_'+str(l_entity)
+            l_entity += 1
         elif word2 in attrib_map.keys():
             attrib_list.append(word2)
             sent[i] = 'ATTRIB_'+str(l_attrib)
@@ -154,10 +159,6 @@ def process_query(sent, entity_list, attrib_list, const_list, attrib_map, entity
             attrib_list.append(word3)
             sent[i] = 'ATTRIB_'+str(l_attrib)
             l_attrib += 1
-        elif word in entity_map.keys():
-            entity_list.append(word)
-            sent[i] = 'ENTITY_'+str(l_entity)
-            l_entity += 1
         elif word2 in entity_map.keys():
             entity_list.append(word2)
             sent[i] = 'ENTITY_'+str(l_entity)

@@ -83,22 +83,33 @@ def get_cond_tuple(condition):
 
     try:
         if condition.get_child('COMP_')==False and condition.get_child('COMP_SP')==False:
-            value1 = condition[0]
-            value2 = condition[1]
+            if len(condition) == 1:
+                value2 = condition[0]
+            else:
+                value1 = condition[0]
+                value2 = condition[1]
             comp = 'is'
         elif condition.get_child('COMP_')==False:
             is_special = True
             comp = condition.get_child('COMP_SP').get_child('COMP_SP1').get_child('COMP_SP2')[0]
             negate = condition.get_child('COMP_SP').get_child('COMP_SP1').get_child('NEGATE')
+            if negate != False:
+                negate = True
             value1 = condition.get_child('VALUE')
         else:
             comp = condition.get_child('COMP_').get_child('COMP1').get_child('COMP2').get_child('COMP3')[0]
             negate = condition.get_child('COMP_').get_child('COMP1').get_child('NEGATE')
+            if negate != False:
+                negate = True
+
             if condition[0].node == 'VALUE':
                 value1 = condition[0]
                 value2 = condition[2]
-            else:
+            elif len(condition)==2:
                 value2 = condition[1]
+            elif len(condition)==3:
+                value1 = condition[1]
+                value2 = condition[2]
     except:
         print "Rule Based: Exception in get_cond_tuple() function."
 
@@ -227,7 +238,7 @@ def get_where(conds_list, attribs_used, table_aliases, attrib_list, entity_list,
 
     try:
         # Initialize the condition mappings 
-        cond_map = {'is':'$ = &', 'belongs':'$ in &', 'belong':'$ in &', 'belonging':'$ in &', 'equal':'$ = &', 'equals':'$ = &', 'unequal':'$ != &', 'higher':'$ > &', 'lower':'$ < &', 'greater':'$ > &', 'lesser':'$ < &', 'more':'$ > &', 'less':'$ < &', 'larger':'$ > &', 'bigger':'$ > &', 'smaller':'$ < &', 'greater_than_or_equal':'$ >= &', 'lesser_than_or_equal':'$ <= &', 'divisible':'$ % & = 0', 'of':'$ = &', 'same':'$ = &', 'much':'$ = &', 'not':'$ != &', 'as':'$ = &'}
+        cond_map = {'is':'$ = &', 'in':'$ in &', 'belongs':'$ in &', 'belong':'$ in &', 'belonging':'$ in &', 'equal':'$ = &', 'equals':'$ = &', 'unequal':'$ != &', 'higher':'$ > &', 'lower':'$ < &', 'greater':'$ > &', 'lesser':'$ < &', 'more':'$ > &', 'less':'$ < &', 'larger':'$ > &', 'bigger':'$ > &', 'smaller':'$ < &', 'greater_than_or_equal':'$ >= &', 'lesser_than_or_equal':'$ <= &', 'divisible':'$ % & = 0', 'of':'$ = &', 'same':'$ = &', 'much':'$ = &', 'not':'$ != &', 'as':'$ = &'}
 
         cond_sp_map = {'maximum':'$ = MAX($)', 'minimum':'$ = MIN($)', 'highest':'$ = MAX($)', 'lowest':'$ = MIN($)', 'least':'$ = MIN($)', 'smallest':'$ = MIN($)', 'largest':'$ = MAX($)', 'greatest':'$ = MAX($)', 'small':'$ < CUTOFF', 'low':'$ < CUTOFF', 'high':'$ > CUTOFF', 'large':'$ > CUTOFF', 'big':'$ > CUTOFF', 'huge':'$ > CUTOFF'} 
 
@@ -306,7 +317,14 @@ def get_where(conds_list, attribs_used, table_aliases, attrib_list, entity_list,
                             wheres += ['or']
                     if current_state[1]==True:
                         wheres += ['not']
-                    wheres += [cond_map[conds_list[i][3]].replace('$',value1).replace('&',value2)]
+
+                    if cond_map[conds_list[i][3]].split()[1] == 'in' and value2[0]=="'":
+                        temp_value2 = value2[1:-1]
+                        if temp_value2[0] != '(':
+                            temp_value2 = "('" + temp_value2 + "')"
+                        wheres += [cond_map[conds_list[i][3]].replace('$',value1).replace('&',temp_value2)]
+                    else:
+                        wheres += [cond_map[conds_list[i][3]].replace('$',value1).replace('&',value2)]
 
                 prev_cond_exists = True
                 current_state = [True,False]
@@ -352,6 +370,8 @@ def give_sql(tokens, entity_list, attrib_list, const_list, attrib_map, entity_ma
             rd_parser.step()
         query_tree = rd_parser.parses()[0]
         query_tree = query_tree.get_child('P')
+        print "Done"
+        query_tree.draw()
     except:
         print "Failed to parse !"
         return ''

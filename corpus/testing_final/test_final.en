@@ -1,0 +1,21 @@
+display all ENTITY_0 from ATRIB_0 CONST_0
+fetch ATRIB_1 of all ENTITY_0 such that ATRIB_0 is CONST_0 or ATRIB_2 is greater than CONST_1
+print all ENTITY_0 having ATRIB_0 = CONST_3 and ATRIB_2 less than CONST_6
+fetch all ENTITY_0 from ATRIB_0 CONST_2 with ATRIB_2 greater than CONST_3
+which ENTITY_0 has ATRIB_1 CONST_0
+which ENTITY_0 has maximum ATRIB_0
+display all ENTITY_0 from ATRIB_0 CONST_3 and having ATRIB_0 greater than CONST_2
+which ENTITY_0 ATRIB_0 is CONST_5
+show ATRIB_2 from ENTITY_0 such that ATRIB_0 is CONST_3
+list ATRIB_1 of all ENTITY_0 who have ENTITY_2 ENTITY_1 CONST_4 and have ATRIB_2 greater than CONST_0
+display ATRIB_1 of the ENTITY_0 who ENTITY_2 ENTITY_1 CONST_4
+print ATRIB_1 of all ENTITY_0 of ATRIB_0 CONST_3
+get me ATRIB_1 and ATTRIB_3 of ENTITY_0 who have ATRIB_2 greater than equal to CONST_7
+return me ATRIB_1 of all ENTITY_0 whose ATRIB_0 is greater than CONST_1 and whose ATRIB_0 is not CONST_2
+list the ATRIB_1 and ATRIB_0 of ENTITY_0 whose office is CONST_4 and have ATRIB_0 less than CONST_2
+which ENTITY_0 office is CONST_4
+give me ATRIB_1 of ENTITY_0 such that they have ENTITY_2 ENTITY_1 CONST_4
+print ATRIB_1 of all the ENTITY_0 who are not from CONST_3 ATRIB_0 and have ENTITY_1 ENTITY_1 CONST_4
+which ENTITY_0 have ENTITY_2 ENTITY_1 CONST_4 and have ATRIB_2 greater than CONST_6 and are from ATRIB_0 CONST_0
+get me ATRIB_1 and ATTRIB_3 of all ENTITY_0 who are in ATTRIB_4 CONST_7 and have ENTITY_2 ENTITY_1 CONST_4
+print ATTRIB_3 of ENTITY_0 whose ATRIB_2 is neither greater than CONST_0 nor less than CONST_6 

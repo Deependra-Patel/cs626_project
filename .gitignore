@@ -2,5 +2,5 @@
 config.py
 *.swp
 *.swo
-stat_moses/mosesdecoder-RELEASE-1.0
-stat_moses/data
+stat_moses/mosesdecoder-RELEASE-1.0/*
+stat_moses/data/*

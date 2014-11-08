@@ -48,7 +48,6 @@ def convert_complex_comp(tokens):
         for map_ in list_of_maps:
             for key in map_.keys():
                 sentence = [substitute(w,key,map_[key]) for w in sentence]
-        print sentence
         return sentence
     except:
         return []

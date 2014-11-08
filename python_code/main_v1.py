@@ -2,8 +2,6 @@
 import sys
 import os
 import pattern.en
-from chunker_v3 import *
-from schema import *
 from nltk.stem import WordNetLemmatizer
 
 #### Helper functions ###########################################################################################
@@ -217,6 +215,16 @@ def get_statistical_sql(query_tokens, entity_list, attrib_list, const_list, attr
 #################################################################################################################
 #### Main Program starts here ###################################################################################
 #################################################################################################################
+
+if len(sys.argv) < 2:
+    print "Usage: ./main_v1.py mode"
+    sys.exit()
+if sys.argv[1] == '0':
+    from chunker_v3 import *
+else:
+    from chunker_v4 import *
+
+from schema import *
 
 #### Setting up the database metadata initially #################################################################
 

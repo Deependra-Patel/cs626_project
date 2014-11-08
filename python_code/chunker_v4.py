@@ -14,18 +14,42 @@ def get_child(self, node_val):
         print "Rule Based: get_child() method called on unsupported type."
         return False
 
+#### Method for replacing a string with another if it matches it ######################################
+def substitute(word, key, replace):
+    if word == key:
+        return replace
+    return word
+
 #### Method for putting underscores in between complex comparators ####################################
 def convert_complex_comp(tokens):
 
     select_map = {'get':'select', 'fetch':'select', 'select':'select', 'find':'select', 'show':'select', 'return':'select', 'display':'select', 'print':'select', 'give':'select', 'name':'select', 'list':'select'}
+    agent_map = {'me':'agent', 'them':'agent', 'these':'agent', 'those':'agent', 'him':'agent', 'her':'agent', 'us':'agent', 'my':'agent', 'our':'agent', 'their':'agent', 'your':'agent', 'such':'agent'}
     relative_map = {'friend':'relative', 'father':'relative', 'mother':'relative', 'son':'relative', 'daughter':'relative', 'brother':'relative', 'sister':'relative', 'dad':'relative', 'mom':'relative', 'bro':'relative', 'aunt':'relative', 'uncle':'relative', 'cousin':'relative'}
+    wh_map = {'what':'wh_question', 'which':'wh_question', 'who':'wh_question', 'where':'wh_question', 'whose':'wh_question', 'when':'wh_question', 'how':'wh_question', 'why':'wh_question'}
+    table_extra_map = {'table':'table', 'relation':'table', 'data':'table'}
+    info_word_map = {'information':'information', 'info':'information', 'data':'information', 'detail':'information', 'details':'information'}
     phrase_map = {'greater than or equal':'greater_than_or_equal', 'lesser than or equal':'lesser_than_or_equal', 'higher than or equal':'greater_than_or_equal', 'lower than or equal':'lesser_than_or_equal', 'larger than or equal':'greater_than_or_equal', 'smaller than or equal':'lesser_than_or_equal', 'bigger than or equal':'greater_than_or_equal', 'as well as':'as_well_as', 'as well':'as_well'}
-    conj_map = {''}
+    conj_map = {'and':'and', 'or':'or', ',':'and', 'as_well_as':'and', 'as_well':'and', 'neither':'not', 'either':'or', 'nor':'not', 'not':'not'}
+    filler3_map = {'does':'filler3', 'do':'filler3', 'it':'filler3'}
+    extra_map = {'to':'comp_extra', 'than':'comp_extra', 'by':'comp_extra'}
+    comp_sp2_map = {'maximum':'maximum', 'minimum':'minimum', 'highest':'maximum', 'lowest':'minimum', 'least':'minimum', 'smallest':'minimum', 'largest':'maximum', 'greatest':'maximum', 'small':'low', 'low':'low', 'high':'high', 'large':'high', 'big':'high', 'huge':'high'}
+    filler1_map = {'were':'filler1', 'are':'filler1', 'have':'filler1', 'had':'filler1', 'has':'filler1', 'was':'filler1', 'it':'filler1', 'all':'filler1', 'for' :'filler1', 'been':'filler1', 'some':'filler1', 'few':'filler1', 'any':'filler1', 'from':'filler1', 'that':'filler1', 'a':'filler1', 'an':'filler1', 'the':'filler1', 'among':'filler1', 'inside':'filler1', 'also':'filler1', 'they':'filler1', 'out':'filler1', 'will':'filler1', 'would':'filler1', 'however':'filler1', 'although':'filler1', 'though':'filler1', 'even':'filler1', 'whereas':'filler1', 'with':'filler1', 'while':'filler1', 'all':'filler1'}
+
+    list_of_maps = [select_map, agent_map, relative_map, wh_map, table_extra_map, info_word_map, conj_map, filler3_map, extra_map, comp_sp2_map, filler1_map]
+    list_of_group_maps = [phrase_map]
+
     try:
         sentence = " ".join(tokens)
-        for key in phrase_map.keys():
-            sentence.replace(key,phrase_map[key])
-        return sentence.split()
+        for map_ in list_of_group_maps:
+            for key in map_.keys():
+                sentence.replace(key,map_[key])
+        sentence = sentence.split()
+        for map_ in list_of_maps:
+            for key in map_.keys():
+                sentence = [substitute(w,key,map_[key]) for w in sentence]
+        print sentence
+        return sentence
     except:
         return []
 
@@ -124,9 +148,9 @@ def fill_conds(conds_list, query_tree):
             if temp == False:
                 break
             if len(temp) >= 2 :
-                if temp[0].node == 'CONJ2_':
+                if temp[0].node == 'CONJ1_':
                     conds_list.append(temp[0])
-                elif temp[1].node == 'CONJ2_':
+                elif temp[1].node == 'CONJ1_':
                     condition = temp.get_child('COND1').get_child('COND')
                     conds_list.append(get_cond_tuple(condition))
                     conds_list.append(temp[1])
@@ -148,12 +172,9 @@ def get_join_list(cond_tuple,join_map):
     try:
         temp = cond_tuple
         while(temp):
-            temp2 = temp.get_child('CONJ2')
-            if temp2.get_child('CONJ1') == False:
-                answer += [join_map[temp2[0]]]
-            else:
-                answer += [join_map[temp2.get_child('CONJ1')[0]]]
-            temp = temp.get_child('CONJ2_')
+            temp2 = temp.get_child('CONJ1')
+            answer += [join_map[temp2[0]]]
+            temp = temp.get_child('CONJ1_')
     except:
         print "Rule Based: Exception in get_join_list() function."
     return answer
@@ -235,11 +256,10 @@ def get_where(conds_list, attribs_used, table_aliases, attrib_list, entity_list,
     try:
         # Initialize the condition mappings 
         cond_map = {'is':'$ = &', 'in':'$ in &', 'belongs':'$ in &', 'belong':'$ in &', 'belonging':'$ in &', 'equal':'$ = &', 'equals':'$ = &', 'unequal':'$ != &', 'higher':'$ > &', 'lower':'$ < &', 'greater':'$ > &', 'lesser':'$ < &', 'more':'$ > &', 'less':'$ < &', 'larger':'$ > &', 'bigger':'$ > &', 'smaller':'$ < &', 'greater_than_or_equal':'$ >= &', 'lesser_than_or_equal':'$ <= &', 'divisible':'$ % & = 0', 'of':'$ = &', 'same':'$ = &', 'much':'$ = &', 'not':'$ != &', 'as':'$ = &'}
-
-        cond_sp_map = {'maximum':'$ = MAX($)', 'minimum':'$ = MIN($)', 'highest':'$ = MAX($)', 'lowest':'$ = MIN($)', 'least':'$ = MIN($)', 'smallest':'$ = MIN($)', 'largest':'$ = MAX($)', 'greatest':'$ = MAX($)', 'small':'$ < CUTOFF', 'low':'$ < CUTOFF', 'high':'$ > CUTOFF', 'large':'$ > CUTOFF', 'big':'$ > CUTOFF', 'huge':'$ > CUTOFF'} 
+        cond_sp_map = {'maximum':'$ = MAX($)', 'minimum':'$ = MIN($)', 'low':'$ < CUTOFF', 'high':'$ > CUTOFF'}
 
         # Initialize the join phrase mappings (Cond : [to_be_ANDed?,is_NEGATed?])
-        join_map = {'and':[True,False], 'or':[False,False], ',':[True,False], 'as_well_as':[True,False], 'as_well':[True,False], 'neither':[True,True], 'either':[True,False], 'nor':[True,True], 'but':[True,False], 'not':[True,True] }
+        join_map = {'and':[True,False], 'or':[False,False], 'not':[True,True], 'but':[True,False]}
 
         current_state = [True,False]
         prev_cond_exists = False
@@ -247,7 +267,7 @@ def get_where(conds_list, attribs_used, table_aliases, attrib_list, entity_list,
         for i in range(0,len(conds_list)):
             if conds_list[i] == '':
                 continue
-            if type(conds_list[i]) is nltk.tree.Tree and conds_list[i].node == 'CONJ2_':
+            if type(conds_list[i]) is nltk.tree.Tree and conds_list[i].node == 'CONJ1_':
                 join_vars = get_join_list(conds_list[i],join_map)
                 for j in range(0,len(join_vars)):
                     current_state[0] &= join_vars[j][0]
@@ -341,7 +361,7 @@ def get_where(conds_list, attribs_used, table_aliases, attrib_list, entity_list,
 def give_sql(tokens, entity_list, attrib_list, const_list, attrib_map, entity_map):
 
     try:
-        grammar1 = nltk.data.load('file:grammar/mygrammar_v3.cfg')
+        grammar1 = nltk.data.load('file:grammar/mygrammar_v4.cfg')
         rd_parser = nltk.SteppingRecursiveDescentParser(grammar1)
         #rd_parser = nltk.RecursiveDescentParser(grammar1)
         nltk.tree.Tree.get_child = get_child

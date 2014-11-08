@@ -9,6 +9,7 @@ create table student
 	 department		varchar(20), 
 	 credits		INT,
 	 hometown    	varchar(40),
+	 cpi 			INT,
 	 hostel         INT
 );
 create table takes

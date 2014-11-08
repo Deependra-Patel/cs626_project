@@ -1,6 +1,6 @@
 #!/usr/bin/python2.7
 from random import *
-lines = 165
+lines = 144
 fract_testing = 0.10
 fract_tuning = 0.20
 full_en = open("./data_gen.en",'r')

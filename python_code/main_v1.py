@@ -141,28 +141,28 @@ def process_query(sent, entity_list, attrib_list, const_list, attrib_map, entity
             const_list.append(word)
             sent[i] = 'CONST_'+str(l_const)
             l_const += 1
-        elif word in attrib_map.keys():
-            attrib_list.append(word)
+        elif word.lower() in attrib_map.keys():
+            attrib_list.append(word.lower())
             sent[i] = 'ATTRIB_'+str(l_attrib)
             l_attrib += 1
-        elif word in entity_map.keys():
-            entity_list.append(word)
+        elif word.lower() in entity_map.keys():
+            entity_list.append(word.lower())
             sent[i] = 'ENTITY_'+str(l_entity)
             l_entity += 1
-        elif word2 in attrib_map.keys():
-            attrib_list.append(word2)
+        elif word2.lower() in attrib_map.keys():
+            attrib_list.append(word2.lower())
             sent[i] = 'ATTRIB_'+str(l_attrib)
             l_attrib += 1
-        elif word3 in attrib_map.keys():
-            attrib_list.append(word3)
+        elif word3.lower() in attrib_map.keys():
+            attrib_list.append(word3.lower())
             sent[i] = 'ATTRIB_'+str(l_attrib)
             l_attrib += 1
-        elif word2 in entity_map.keys():
-            entity_list.append(word2)
+        elif word2.lower() in entity_map.keys():
+            entity_list.append(word2.lower())
             sent[i] = 'ENTITY_'+str(l_entity)
             l_entity += 1
-        elif word3 in entity_map.keys():
-            entity_list.append(word3)
+        elif word3.lower() in entity_map.keys():
+            entity_list.append(word3.lower())
             sent[i] = 'ENTITY_'+str(l_entity)
             l_entity += 1
         else:

@@ -189,7 +189,7 @@ def get_statistical_sql(query_tokens, entity_list, attrib_list, const_list, attr
     try:
         query_stat = (os.popen('../stat_moses/convert.sh \''+' '.join(query_tokens)+'\'')).read().split()
         print "Statistical: Mosses could convert the generic query (correctness not guaranteed)."
-    except MossesFailedToConvert:
+    except:
         print "Statistical: Mosses Failed to convert the query to SQL."
         query_stat = []
 
@@ -203,7 +203,7 @@ def get_statistical_sql(query_tokens, entity_list, attrib_list, const_list, attr
             elif word[:6] == 'CONST_' :
                 query_stat[i] = const_list[int(word[6:])]
         print "Statistical: Mapped back the converted generic query to its normal form."
-    except CouldNotConvertBack:
+    except:
         print "Statistical: Could not map the generic SQL query back to specific."
         query_stat = []
 

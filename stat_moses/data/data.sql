@@ -1,330 +1,165 @@
-select rno from student where department = 'computer'
-select rno from student where department = 'mechanical'
-select name from student where department = 'metallurgy'
-select hostel from student where department = 'chemical'
-select rno from student where department = 'computer'
-select rno from student where department = 'mechanical'
-select name from student where department = 'metallurgy'
-select hostel from student where department = 'chemical'
-select cpi from student where department = 'computer'
-select credits from student where department = 'chemical'
-select rno from student where hostel = 10
-select rno from student where hostel = 4
-select name from student where hostel = 5
-select hostel from student where hostel = 5
-select rno from student where hostel = 10
-select rno from student where hostel = 6
-select name from student where hostel = 6
-select hostel from student where hostel = 10
-select cpi from student where hostel = 4
-select credits from student where hostel = 5
-select rno from student where cpi = 9
-select department from student where cpi = 9
-select hostel from student where cpi = 9
-select rno from student where cpi = 9
-select rno from student where cpi = 9
-select rno from student where cpi > 8
-select department from student where cpi > 8
-select hostel from student where cpi > 8
-select rno from student where cpi > 8
-select rno from student where cpi > 8
-select rno from student where cpi > 7
-select department from student where cpi > 7
-select hostel from student where cpi > 7
-select rno from student where cpi > 7
-select rno from student where cpi > 7
-select rno from student where cpi > 4.00
-select department from student where cpi > 4.00
-select hostel from student where cpi > 4.00
-select rno from student where cpi > 4.00
-select rno from student where cpi > 4.00
-select rno from student where cpi < 10.00
-select department from student where cpi < 10.00
-select hostel from student where cpi < 10.00
-select rno from student where cpi < 10.00
-select rno from student where cpi < 10.00
-select * from student;
-select * from student where department = 'computer'
-select count(*) from student;
-select rno from student;
-select rno from student;
-select name from student where department = "computer";
-select * from student where name = 'deependra';
-select cpi from student;
-select * from student where cpi > 8;
-select * from student where cpi > 8;
-select * from student;
-select * from student where department = 'computer'
-select count(*) from student;
-select rno from student;
-select rno from student;
-select name from student where department = "computer";
-select * from student where name = 'deependra';
-select cpi from student;
-select * from student where cpi > 8;
-select * from student where cpi > 8;
-select name from student;
-select name from student where hostel = 9;
-select name from student where hostel = 5;
-select name from student where department = 'electrical';
-select name from student where department = 'mechanical';
-select name from student;
-select name from student where hostel = 9;
-select name from student where hostel = 5;
-select name from student where department = 'electrical';
-select name from student where department = 'mechanical';
-select * from student where cpi > 8;
-select * from student where cpi > 8;
-select * from student where cpi > 8;
-select * from student where cpi > 8;
-select name from student where rno = 120050032;
-select name from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select cpi from student where rno = 120050042;
-select * from instructor
-select * from instructor
-select * from instructor
-select * from instructor
-select * from instructor
-select * from instructor
-select * from instructor
-select * from instructor
-select * from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select name from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select salary from instructor
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select * from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select name from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select salary from instructor where salary > 20000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select * from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select name from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select salary from instructor where salary > 50000
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select * from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select name from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select salary from instructor where department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select name from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select salary from instructor where salary > 20000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select * from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select name from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select salary from instructor where salary > 50000 and department = 'computer'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select * from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select name from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select salary from instructor where department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select name from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select salary from instructor where salary > 20000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select * from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select name from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
-select salary from instructor where salary > 50000 and department = 'mechanical'
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 = CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 = CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 < CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 <= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 < CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 >= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 <= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 = CONST_0 and ATTRIB_0 != CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 != CONST_0 and ATTRIB_2 >= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 > CONST_0 and ATTRIB_0 <= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 >= CONST_0 or ATTRIB_1 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 > CONST_0 or ATTRIB_2 = CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 >= CONST_0 or ATTRIB_2 >= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 <= CONST_0 or ATTRIB_0 <= CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 = CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_1 = CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_1 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 < CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 <= CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 < CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 >= CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 <= CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 = CONST_0 and ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_1 != CONST_0 and ATTRIB_2 >= CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 > CONST_0 and ATTRIB_0 <= CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 >= CONST_0 or ATTRIB_1 != CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 > CONST_0 or ATTRIB_2 = CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 >= CONST_0 or ATTRIB_2 >= CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 <= CONST_0 or ATTRIB_0 <= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 = CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 = CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 < CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 <= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 < CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 >= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 <= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 = CONST_0 and ATTRIB_0 != CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 != CONST_0 and ATTRIB_2 >= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 > CONST_0 and ATTRIB_0 <= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 >= CONST_0 or ATTRIB_1 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 > CONST_0 or ATTRIB_2 = CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 >= CONST_0 or ATTRIB_2 >= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 <= CONST_0 or ATTRIB_0 <= CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 = CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_1 = CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_1 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 < CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 <= CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 < CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 >= CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 <= CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 = CONST_0 and ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_1 != CONST_0 and ATTRIB_2 >= CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 > CONST_0 and ATTRIB_0 <= CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 >= CONST_0 or ATTRIB_1 != CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 > CONST_0 or ATTRIB_2 = CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 >= CONST_0 or ATTRIB_2 >= CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 <= CONST_0 or ATTRIB_0 <= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 = CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 = CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 < CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 <= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 < CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 >= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 <= CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 = CONST_0 and ATTRIB_0 != CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 != CONST_0 and ATTRIB_2 >= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 > CONST_0 and ATTRIB_0 <= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 >= CONST_0 or ATTRIB_1 != CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 > CONST_0 or ATTRIB_2 = CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 >= CONST_0 or ATTRIB_2 >= CONST_1
+select ATTRIB_0 from ENTITY_0 where ATTRIB_1 <= CONST_0 or ATTRIB_0 <= CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 = CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_1 = CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_1 != CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 < CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 >= CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 <= CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 < CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 >= CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 <= CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 = CONST_0 and ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_1 = CONST_0 and ATTRIB_2 = CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 != CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_1 != CONST_0 and ATTRIB_2 >= CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 > CONST_0 and ATTRIB_0 <= CONST_1
+select ATTRIB_0, ATTRIB_1, ATTRIB_2 from ENTITY_0 where ATTRIB_0 < CONST_0 or ATTRIB_1 > CONST_1
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 >= CONST_0 or ATTRIB_1 != CONST_0
+select ATTRIB_0, ATTRIB_1 from ENTITY_0 where ATTRIB_0 <= CONST_0 or ATTRIB_0 != CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 > CONST_0 or ATTRIB_2 = CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 < CONST_0 and ATTRIB_1 > CONST_0
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 >= CONST_0 or ATTRIB_2 >= CONST_1
+select ATTRIB_0, ATTRIB_2 from ENTITY_0 where ATTRIB_1 <= CONST_0 or ATTRIB_0 <= CONST_1
+SELECT * FROM ENTITY_0 WHERE ATRIB_0 = CONST_0;
+SELECT ATRIB_1 FROM ENTITY_0 WHERE ATRIB_0 = CONST_0 OR ATRIB_2 > CONST_1;
+SELECT * FROM ENTITY_0 WHERE ATRIB_0 = CONST_3 AND ATRIB_2 < CONST_6;
+SELECT * FROM ENTITY_0 WHERE ATRIB_0 = CONST_2 AND ATRIB_2 > CONST_3;
+SELECT ATRIB_1 FROM ENTITY_0 WHERE ATRIB_1 = CONST_0;
+SELECT * FROM ENTITY_0 WHERE ATRIB_0 > (SELECT max(ATRIB_0) FROM ENTITY_0);
+SELECT * FROM ENTITY_0 WHERE ATRIB_0 = CONST_3 AND ATRIB_0 > CONST_2;
+SELECT * FROM ENTITY_0 WHERE ATRIB_0 = CONST_5;
+SELECT ATRIB_2 FROM ENTITY_0 WHERE ATRIB_0 = CONST_3;
+SELECT ATRIB_1 FROM ENTITY_0 NATURAL JOIN ENTITY_2 WHERE ENTITY_1 = CONST_4 AND ATRIB_2 > CONST_0 ;
+SELECT ATRIB_1 FROM ENTITY_0 NATURAL JOIN ENTITY_2 WHERE ENTITY_1 = CONST_4;
+SELECT ATRIB_1 FROM ENTITY_0 WHERE ATRIB_0 = CONST_3;
+SELECT ATRIB_1, ATTRIB_3 FROM ENTITY_0 WHERE ATRIB_2 >= CONST_7;
+SELECT ATRIB_1 FROM ENTITY_0 WHERE ATRIB_0 > CONST_1 AND ATRIB_0 != CONST_2;
+SELECT ATRIB_1, ATRIB_0 from ENTITY_0 WHERE office = CONST_4 and ATRIB_0 <CONST_2;
+SELECT * from ENTITY_0 WHERE office = CONST_4;
+SELECT ATRIB_1 FROM ENTITY_0 NATURAL JOIN WHERE ENTITY_1 = CONST_4;
+SELECT ATRIB_1 FROM ENTITY_0 NATURAL JOIN ENTITY_2 WHERE ATRIB_0 != CONST_3 and ENTITY_1 = CONST_4;
+SELECT * FROM ENTITY_0 NATURAL JOIN ENTITY_2 WHERE ENTITY_1 = CONST_4 and ATRIB_2 > CONST_6 and ATRIB_0 = CONST_0;
+SELECT ATRIB_1, ATTRIB_3 FROM ENTITY_0 NATURAL JOIN ENTITY_2 WHERE ATTRIB_4 = CONST_7 AND ENTITY_1 = CONST_4;
+SELECT ATTRIB_3 FROM ENTITY_0 WHERE ATRIB_2 > CONST_6 and ATRIB_2 < CONST_0;

@@ -196,7 +196,7 @@ def get_statistical_sql(query_tokens, entity_list, attrib_list, const_list, attr
     try:
         for i in range(len(query_stat)) :
             word = query_stat[i]
-            if word[:6] == 'ENTITY_':
+            if word[:7] == 'ENTITY_':
                 query_stat[i] = entity_map[entity_list[int(word[7:])]]
             elif word[:7] == 'ATTRIB_':
                 query_stat[i] = attrib_list[int(word[7:])]

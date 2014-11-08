@@ -232,7 +232,7 @@ insert into student(roll, name) values('144059001', 'Arghya Roy Chaudhuri');
 insert into takes(roll, course, year, semester, grade) values('144059001','CS626',2014,'Autumn', NULL);
 insert into student(roll, name) values('144080003', 'Devaraja Adiga P');
 insert into takes(roll, course, year, semester, grade) values('144080003','CS626',2014,'Autumn', NULL);
---------------------Now Instructor------------
+
 insert into takes(roll, course, year, semester, grade) values('120050003','CS305',2014,'Autumn', NULL);
 insert into takes(roll, course, year, semester, grade) values('120050032','CS305',2014,'Autumn', NULL);
 insert into instructor values('100','Pushpak Bhattacharya', 'CSE', 1000000, 'Mumbai', 'SIC101');

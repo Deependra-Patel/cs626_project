@@ -138,7 +138,7 @@ def process_query(sent, entity_list, attrib_list, const_list, attrib_map, entity
                 temp = word
                 sent[i] = ''
         elif is_number(word):
-            const_list.append(word)
+            const_list.append("'"+word+"'")
             sent[i] = 'CONST_'+str(l_const)
             l_const += 1
         elif word.lower() in attrib_map.keys():
